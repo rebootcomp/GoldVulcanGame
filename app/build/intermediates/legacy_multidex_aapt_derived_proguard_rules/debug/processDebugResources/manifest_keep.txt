@@ -1,0 +1,2 @@
+# Referenced at /Files/All Work/CodeCanyon/Android/Sport News/Sport-News-Android-AppsVilla/Sport News Code/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:49
+-keep class com.sherdle.webtoapp.App { <init>(...); }
