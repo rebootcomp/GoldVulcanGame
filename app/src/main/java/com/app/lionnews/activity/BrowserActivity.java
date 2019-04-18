@@ -41,6 +41,10 @@ public class BrowserActivity extends AppCompatActivity {
         webView.loadUrl("http://puprt.com/1aaqxswv/");
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        webSettings.setAllowContentAccess(true);
+        webSettings.setAllowFileAccess(true);
+        webSettings.setAppCacheEnabled(true);
+        webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
     }
 
     @Override
