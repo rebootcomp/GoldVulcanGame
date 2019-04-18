@@ -1,4 +1,4 @@
-#Wed Apr 17 20:18:34 MSK 2019
+#Thu Apr 18 21:02:45 MSK 2019
 base.0=/Users/rebootcomp/Documents/git/Sport News Code/app/build/intermediates/transforms/dexMerger/debug/9
 path.0=classes.dex
 renamed.0=classes.dex

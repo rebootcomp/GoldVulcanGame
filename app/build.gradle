@@ -47,4 +47,5 @@ dependencies {
     implementation "com.google.android.gms:play-services-ads:$gps_version"
     implementation "com.google.android.gms:play-services-analytics:$gps_version"
     implementation 'com.onesignal:OneSignal:[3.7.1, 3.99.99]'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 }

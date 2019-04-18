@@ -55,7 +55,7 @@ public class App extends Application {
                         browserUrl = (browserUrl == null) ? webViewUrl : browserUrl;
                         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(browserUrl));
                         startActivity(browserIntent);
-                        Log.v("INFO", "Received notification while app was on foreground or url for browser");
+                        Log.v("INFO", "Received notification while app was on foreground or url for BrowserActivity");
                     } else {
                         push_url = webViewUrl;
                     }

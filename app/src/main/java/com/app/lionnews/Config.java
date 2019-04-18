@@ -47,7 +47,7 @@ public class Config {
      * ADVANCED SETTINGS
      */
 
-    //All urls that should always be opened outside the WebView and in the browser, download manager, or their respective app
+    //All urls that should always be opened outside the WebView and in the BrowserActivity, download manager, or their respective app
     public static final String[] OPEN_OUTSIDE_WEBVIEW = new String[]{"market://", "play.google.com", "plus.google.com", "mailto:", "tel:", "vid:", "geo:", "whatsapp:", "sms:", "intent://"};
     //Defines a set of urls/patterns that should exlusively load inside the webview. All other urls are loaded outside the WebView. Ignored if no urls are defined.
     public static final String[] OPEN_ALL_OUTSIDE_EXCEPT = new String[]{};

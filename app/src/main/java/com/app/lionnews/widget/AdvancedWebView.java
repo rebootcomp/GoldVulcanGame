@@ -100,7 +100,7 @@ public class AdvancedWebView extends WebView {
 	protected static final String LANGUAGE_DEFAULT_ISO3 = "eng";
 	protected static final String CHARSET_DEFAULT = "UTF-8";
 	/** Alternative browsers that have their own rendering engine and *may* be installed on this device */
-	protected static final String[] ALTERNATIVE_BROWSERS = new String[] { "org.mozilla.firefox", "com.android.chrome", "com.opera.browser", "org.mozilla.firefox_beta", "com.chrome.beta", "com.opera.browser.beta" };
+	protected static final String[] ALTERNATIVE_BROWSERS = new String[] { "org.mozilla.firefox", "com.android.chrome", "com.opera.BrowserActivity", "org.mozilla.firefox_beta", "com.chrome.beta", "com.opera.BrowserActivity.beta" };
 	protected WeakReference<Activity> mActivity;
 	protected WeakReference<Fragment> mFragment;
 	protected Listener mListener;
@@ -1239,21 +1239,21 @@ public class AdvancedWebView extends WebView {
 	/** Wrapper for methods related to alternative browsers that have their own rendering engines */
 	public static class Browsers {
 
-		/** Package name of an alternative browser that is installed on this device */
+		/** Package name of an alternative BrowserActivity that is installed on this device */
 		private static String mAlternativePackage;
 
 		/**
-		 * Returns whether there is an alternative browser with its own rendering engine currently installed
+		 * Returns whether there is an alternative BrowserActivity with its own rendering engine currently installed
 		 *
 		 * @param context a valid `Context` reference
-		 * @return whether there is an alternative browser or not
+		 * @return whether there is an alternative BrowserActivity or not
 		 */
 		public static boolean hasAlternative(final Context context) {
 			return getAlternative(context) != null;
 		}
 
 		/**
-		 * Returns the package name of an alternative browser with its own rendering engine or `null`
+		 * Returns the package name of an alternative BrowserActivity with its own rendering engine or `null`
 		 *
 		 * @param context a valid `Context` reference
 		 * @return the package name or `null`
@@ -1282,7 +1282,7 @@ public class AdvancedWebView extends WebView {
 		}
 
 		/**
-		 * Opens the given URL in an alternative browser
+		 * Opens the given URL in an alternative BrowserActivity
 		 *
 		 * @param context a valid `Activity` reference
 		 * @param url the URL to open
@@ -1292,11 +1292,11 @@ public class AdvancedWebView extends WebView {
 		}
 
 		/**
-		 * Opens the given URL in an alternative browser
+		 * Opens the given URL in an alternative BrowserActivity
 		 *
 		 * @param context a valid `Activity` reference
 		 * @param url the URL to open
-		 * @param withoutTransition whether to switch to the browser `Activity` without a transition
+		 * @param withoutTransition whether to switch to the BrowserActivity `Activity` without a transition
 		 */
 		public static void openUrl(final Activity context, final String url, final boolean withoutTransition) {
 			final Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
