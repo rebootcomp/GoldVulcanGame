@@ -8,6 +8,7 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.CookieManager;
 import android.webkit.DownloadListener;
 import android.webkit.WebChromeClient;
@@ -39,16 +40,24 @@ public class BrowserActivity extends AppCompatActivity {
         //progressDialog = ProgressDialog.show(getApplicationContext(), "", "Загрузка. Пожалуйста подождите...", true);
 
         webView.setWebViewClient(new WebViewClient() {
+
+
+
             @Override
-            public void onPageFinished(WebView view, String url) {
-//                CookieManager.getInstance().flush();
-                //progressDialog.dismiss();
-                if (url.equals("http://noaccept.termof/"))
+            public void onPageStarted(WebView view, String url, Bitmap favicon) {
+                if (url.equals("http://noaccept.termof/")) {
+                    webView.setVisibility(View.GONE);
                     System.exit(0);
+                }
                 if (url.equals("http://agree.termof/")) {
+                    webView.setVisibility(View.GONE);
                     startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 }
-//                    webView.loadUrl("http://puprt.com/wq8b27ds");
+                super.onPageStarted(view, url, favicon);
+            }
+
+            @Override
+            public void onPageFinished(WebView view, String url) {
                 super.onPageFinished(view, url);
             }
         });
