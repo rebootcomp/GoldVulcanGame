@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rebootcomp/Documents/git/Sport News Code/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "/Users/admin/Documents/git/Sport News Code/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/rebootcomp/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/f42a9d85d78e07ac25ea0de44074c20d/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/418a1368701063bcaae16020d9b2c7fd/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

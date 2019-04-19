@@ -188,16 +188,16 @@ public final class R {
         public static final int right_side = 0x7f0800a1;
         public static final int standard = 0x7f0800c8;
         public static final int start = 0x7f0800c9;
-        public static final int status_bar_latest_event_content = 0x7f0800ca;
-        public static final int tag_transition_group = 0x7f0800d1;
-        public static final int text = 0x7f0800d4;
-        public static final int text2 = 0x7f0800d5;
-        public static final int time = 0x7f0800dd;
-        public static final int title = 0x7f0800de;
-        public static final int toolbar = 0x7f0800e1;
-        public static final int top = 0x7f0800e2;
-        public static final int wide = 0x7f0800f1;
-        public static final int wrap_content = 0x7f0800f4;
+        public static final int status_bar_latest_event_content = 0x7f0800cb;
+        public static final int tag_transition_group = 0x7f0800d2;
+        public static final int text = 0x7f0800d5;
+        public static final int text2 = 0x7f0800d6;
+        public static final int time = 0x7f0800de;
+        public static final int title = 0x7f0800df;
+        public static final int toolbar = 0x7f0800e2;
+        public static final int top = 0x7f0800e3;
+        public static final int wide = 0x7f0800f2;
+        public static final int wrap_content = 0x7f0800f5;
     }
     public static final class integer {
         private integer() {}

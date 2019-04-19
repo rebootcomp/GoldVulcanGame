@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.app.lionnews.activity.StartUpActivity">
 
+    <Button
+        android:id="@+id/startuem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Получить бонус"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="341dp" />
 </android.support.constraint.ConstraintLayout>

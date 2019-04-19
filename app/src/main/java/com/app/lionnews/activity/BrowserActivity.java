@@ -1,5 +1,6 @@
 package com.app.lionnews.activity;
 
+import android.app.ProgressDialog;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -7,6 +8,8 @@ import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.CookieManager;
+import android.webkit.DownloadListener;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -15,36 +18,37 @@ import com.app.lionnews.R;
 
 public class BrowserActivity extends AppCompatActivity {
     private WebView webView;
+    private ProgressDialog progressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         CookieManager.getInstance().setAcceptCookie(true);
-        setContentView(R.layout.activity_browser);
-        webView = (WebView) findViewById(R.id.webview);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-       // getActionBar().setBackgroundDrawable(new ColorDrawable(Color.BLACK));
+        webView = new WebView(this);
+        webView.setDownloadListener(new DownloadListener() {
+            @Override
+            public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
+
+            }
+        });
+        setContentView(webView);
+
+        //progressDialog = ProgressDialog.show(getApplicationContext(), "", "Загрузка. Пожалуйста подождите...", true);
+
         webView.setWebViewClient(new WebViewClient() {
             @Override
-            public void onPageStarted(WebView view, String url, Bitmap favicon) {
-                CookieManager.getInstance().flush();
-                super.onPageStarted(view, url, favicon);
-            }
-
-            @Override
             public void onPageFinished(WebView view, String url) {
-                CookieManager.getInstance().flush();
+//                CookieManager.getInstance().flush();
+                //progressDialog.dismiss();
                 super.onPageFinished(view, url);
             }
         });
         webView.loadUrl("http://puprt.com/1aaqxswv/");
-        WebSettings webSettings = webView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-        webSettings.setAllowContentAccess(true);
-        webSettings.setAllowFileAccess(true);
-        webSettings.setAppCacheEnabled(true);
-        webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
+        webView.getSettings().setJavaScriptEnabled(true);
+        webView.getSettings().setUseWideViewPort(true);
+        webView.getSettings().setDomStorageEnabled(true);
+        webView.getSettings().setAllowFileAccess(true);
     }
 
     @Override

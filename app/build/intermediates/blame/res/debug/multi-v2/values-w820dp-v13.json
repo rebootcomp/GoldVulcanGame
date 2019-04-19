@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rebootcomp/Documents/git/Sport News Code/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "/Users/admin/Documents/git/Sport News Code/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/rebootcomp/Documents/git/Sport News Code/app/src/main/res/values-w820dp/dimens.xml",
+                    "source": "/Users/admin/Documents/git/Sport News Code/app/src/main/res/values-w820dp/dimens.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

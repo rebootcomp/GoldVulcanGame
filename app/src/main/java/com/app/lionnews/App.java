@@ -11,6 +11,8 @@ import com.google.android.gms.analytics.Tracker;
 import com.onesignal.OSNotificationOpenResult;
 import com.onesignal.OneSignal;
 import com.app.lionnews.activity.MainActivity;
+import com.yandex.metrica.YandexMetrica;
+import com.yandex.metrica.YandexMetricaConfig;
 
 import org.json.JSONObject;
 
@@ -37,6 +39,12 @@ public class App extends Application {
         //OneSignal Push
         if (!TextUtils.isEmpty(getString(R.string.onesignal_app_id)))
             OneSignal.init(this, getString(R.string.onesignal_google_project_number), getString(R.string.onesignal_app_id), new NotificationHandler());
+        // Создание расширенной конфигурации библиотеки.
+        YandexMetricaConfig config = YandexMetricaConfig.newConfigBuilder("eaebfac8-adbb-4667-8584-61d403a1b30f").build();
+        // Инициализация AppMetrica SDK.
+        YandexMetrica.activate(getApplicationContext(), config);
+        // Отслеживание активности пользователей.
+        YandexMetrica.enableActivityAutoTracking(this);
     }
 
     // This fires when a notification is opened by tapping on it or one is received while the app is running.

@@ -1,2 +1,4 @@
-# Referenced at /Files/All Work/CodeCanyon/Android/Sport News/Sport-News-Android-AppsVilla/Sport News Code/app/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:49
--keep class com.sherdle.webtoapp.App { <init>(...); }
+# Referenced at /Users/admin/Documents/git/Sport News Code/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:47
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/admin/Documents/git/Sport News Code/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:47
+-keep class com.app.lionnews.App { <init>(); }
