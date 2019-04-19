@@ -1,0 +1,4 @@
+#Fri Apr 19 23:47:25 MSK 2019
+base.0=/Users/aleksandrmuratidi/AndroidStudioProjects/SportNewsCode/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

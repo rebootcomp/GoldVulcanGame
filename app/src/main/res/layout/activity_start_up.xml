@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.app.lionnews.activity.StartUpActivity">
+    android:id="@+id/root"
+    tools:context=".activity.StartUpActivity">
 
     <Button
-        android:id="@+id/startuem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Получить бонус"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="341dp" />
+        android:id="@+id/get_bonus_button"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
