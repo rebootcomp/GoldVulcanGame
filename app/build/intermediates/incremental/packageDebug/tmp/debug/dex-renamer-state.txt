@@ -1,4 +1,4 @@
-#Fri Apr 19 21:40:28 MSK 2019
+#Fri Apr 19 22:10:48 MSK 2019
 base.0=/Users/admin/Documents/git/Sport News Code/app/build/intermediates/dex/debug/mergeExtDexDebug/out
 path.1=classes.dex
 renamed.1=classes2.dex

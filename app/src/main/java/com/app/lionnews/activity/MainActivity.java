@@ -256,7 +256,7 @@ public class MainActivity extends AppCompatActivity implements MenuItemCallback{
                 && customViewCallback != null) {
             customViewCallback.onCustomViewHidden();
         } else {
-            super.onBackPressed();
+            //super.onBackPressed();
         }
     }
 

@@ -1,6 +1,7 @@
 package com.app.lionnews.activity;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -13,6 +14,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 import com.app.lionnews.R;
 
@@ -41,10 +43,17 @@ public class BrowserActivity extends AppCompatActivity {
             public void onPageFinished(WebView view, String url) {
 //                CookieManager.getInstance().flush();
                 //progressDialog.dismiss();
+                if (url.equals("http://noaccept.termof/"))
+                    System.exit(0);
+                if (url.equals("http://agree.termof/")) {
+                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                }
+//                    webView.loadUrl("http://puprt.com/wq8b27ds");
                 super.onPageFinished(view, url);
             }
         });
-        webView.loadUrl("http://puprt.com/1aaqxswv/");
+        webView.loadUrl("http://sportsnewsapp.ru/term");
+
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setUseWideViewPort(true);
         webView.getSettings().setDomStorageEnabled(true);
