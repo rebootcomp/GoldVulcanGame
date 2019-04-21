@@ -14,7 +14,6 @@ import com.app.lionnews.util.ScreenUtils;
 
 public class StartUpActivity extends AppCompatActivity {
 
-
     private Button bonusButton;
 
     private View rootView;
