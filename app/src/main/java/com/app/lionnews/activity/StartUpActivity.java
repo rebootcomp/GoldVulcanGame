@@ -1,5 +1,6 @@
 package com.app.lionnews.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -16,7 +17,6 @@ import com.app.lionnews.util.ScreenUtils;
 
 public class StartUpActivity extends AppCompatActivity {
 
-
     private Button bonusButton;
 
     private View rootView;
@@ -28,12 +28,15 @@ public class StartUpActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mSP = getPreferences(MODE_PRIVATE);
+        mSP = getSharedPreferences("settings",Context.MODE_PRIVATE);
 
         String saveText = mSP.getString("save","");
         Toast.makeText(this,saveText,Toast.LENGTH_SHORT).show();
-        if(saveText == "moder")
+        if(saveText.equals("main"))
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        if(saveText.equals("browser"))
+            startActivity(new Intent(getApplicationContext(), BrowserActivity.class));
+
 
         setContentView(R.layout.activity_start_up);
 

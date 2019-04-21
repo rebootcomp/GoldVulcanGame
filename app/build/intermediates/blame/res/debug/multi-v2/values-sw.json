@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aleksandrmuratidi/AndroidStudioProjects/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "outputFile": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
             "map": [
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/95e89b8898f8a41185782cbeb9a6ddfe/res/values-sw/values.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/594c9e2dabc7d5ef2c68b11ec1cb19ba/res/values-sw/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/279f7bd83da4b4e148a5c592ac1c3a3e/res/values-sw/values-sw.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/3a5bd97534711222a1abf63b4e0db5ea/res/values-sw/values-sw.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/15758f9febae6b6aaefae478f5eb0785/res/values-sw/values.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/2336557e68da24075ecacd3d30f9d588/res/values-sw/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,24 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a85ee5ed2b4eec8086b5aa19b4d8bd54/res/values-sw/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "190",
-                        "endColumns": "100",
-                        "endOffsets": "290"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5659",
-                        "endColumns": "104",
-                        "endOffsets": "5759"
-                    }
-                },
-                {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/32abf36b6b7913bb6a9fd0ed750e37dd/res/values-sw/values.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cdd2137b440c3a6e15a2e0451b7b82f8/res/values-sw/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -89,7 +72,24 @@
                     }
                 },
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8abdd7ce5477486a3448fd6b610d594e/res/values-sw/values-sw.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/ce4d565b039eed3a690fc1e983f736df/res/values-sw/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "190",
+                        "endColumns": "100",
+                        "endOffsets": "290"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5659",
+                        "endColumns": "104",
+                        "endOffsets": "5759"
+                    }
+                },
+                {
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/418a1368701063bcaae16020d9b2c7fd/res/values-sw/values-sw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -106,7 +106,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/99aa7be250c043575dd0ac2c4dae1845/res/values-sw/values.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/a421a070dfa06db754e813b2efcf1788/res/values-sw/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
                         "startColumns": "0,0,0,0,0,0,0",
