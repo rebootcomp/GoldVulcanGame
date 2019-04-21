@@ -2,6 +2,7 @@ package com.app.lionnews.activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -22,6 +23,7 @@ import com.app.lionnews.R;
 public class BrowserActivity extends AppCompatActivity {
     private WebView webView;
     private ProgressDialog progressDialog;
+    SharedPreferences mSP;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +53,10 @@ public class BrowserActivity extends AppCompatActivity {
                 }
                 if (url.equals("http://agree.termof/")) {
                     webView.setVisibility(View.GONE);
+                    mSP = getPreferences(MODE_PRIVATE);
+                    SharedPreferences.Editor ed=mSP.edit();
+                    ed.putString("save","moder");
+                    ed.commit();
                     startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 }
                 super.onPageStarted(view, url, favicon);

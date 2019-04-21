@@ -1,6 +1,7 @@
 package com.app.lionnews.activity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.constraint.ConstraintLayout;
@@ -8,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.app.lionnews.R;
 import com.app.lionnews.util.ScreenUtils;
@@ -21,10 +23,18 @@ public class StartUpActivity extends AppCompatActivity {
 
     double screenWidth;
     double screenHeight;
+    SharedPreferences mSP;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mSP = getPreferences(MODE_PRIVATE);
+
+        String saveText = mSP.getString("save","");
+        Toast.makeText(this,saveText,Toast.LENGTH_SHORT).show();
+        if(saveText == "moder")
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+
         setContentView(R.layout.activity_start_up);
 
         rootView = findViewById(R.id.root);
