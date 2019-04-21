@@ -9,6 +9,9 @@
     <string name="onesignal_app_id">YOUR-ONESIGNAL-APP-ID</string>
     <string name="onesignal_google_project_number">YOUR-ONESIGNAL-PROJECT-NUMMER</string>
 
+    <!-- facebook -->
+    <string name="facebook_app_id">Facebook App ID</string>
+
     <!-- Translate Strings below -->
     <string name="previous">Previous</string>
     <string name="next">Next</string>
