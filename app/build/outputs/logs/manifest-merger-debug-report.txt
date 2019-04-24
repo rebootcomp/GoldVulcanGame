@@ -622,7 +622,7 @@ MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/cache
 		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/6e19dd7e746b79c79e1dc0e044d8106f/AndroidManifest.xml:10:9-44
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/6e19dd7e746b79c79e1dc0e044d8106f/AndroidManifest.xml:9:9-63
-permission#com.sportnews.app.permission.C2D_MESSAGE
+permission#com.app.lionnews.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/6e19dd7e746b79c79e1dc0e044d8106f/AndroidManifest.xml:8:5-10:47
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/68c488aef7b3ac0bcb6848828bb6dc83/AndroidManifest.xml:28:5-30:47
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/68c488aef7b3ac0bcb6848828bb6dc83/AndroidManifest.xml:28:5-30:47
@@ -636,7 +636,7 @@ MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/cache
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/68c488aef7b3ac0bcb6848828bb6dc83/AndroidManifest.xml:32:5-79
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/6e19dd7e746b79c79e1dc0e044d8106f/AndroidManifest.xml:12:22-76
-uses-permission#com.sportnews.app.permission.C2D_MESSAGE
+uses-permission#com.app.lionnews.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/6e19dd7e746b79c79e1dc0e044d8106f/AndroidManifest.xml:12:5-79
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/68c488aef7b3ac0bcb6848828bb6dc83/AndroidManifest.xml:32:5-79
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/68c488aef7b3ac0bcb6848828bb6dc83/AndroidManifest.xml:32:5-79
@@ -728,7 +728,7 @@ intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:$
 ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/6e19dd7e746b79c79e1dc0e044d8106f/AndroidManifest.xml:63:13-67:29
 	android:priority
 		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/6e19dd7e746b79c79e1dc0e044d8106f/AndroidManifest.xml:63:28-50
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.sportnews.app
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.app.lionnews
 ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/6e19dd7e746b79c79e1dc0e044d8106f/AndroidManifest.xml:63:13-67:29
 	android:priority
 		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/6e19dd7e746b79c79e1dc0e044d8106f/AndroidManifest.xml:63:28-50
@@ -740,7 +740,7 @@ category#${applicationId}
 ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/6e19dd7e746b79c79e1dc0e044d8106f/AndroidManifest.xml:66:17-61
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/6e19dd7e746b79c79e1dc0e044d8106f/AndroidManifest.xml:66:27-58
-category#com.sportnews.app
+category#com.app.lionnews
 ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/6e19dd7e746b79c79e1dc0e044d8106f/AndroidManifest.xml:66:17-61
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/6e19dd7e746b79c79e1dc0e044d8106f/AndroidManifest.xml:66:27-58

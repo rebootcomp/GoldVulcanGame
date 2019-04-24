@@ -12,7 +12,7 @@ public final class Manifest {
     /**
      * Create a unique permission for your app and use it so only your app can receive your OneSignal messages.
      */
-    public static final String C2D_MESSAGE="com.sportnews.app.permission.C2D_MESSAGE";
+    public static final String C2D_MESSAGE="com.app.lionnews.permission.C2D_MESSAGE";
   }
 
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sportnews.app"
+    package="com.app.lionnews"
     android:targetSandboxVersion="2"
     android:versionCode="1"
     android:versionName="1.0.0" >
@@ -24,10 +24,10 @@
 
     <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
     <permission
-        android:name="com.sportnews.app.permission.C2D_MESSAGE"
+        android:name="com.app.lionnews.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.sportnews.app.permission.C2D_MESSAGE" /> <!-- START: ShortcutBadger -->
+    <uses-permission android:name="com.app.lionnews.permission.C2D_MESSAGE" /> <!-- START: ShortcutBadger -->
     <!-- Samsung -->
     <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
     <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
@@ -166,7 +166,7 @@
             <intent-filter android:priority="999" >
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.sportnews.app" />
+                <category android:name="com.app.lionnews" />
             </intent-filter>
         </receiver>
         <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
@@ -240,7 +240,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.sportnews.app" />
+                <category android:name="com.app.lionnews" />
             </intent-filter>
         </receiver>
         <!--
@@ -287,7 +287,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.sportnews.app.firebaseinitprovider"
+            android:authorities="com.app.lionnews.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -356,7 +356,7 @@
         -->
         <provider
             android:name="com.facebook.internal.FacebookInitProvider"
-            android:authorities="com.sportnews.app.FacebookInitProvider"
+            android:authorities="com.app.lionnews.FacebookInitProvider"
             android:exported="false" />
 
         <receiver
