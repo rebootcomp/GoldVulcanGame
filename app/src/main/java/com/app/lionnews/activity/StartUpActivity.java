@@ -31,7 +31,7 @@ public class StartUpActivity extends AppCompatActivity {
         mSP = getSharedPreferences("settings",Context.MODE_PRIVATE);
 
         String saveText = mSP.getString("save","");
-        Toast.makeText(this,saveText,Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this,saveText,Toast.LENGTH_SHORT).show();
         if(saveText.equals("main"))
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
         if(saveText.equals("browser"))

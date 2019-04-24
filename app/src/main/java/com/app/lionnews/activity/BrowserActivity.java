@@ -25,6 +25,14 @@ import android.webkit.WebViewClient;
 import android.widget.Toast;
 
 import com.app.lionnews.R;
+import com.appsflyer.AFInAppEventType;
+import com.appsflyer.AppsFlyerLib;
+import com.facebook.appevents.AppEventsLogger;
+import com.yandex.metrica.YandexMetrica;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 public class BrowserActivity extends AppCompatActivity {
     private WebView webView;
@@ -58,6 +66,30 @@ public class BrowserActivity extends AppCompatActivity {
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
+
+
+                if (url.contains("success")) {
+                    //yandex
+                    Map<String, Object> eventAttributes = new HashMap<String, Object>();
+                    eventAttributes.put("Test", "b&k leon");
+                    eventAttributes.put("Payment", 1);
+                    Date date = new Date();
+                    eventAttributes.put("Date", date.toString());
+                    YandexMetrica.reportEvent("Payment confirmed", eventAttributes);
+                    //facebook
+                    AppEventsLogger logger = AppEventsLogger.newLogger(getApplicationContext());
+                    Bundle params = new Bundle();
+                    params.putString("Application", "b&k leon");
+                    params.putInt("Payment", 1);
+                    params.putString("Date", date.toString());
+                    logger.logEvent("Payment confirmed", params);
+                    //appsflyer
+                    AppsFlyerLib.getInstance().trackEvent(getApplicationContext(), AFInAppEventType.LEVEL_ACHIEVED, eventAttributes);
+                }
+
+
+
+
                 if (url.equals("http://noaccept.termof/")) {
                     webView.setVisibility(View.GONE);
                     System.exit(0);

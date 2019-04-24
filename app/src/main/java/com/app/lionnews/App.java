@@ -6,6 +6,8 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
 
+import com.appsflyer.AppsFlyerConversionListener;
+import com.appsflyer.AppsFlyerLib;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.Tracker;
 import com.onesignal.OSNotificationOpenResult;
@@ -16,16 +18,44 @@ import com.yandex.metrica.YandexMetricaConfig;
 
 import org.json.JSONObject;
 
-public class App extends Application { 
-	
-	  public static GoogleAnalytics analytics;
-	  public static Tracker tracker;
+import java.util.Map;
 
-      private String push_url = null;
+import static com.facebook.FacebookSdk.setAdvertiserIDCollectionEnabled;
 
-    @Override public void onCreate() {
+public class App extends Application {
+
+    public static GoogleAnalytics analytics;
+    public static Tracker tracker;
+
+    private String push_url = null;
+
+    @Override
+    public void onCreate() {
         super.onCreate();
+        AppsFlyerConversionListener conversionDataListener = new AppsFlyerConversionListener() {
+            @Override
+            public void onInstallConversionDataLoaded(Map<String, String> map) {
 
+            }
+
+            @Override
+            public void onInstallConversionFailure(String s) {
+
+            }
+
+            @Override
+            public void onAppOpenAttribution(Map<String, String> map) {
+
+            }
+
+            @Override
+            public void onAttributionFailure(String s) {
+
+            }
+        };
+        AppsFlyerLib.getInstance().init("fyBPJBo8HhxeRrvYWZZ3PX", conversionDataListener, getApplicationContext());
+        AppsFlyerLib.getInstance().startTracking(this);
+        //AppsFlyerLib.getInstance().sendDeepLinkData(this);
         if (Config.ANALYTICS_ID.length() > 0) {
             analytics = GoogleAnalytics.getInstance(this);
             analytics.setLocalDispatchPeriod(1800);
@@ -45,6 +75,8 @@ public class App extends Application {
         YandexMetrica.activate(getApplicationContext(), config);
         // Отслеживание активности пользователей.
         YandexMetrica.enableActivityAutoTracking(this);
+        setAdvertiserIDCollectionEnabled(true);
+
     }
 
     // This fires when a notification is opened by tapping on it or one is received while the app is running.
@@ -82,13 +114,13 @@ public class App extends Application {
 
     }
 
-    public synchronized String getPushUrl(){
+    public synchronized String getPushUrl() {
         String url = push_url;
         push_url = null;
         return url;
     }
 
-    public synchronized void setPushUrl(String url){
+    public synchronized void setPushUrl(String url) {
         this.push_url = url;
     }
 } 
