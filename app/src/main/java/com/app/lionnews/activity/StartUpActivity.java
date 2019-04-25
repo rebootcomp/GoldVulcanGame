@@ -65,22 +65,27 @@ public class StartUpActivity extends AppCompatActivity {
                 // Google Play by calling the startConnection() method.
             }
         });
+
         mSP = getSharedPreferences("settings", Context.MODE_PRIVATE);
 
         String saveText = mSP.getString("save", "");
-        Toast.makeText(this, saveText, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, saveText, Toast.LENGTH_SHORT).show();
         if (saveText.equals("main")) {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
             finish();
         }
         if (saveText.equals("browser")) {
-            Intent intent = new Intent(StartUpActivity.this, BrowserActivity.class);
-            intent.putExtra("url", "http://sportsnewsapp.ru/term/?source=" + refer);
-            startActivity(intent);
-            finish();
+
+                Toast.makeText(this, "online", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(StartUpActivity.this, BrowserActivity.class);
+                intent.putExtra("url", "http://sportsnewsapp.ru/term/?source=" + refer);
+                startActivity(intent);
+                finish();
+
         }
 
         setContentView(R.layout.activity_start_up);
+
 
         rootView = findViewById(R.id.root);
 
@@ -135,8 +140,10 @@ public class StartUpActivity extends AppCompatActivity {
                 (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         if (netInfo != null && netInfo.isConnectedOrConnecting()) {
+
             return true;
         }
+//        setContentView(R.layout.no_connection);
         return false;
     }
 }

@@ -1,15 +1,15 @@
 #Internal package file, do not edit.
-#Thu Apr 25 11:34:24 MSK 2019
-1.base=/Users/aleksandrmuratidi/AndroidStudioProjects/SportNewsCode/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+#Thu Apr 25 15:09:30 MSK 2019
+1.base=/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/dex/debug/mergeExtDexDebug/out
 2.path=classes.dex
 0.baseType=DIRECTORY
-2.base=/Users/aleksandrmuratidi/AndroidStudioProjects/SportNewsCode/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+2.base=/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/dex/debug/mergeExtDexDebug/out
 2.set=DEX
 1.baseType=DIRECTORY
 count=3
 1.set=DEX
 0.path=classes.dex
 0.set=DEX
-0.base=/Users/aleksandrmuratidi/AndroidStudioProjects/SportNewsCode/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+0.base=/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
 2.baseType=DIRECTORY
 1.path=classes2.dex

@@ -60,6 +60,8 @@ public class BrowserActivity extends AppCompatActivity {
         setContentView(R.layout.activity_browser);
         webView = (WebView) findViewById(R.id.webview);
         progressBar = (ProgressBar) findViewById(R.id.pb);
+
+
         webView.setDownloadListener(new DownloadListener() {
             @Override
             public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
