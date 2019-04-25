@@ -58,6 +58,8 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.app.lionnews.activity.NoConnectionActivity" />
+
         <receiver
             android:name="com.appsflyer.SingleInstallBroadcastReceiver"
             android:exported="true" >
@@ -71,8 +73,7 @@
             android:configChanges="keyboardHidden|keyboard|orientation|screenSize"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
-            android:windowSoftInputMode="adjustResize" >
-        </activity>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.app.lionnews.activity.StartUpActivity"
             android:configChanges="keyboardHidden|keyboard|orientation|screenSize"

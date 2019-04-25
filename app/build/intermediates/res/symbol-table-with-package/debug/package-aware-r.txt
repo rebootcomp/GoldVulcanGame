@@ -1370,6 +1370,7 @@ id progress_horizontal
 id progressbar
 id radio
 id retry_button
+id retrybutton
 id right
 id right_icon
 id right_side
@@ -1509,6 +1510,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_browser
 layout activity_main
+layout activity_no_connection
 layout activity_start_up
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row

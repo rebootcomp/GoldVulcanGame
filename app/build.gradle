@@ -61,4 +61,3 @@ dependencies {
     implementation 'com.appsflyer:af-android-sdk:4+@aar'
     implementation 'com.android.installreferrer:installreferrer:1.0'
 }
-

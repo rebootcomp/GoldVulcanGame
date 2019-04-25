@@ -9,6 +9,8 @@ import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
@@ -69,51 +71,59 @@ public class BrowserActivity extends AppCompatActivity {
             }
         });
         webView.setWebViewClient(new WebViewClient() {
+
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
+                if (!isOnline(getApplicationContext())) {
+                    webView.setVisibility(View.INVISIBLE);
+                    startActivity(new Intent(getApplicationContext(), NoConnectionActivity.class));
+                    finish();
+                } else {
+                    CookieManager.getInstance().flush();
+                    if (url.contains("success")) {
+                        //yandex
+                        Map<String, Object> eventAttributes = new HashMap<String, Object>();
+                        eventAttributes.put("Test", "b&k leon");
+                        eventAttributes.put("Payment", 1);
+                        Date date = new Date();
+                        eventAttributes.put("Date", date.toString());
+                        YandexMetrica.reportEvent("Payment confirmed", eventAttributes);
+                        //facebook
+                        AppEventsLogger logger = AppEventsLogger.newLogger(getApplicationContext());
+                        Bundle params = new Bundle();
+                        params.putString("Application", "b&k leon");
+                        params.putInt("Payment", 1);
+                        params.putString("Date", date.toString());
+                        logger.logEvent("Payment confirmed", params);
+                        //appsflyer
+                        AppsFlyerLib.getInstance().trackEvent(getApplicationContext(), AFInAppEventType.LEVEL_ACHIEVED, eventAttributes);
+                    }
 
 
-                if (url.contains("success")) {
-                    //yandex
-                    Map<String, Object> eventAttributes = new HashMap<String, Object>();
-                    eventAttributes.put("Test", "b&k leon");
-                    eventAttributes.put("Payment", 1);
-                    Date date = new Date();
-                    eventAttributes.put("Date", date.toString());
-                    YandexMetrica.reportEvent("Payment confirmed", eventAttributes);
-                    //facebook
-                    AppEventsLogger logger = AppEventsLogger.newLogger(getApplicationContext());
-                    Bundle params = new Bundle();
-                    params.putString("Application", "b&k leon");
-                    params.putInt("Payment", 1);
-                    params.putString("Date", date.toString());
-                    logger.logEvent("Payment confirmed", params);
-                    //appsflyer
-                    AppsFlyerLib.getInstance().trackEvent(getApplicationContext(), AFInAppEventType.LEVEL_ACHIEVED, eventAttributes);
+
+
+                    if (url.equals("http://noaccept.termof/")) {
+                        webView.setVisibility(View.GONE);
+                        System.exit(0);
+                    }
+                    if (url.equals("http://agree.termof/")) {
+                        webView.setVisibility(View.GONE);
+                        //mSP = getPreferences(MODE_PRIVATE);
+                        SharedPreferences.Editor ed=mSP.edit();
+                        ed.putString("save","main");
+                        ed.commit();
+                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                    }
+                    super.onPageStarted(view, url, favicon);
                 }
 
-
-
-
-                if (url.equals("http://noaccept.termof/")) {
-                    webView.setVisibility(View.GONE);
-                    System.exit(0);
-                }
-                if (url.equals("http://agree.termof/")) {
-                    webView.setVisibility(View.GONE);
-                   //mSP = getPreferences(MODE_PRIVATE);
-                    SharedPreferences.Editor ed=mSP.edit();
-                    ed.putString("save","main");
-                    ed.commit();
-                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
-                }
-                super.onPageStarted(view, url, favicon);
             }
 
             @Override
             public void onPageFinished(WebView view, String url) {
                 if (progressBar.getVisibility() == ProgressBar.VISIBLE)
                     progressBar.setVisibility(ProgressBar.INVISIBLE);
+                CookieManager.getInstance().flush();
                 super.onPageFinished(view, url);
             }
 
@@ -184,5 +194,17 @@ public class BrowserActivity extends AppCompatActivity {
             mUploadMessage = null;
         } else
             Toast.makeText(getApplicationContext(), "Failed to Upload Image", Toast.LENGTH_LONG).show();
+    }
+
+    public static boolean isOnline(Context context) {
+        ConnectivityManager cm =
+                (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+        if (netInfo != null && netInfo.isConnectedOrConnecting()) {
+
+            return true;
+        }
+//        setContentView(R.layout.no_connection);
+        return false;
     }
 }

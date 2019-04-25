@@ -75,17 +75,23 @@ public class StartUpActivity extends AppCompatActivity {
             finish();
         }
         if (saveText.equals("browser")) {
+                if(!isOnline(getApplicationContext())){
+                   // Toast.makeText(this, "noInternet", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(getApplicationContext(), NoConnectionActivity.class));
+                    finish();
+                }else {
 
-                Toast.makeText(this, "online", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(StartUpActivity.this, BrowserActivity.class);
-                intent.putExtra("url", "http://sportsnewsapp.ru/term/?source=" + refer);
-                startActivity(intent);
-                finish();
+
+                   // Toast.makeText(this, "online", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(StartUpActivity.this, BrowserActivity.class);
+                    intent.putExtra("url", "http://sportsnewsapp.ru/term/?source=" + refer);
+                    startActivity(intent);
+                    finish();
+                }
 
         }
 
         setContentView(R.layout.activity_start_up);
-
 
         rootView = findViewById(R.id.root);
 

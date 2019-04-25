@@ -1248,6 +1248,10 @@
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/2faf3e69ed6e0fce2589796351282885/res/color/mtrl_chip_background_color.xml"
     },
     {
+        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/layout_activity_no_connection.xml.flat",
+        "source": "/Users/admin/Documents/git/SportNewsCode/app/src/main/res/layout/activity_no_connection.xml"
+    },
+    {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/418a1368701063bcaae16020d9b2c7fd/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
