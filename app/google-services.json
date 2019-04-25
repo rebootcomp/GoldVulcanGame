@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "220283543148",
+    "firebase_url": "https://lionnews-766b6.firebaseio.com",
+    "project_id": "lionnews-766b6",
+    "storage_bucket": "lionnews-766b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220283543148:android:10b9c29adbdc3970",
+        "android_client_info": {
+          "package_name": "com.app.lionnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220283543148-vslnpsbp2k8slsp9penk7dndu1qs4tjk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMYbWrUfSHb7Ghs1_Us-XFNnPP80kOF2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220283543148-vslnpsbp2k8slsp9penk7dndu1qs4tjk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

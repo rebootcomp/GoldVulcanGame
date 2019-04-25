@@ -255,16 +255,16 @@ public final class R {
         public static final int common_open_on_phone = 0x7f0f0058;
         public static final int common_signin_button_text = 0x7f0f005b;
         public static final int common_signin_button_text_long = 0x7f0f005c;
-        public static final int fcm_fallback_notification_channel_label = 0x7f0f0069;
-        public static final int gcm_fallback_notification_channel_label = 0x7f0f006a;
-        public static final int s1 = 0x7f0f0082;
-        public static final int s2 = 0x7f0f0083;
-        public static final int s3 = 0x7f0f0084;
-        public static final int s4 = 0x7f0f0085;
-        public static final int s5 = 0x7f0f0086;
-        public static final int s6 = 0x7f0f0087;
-        public static final int s7 = 0x7f0f0088;
-        public static final int status_bar_notification_info_overflow = 0x7f0f008e;
+        public static final int fcm_fallback_notification_channel_label = 0x7f0f006a;
+        public static final int gcm_fallback_notification_channel_label = 0x7f0f006d;
+        public static final int s1 = 0x7f0f008a;
+        public static final int s2 = 0x7f0f008b;
+        public static final int s3 = 0x7f0f008c;
+        public static final int s4 = 0x7f0f008d;
+        public static final int s5 = 0x7f0f008e;
+        public static final int s6 = 0x7f0f008f;
+        public static final int s7 = 0x7f0f0090;
+        public static final int status_bar_notification_info_overflow = 0x7f0f0096;
     }
     public static final class style {
         private style() {}

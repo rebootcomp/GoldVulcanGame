@@ -4,7 +4,7 @@
             "outputFile": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/2faf3e69ed6e0fce2589796351282885/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/6a8d9441ec008ebbf2b17cb3c00a8e3c/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/418a1368701063bcaae16020d9b2c7fd/res/values-large-v4/values-large-v4.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/8e2c56e75690aa1e2611a0104f3bb842/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
