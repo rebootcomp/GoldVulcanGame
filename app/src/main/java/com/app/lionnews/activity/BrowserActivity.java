@@ -22,6 +22,7 @@ import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.app.lionnews.R;
@@ -34,10 +35,12 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class BrowserActivity extends AppCompatActivity {
     private WebView webView;
 
     private ProgressDialog progressDialog;
+    private ProgressBar progressBar;
     SharedPreferences mSP;
 
     private ValueCallback<Uri> mUploadMessage;
@@ -54,15 +57,15 @@ public class BrowserActivity extends AppCompatActivity {
         ed.putString("save","browser");
         ed.commit();
         CookieManager.getInstance().setAcceptCookie(true);
-        webView = new WebView(this);
+        setContentView(R.layout.activity_browser);
+        webView = (WebView) findViewById(R.id.webview);
+        progressBar = (ProgressBar) findViewById(R.id.pb);
         webView.setDownloadListener(new DownloadListener() {
             @Override
             public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
 
             }
         });
-        setContentView(webView);
-
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
@@ -107,8 +110,12 @@ public class BrowserActivity extends AppCompatActivity {
 
             @Override
             public void onPageFinished(WebView view, String url) {
+                if (progressBar.getVisibility() == ProgressBar.VISIBLE)
+                    progressBar.setVisibility(ProgressBar.INVISIBLE);
                 super.onPageFinished(view, url);
             }
+
+
 
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
@@ -136,8 +143,10 @@ public class BrowserActivity extends AppCompatActivity {
                 return true;
             }
         });
+        Intent intent = getIntent();
+        progressBar.setVisibility(ProgressBar.VISIBLE);
 //        webView.loadUrl("http://vk.com");
-        webView.loadUrl("http://sportsnewsapp.ru/term");
+        webView.loadUrl(intent.getStringExtra("url"));
 
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setUseWideViewPort(true);

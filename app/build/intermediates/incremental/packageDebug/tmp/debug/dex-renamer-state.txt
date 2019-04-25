@@ -1,10 +1,10 @@
-#Wed Apr 24 23:57:31 MSK 2019
+#Thu Apr 25 12:45:50 MSK 2019
 path.2=classes2.dex
 path.1=classes.dex
 path.0=classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.2=/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/dex/debug/mergeExtDexDebug/out
-base.1=/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
-base.0=/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+base.2=/Users/aleksandrmuratidi/AndroidStudioProjects/SportNewsCode/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+base.1=/Users/aleksandrmuratidi/AndroidStudioProjects/SportNewsCode/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+base.0=/Users/aleksandrmuratidi/AndroidStudioProjects/SportNewsCode/app/build/intermediates/dex/debug/mergeExtDexDebug/out

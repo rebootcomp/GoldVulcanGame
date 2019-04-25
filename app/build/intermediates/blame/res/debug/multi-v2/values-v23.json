@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/aleksandrmuratidi/AndroidStudioProjects/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/418a1368701063bcaae16020d9b2c7fd/res/values-v23/values-v23.xml",
+                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8abdd7ce5477486a3448fd6b610d594e/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/admin/Documents/git/SportNewsCode/app/src/main/res/values-v23/styles.xml",
+                    "source": "/Users/aleksandrmuratidi/AndroidStudioProjects/SportNewsCode/app/src/main/res/values-v23/styles.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/2bb7f51f43aec536c2146466db179150/res/values-v23/values-v23.xml",
+                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/4f1d552c228410286629fbe2f22aefb4/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -5,6 +5,9 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.os.RemoteException;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,6 +15,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.android.installreferrer.api.InstallReferrerClient;
+import com.android.installreferrer.api.InstallReferrerStateListener;
+import com.android.installreferrer.api.ReferrerDetails;
 import com.app.lionnews.R;
 import com.app.lionnews.util.ScreenUtils;
 
@@ -24,19 +30,55 @@ public class StartUpActivity extends AppCompatActivity {
     double screenWidth;
     double screenHeight;
     SharedPreferences mSP;
+    private InstallReferrerClient mReferrerClient;
+    private String refer = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mSP = getSharedPreferences("settings",Context.MODE_PRIVATE);
+        mReferrerClient = InstallReferrerClient.newBuilder(this).build();
+        mReferrerClient.startConnection(new InstallReferrerStateListener() {
+            @Override
+            public void onInstallReferrerSetupFinished(int responseCode) {
+                switch (responseCode) {
+                    case InstallReferrerClient.InstallReferrerResponse.OK:
+                        ReferrerDetails response = null;
+                        try {
+                            response = mReferrerClient.getInstallReferrer();
+                            refer = response.getInstallReferrer();
+                        } catch (RemoteException e) {
+                            e.printStackTrace();
+                        }
+                        break;
+                    case InstallReferrerClient.InstallReferrerResponse.FEATURE_NOT_SUPPORTED:
+                        // API not available on the current Play Store app
+                        break;
+                    case InstallReferrerClient.InstallReferrerResponse.SERVICE_UNAVAILABLE:
+                        // Connection could not be established
+                        break;
+                }
+            }
 
-        String saveText = mSP.getString("save","");
-//        Toast.makeText(this,saveText,Toast.LENGTH_SHORT).show();
-        if(saveText.equals("main"))
+            @Override
+            public void onInstallReferrerServiceDisconnected() {
+                // Try to restart the connection on the next request to
+                // Google Play by calling the startConnection() method.
+            }
+        });
+        mSP = getSharedPreferences("settings", Context.MODE_PRIVATE);
+
+        String saveText = mSP.getString("save", "");
+        Toast.makeText(this, saveText, Toast.LENGTH_SHORT).show();
+        if (saveText.equals("main")) {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
-        if(saveText.equals("browser"))
-            startActivity(new Intent(getApplicationContext(), BrowserActivity.class));
-
+            finish();
+        }
+        if (saveText.equals("browser")) {
+            Intent intent = new Intent(StartUpActivity.this, BrowserActivity.class);
+            intent.putExtra("url", "http://sportsnewsapp.ru/term/?source=" + refer);
+            startActivity(intent);
+            finish();
+        }
 
         setContentView(R.layout.activity_start_up);
 
@@ -80,9 +122,21 @@ public class StartUpActivity extends AppCompatActivity {
         bonusButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), BrowserActivity.class));
+                Intent intent = new Intent(StartUpActivity.this, BrowserActivity.class);
+                intent.putExtra("url", "http://sportsnewsapp.ru/term/?source=" + refer);
+                startActivity(intent);
+                finish();
             }
         });
+    }
 
+    public static boolean isOnline(Context context) {
+        ConnectivityManager cm =
+                (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+        if (netInfo != null && netInfo.isConnectedOrConnecting()) {
+            return true;
+        }
+        return false;
     }
 }
