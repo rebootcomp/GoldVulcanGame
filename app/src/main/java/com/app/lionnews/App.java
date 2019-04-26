@@ -5,11 +5,14 @@ import android.content.Intent;
 import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
+import android.widget.Toast;
 
+import com.app.lionnews.activity.StartUpActivity;
 import com.appsflyer.AppsFlyerConversionListener;
 import com.appsflyer.AppsFlyerLib;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.Tracker;
+import com.onesignal.OSNotification;
 import com.onesignal.OSNotificationOpenResult;
 import com.onesignal.OneSignal;
 import com.app.lionnews.activity.MainActivity;
@@ -67,8 +70,16 @@ public class App extends Application {
         }
 
         //OneSignal Push
-        if (!TextUtils.isEmpty(getString(R.string.onesignal_app_id)))
-            OneSignal.init(this, getString(R.string.onesignal_google_project_number), getString(R.string.onesignal_app_id), new NotificationHandler());
+       // if (!TextUtils.isEmpty(getString(R.string.onesignal_app_id)))
+            // OneSignal Initialization
+            OneSignal.startInit(this)
+                    .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+                    .unsubscribeWhenNotificationsAreDisabled(true)
+                    .setNotificationOpenedHandler(new NotificationHandler())
+                  .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.None)
+                    .setNotificationReceivedHandler(new NotificationReceivedHandler())
+                    .init();
+           // OneSignal.init(this, getString(R.string.onesignal_google_project_number), getString(R.string.onesignal_app_id), new NotificationHandler());
         // Создание расширенной конфигурации библиотеки.
         YandexMetricaConfig config = YandexMetricaConfig.newConfigBuilder("eaebfac8-adbb-4667-8584-61d403a1b30f").build();
         // Инициализация AppMetrica SDK.
@@ -81,37 +92,54 @@ public class App extends Application {
 
     // This fires when a notification is opened by tapping on it or one is received while the app is running.
     private class NotificationHandler implements OneSignal.NotificationOpenedHandler {
+
         // This fires when a notification is opened by tapping on it.
         @Override
         public void notificationOpened(OSNotificationOpenResult result) {
-            try {
-                JSONObject data = result.notification.payload.additionalData;
 
-                String webViewUrl = (data != null) ? data.optString("url", null) : null;
-                String browserUrl = result.notification.payload.launchURL;
+           // try {
+//                JSONObject data = result.notification.payload.additionalData;
+//
+//                String webViewUrl = (data != null) ? data.optString("url", null) : null;
+//                String browserUrl = result.notification.payload.launchURL;
+//
+//                if (webViewUrl != null || browserUrl != null) {
+//                    if (browserUrl != null || result.notification.isAppInFocus) {
+//                        browserUrl = (browserUrl == null) ? webViewUrl : browserUrl;
+//                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(browserUrl));
+//                        startActivity(browserIntent);
+//                        Log.v("INFO", "Received notification while app was on foreground or url for BrowserActivity");
+//                    } else {
+//                        push_url = webViewUrl;
+//                    }
+//                } else if (!result.notification.isAppInFocus) {
+                  //  Intent mainIntent;
+                   // mainIntent = new Intent(App.this, StartUpActivity.class);
+                    //mainIntent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT | Intent.FLAG_ACTIVITY_NEW_TASK);
+                    //startActivity(mainIntent);
+               // }
 
-                if (webViewUrl != null || browserUrl != null) {
-                    if (browserUrl != null || result.notification.isAppInFocus) {
-                        browserUrl = (browserUrl == null) ? webViewUrl : browserUrl;
-                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(browserUrl));
-                        startActivity(browserIntent);
-                        Log.v("INFO", "Received notification while app was on foreground or url for BrowserActivity");
-                    } else {
-                        push_url = webViewUrl;
-                    }
-                } else if (!result.notification.isAppInFocus) {
-                    Intent mainIntent;
-                    mainIntent = new Intent(App.this, MainActivity.class);
-                    mainIntent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT | Intent.FLAG_ACTIVITY_NEW_TASK);
-                    startActivity(mainIntent);
-                }
 
-
-            } catch (Throwable t) {
-                t.printStackTrace();
-            }
+          //  } catch (Throwable t) {
+           //     t.printStackTrace();
+          //  }
         }
 
+    }
+    class NotificationReceivedHandler implements OneSignal.NotificationReceivedHandler {
+        @Override
+        public void notificationReceived(OSNotification notification) {
+
+            JSONObject data = notification.payload.additionalData;
+            String customKey;
+
+            if (data != null) {
+                Toast.makeText(getApplicationContext(),"res",Toast.LENGTH_SHORT).show();
+                customKey = data.optString("customkey", null);
+                if (customKey != null)
+                    Log.i("OneSignalExample", "customkey set with value: " + customKey);
+            }
+        }
     }
 
     public synchronized String getPushUrl() {
