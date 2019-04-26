@@ -13,6 +13,7 @@ import com.appsflyer.AppsFlyerLib;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.Tracker;
 import com.onesignal.OSNotification;
+import com.onesignal.OSNotificationAction;
 import com.onesignal.OSNotificationOpenResult;
 import com.onesignal.OneSignal;
 import com.app.lionnews.activity.MainActivity;
@@ -73,10 +74,9 @@ public class App extends Application {
        // if (!TextUtils.isEmpty(getString(R.string.onesignal_app_id)))
             // OneSignal Initialization
             OneSignal.startInit(this)
-                    .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+                    .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.None)
                     .unsubscribeWhenNotificationsAreDisabled(true)
                     .setNotificationOpenedHandler(new NotificationHandler())
-                  .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.None)
                     .setNotificationReceivedHandler(new NotificationReceivedHandler())
                     .init();
            // OneSignal.init(this, getString(R.string.onesignal_google_project_number), getString(R.string.onesignal_app_id), new NotificationHandler());
@@ -94,42 +94,30 @@ public class App extends Application {
     private class NotificationHandler implements OneSignal.NotificationOpenedHandler {
 
         // This fires when a notification is opened by tapping on it.
+
         @Override
         public void notificationOpened(OSNotificationOpenResult result) {
 
-           // try {
-//                JSONObject data = result.notification.payload.additionalData;
-//
-//                String webViewUrl = (data != null) ? data.optString("url", null) : null;
-//                String browserUrl = result.notification.payload.launchURL;
-//
-//                if (webViewUrl != null || browserUrl != null) {
-//                    if (browserUrl != null || result.notification.isAppInFocus) {
-//                        browserUrl = (browserUrl == null) ? webViewUrl : browserUrl;
-//                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(browserUrl));
-//                        startActivity(browserIntent);
-//                        Log.v("INFO", "Received notification while app was on foreground or url for BrowserActivity");
-//                    } else {
-//                        push_url = webViewUrl;
-//                    }
-//                } else if (!result.notification.isAppInFocus) {
-                  //  Intent mainIntent;
-                   // mainIntent = new Intent(App.this, StartUpActivity.class);
-                    //mainIntent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT | Intent.FLAG_ACTIVITY_NEW_TASK);
-                    //startActivity(mainIntent);
-               // }
+            OSNotificationAction.ActionType actionType = result.action.type;
+            JSONObject data = result.notification.payload.additionalData;
+            String customKey;
 
+            if (data != null) {
+                customKey = data.optString("customkey", null);
+                if (customKey != null)
+                    Log.i("OneSignalExample", "customkey set with value: " + customKey);
+            }
 
-          //  } catch (Throwable t) {
-           //     t.printStackTrace();
-          //  }
+            if (actionType == OSNotificationAction.ActionType.ActionTaken)
+                Log.i("OneSignalExample", "Button pressed with id: " + result.action.actionID);
+
         }
 
     }
     class NotificationReceivedHandler implements OneSignal.NotificationReceivedHandler {
         @Override
         public void notificationReceived(OSNotification notification) {
-
+            Log.d("OneSignal", "Received notification while app was on foreground or url for BrowserActivity");
             JSONObject data = notification.payload.additionalData;
             String customKey;
 

@@ -4,6 +4,23 @@
             "outputFile": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml",
             "map": [
                 {
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/res/values-el/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "101",
+                        "endOffsets": "306"
+                    },
+                    "to": {
+                        "startLines": "70",
+                        "startColumns": "4",
+                        "startOffsets": "8365",
+                        "endColumns": "105",
+                        "endOffsets": "8466"
+                    }
+                },
+                {
                     "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/49ca88b7c279adc967f3b8e22f38c85e/res/values-el/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
@@ -18,23 +35,6 @@
                         "startOffsets": "8574,8653,8792,8861,8931,9025,9153",
                         "endColumns": "78,138,68,69,93,127,82",
                         "endOffsets": "8648,8787,8856,8926,9020,9148,9231"
-                    }
-                },
-                {
-                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/res/values-el/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "101",
-                        "endOffsets": "306"
-                    },
-                    "to": {
-                        "startLines": "70",
-                        "startColumns": "4",
-                        "startOffsets": "8365",
-                        "endColumns": "105",
-                        "endOffsets": "8466"
                     }
                 },
                 {

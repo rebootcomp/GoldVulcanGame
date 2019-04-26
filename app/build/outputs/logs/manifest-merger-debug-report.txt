@@ -1,25 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-120:12
-INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-120:12
-INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-120:12
-INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-120:12
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-131:12
 MERGED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:2:1-107:12
 MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5639e857ccc8a1c768a111946cd01e12/AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/49ca88b7c279adc967f3b8e22f38c85e/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a79323f351c29571a56f85a539c6c678/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.firebase:firebase-messaging:15.0.2] /Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/e874d5a2d87e0a4ce283adb6cb0f80aa/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/925fa21bc198a988150980b008696e21/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1c475ce795e6cace1dc8c37a0a638f0d/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:17:1-65:12
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/e874d5a2d87e0a4ce283adb6cb0f80aa/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a79323f351c29571a56f85a539c6c678/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/5e69d63f9e64de645e560cd87bf3069f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/aba0f8acfefcd2eed2ef7a3d518cccce/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/52346204dc7c9309d2dc2be6307a3b06/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/199b8360d984fbb0b4dbf73d067325f7/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/0da8876f67c3219d7554e8e4d42fe6cc/AndroidManifest.xml:17:1-55:12
@@ -29,10 +26,10 @@ MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/admin/.gr
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/659d2d9752d0fefe4dfc54f396e6bc4b/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/705a43984cc81f81e737f1ffc6d2896c/AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/3a67b3d7229e2eac8649cefb9695ef0d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d81844eaa832e0b1bc9880d27e81121c/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/808e268a628af8ed1cbdb2cb596bced0/AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6ed98b5bdcc8a012966fa81af1e9eedb/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/25c0ceb352d2925d3eabb0b834730cd4/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d81844eaa832e0b1bc9880d27e81121c/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/dc63ad0aadaa85b58f4e0e715e35474e/AndroidManifest.xml:17:1-30:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/afff5dd614b0affbc00adb2558b8b056/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/fac0deb72584082ae46643c56cc1cfb8/AndroidManifest.xml:17:1-28:12
@@ -82,22 +79,22 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/admin/.gradle/caches/
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/90a8de10d5992e3b4bfc573e51046957/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e0ad320ac47feaa5de652afbc86e3665/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/54bdaeede465339470a53193f7e9fe64/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-120:12
-INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-120:12
-INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-120:12
+INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-131:12
+INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-131:12
 	package
 		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:4:5-31
 		INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-120:12
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-131:12
 		INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-120:12
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:1-131:12
 		INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:2:11-69
@@ -109,14 +106,14 @@ MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.grad
 MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5639e857ccc8a1c768a111946cd01e12/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/0da8876f67c3219d7554e8e4d42fe6cc/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/0da8876f67c3219d7554e8e4d42fe6cc/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/b0221954db59e930aa7b9c6eae5423c0/AndroidManifest.xml:23:5-67
@@ -139,12 +136,12 @@ MERGED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transfo
 MERGED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/0da8876f67c3219d7554e8e4d42fe6cc/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/0da8876f67c3219d7554e8e4d42fe6cc/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/b0221954db59e930aa7b9c6eae5423c0/AndroidManifest.xml:24:5-79
@@ -177,12 +174,12 @@ MERGED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transfo
 MERGED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:19:5-68
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:27:5-68
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:27:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:24:5-68
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:27:5-68
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:27:5-68
 MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/0da8876f67c3219d7554e8e4d42fe6cc/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/0da8876f67c3219d7554e8e4d42fe6cc/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/b0221954db59e930aa7b9c6eae5423c0/AndroidManifest.xml:25:5-68
@@ -205,10 +202,10 @@ MERGED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transfo
 MERGED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:18:5-82
 MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5639e857ccc8a1c768a111946cd01e12/AndroidManifest.xml:23:5-82
 MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5639e857ccc8a1c768a111946cd01e12/AndroidManifest.xml:23:5-82
-MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:26:5-82
-MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:26:5-82
 MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:23:5-82
 MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:26:5-82
 	android:name
 		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:14:22-79
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
@@ -219,18 +216,101 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:17:5-76
 	android:name
 		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:17:22-73
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:18:5-106
+REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:32:5-86
+	tools:node
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:18:84-103
+	android:name
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:18:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:19:5-107
+REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:33:5-87
+	tools:node
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:19:85-104
+	android:name
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:19:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:20:5-101
+REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:34:5-81
+	tools:node
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:20:79-98
+	android:name
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:20:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:21:5-103
+REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:35:5-83
+	tools:node
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:21:81-100
+	android:name
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:21:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:22:5-108
+REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:36:5-88
+	tools:node
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:22:86-105
+	android:name
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:22:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:23:5-112
+REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:37:5-92
+	tools:node
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:23:90-109
+	android:name
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:23:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:24:5-104
+REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:38:5-84
+	tools:node
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:24:82-101
+	android:name
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:24:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:25:5-103
+REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:39:5-83
+	tools:node
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:25:81-100
+	android:name
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:25:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:26:5-110
+REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:40:5-91
+	tools:node
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:26:89-108
+	android:name
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:26:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:27:5-112
+REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:41:5-92
+	tools:node
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:27:90-109
+	android:name
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:27:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:28:5-113
+REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:42:5-93
+	tools:node
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:28:91-110
+	android:name
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:28:22-90
 application
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:19:5-118:19
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:30:5-129:19
 MERGED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:49:5-105:19
 MERGED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:49:5-105:19
 MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5639e857ccc8a1c768a111946cd01e12/AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5639e857ccc8a1c768a111946cd01e12/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a79323f351c29571a56f85a539c6c678/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a79323f351c29571a56f85a539c6c678/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:29:5-45:19
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:29:5-45:19
-MERGED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-messaging:15.0.2] /Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:15.0.2] /Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/e874d5a2d87e0a4ce283adb6cb0f80aa/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/e874d5a2d87e0a4ce283adb6cb0f80aa/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:29:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/925fa21bc198a988150980b008696e21/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/925fa21bc198a988150980b008696e21/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1c475ce795e6cace1dc8c37a0a638f0d/AndroidManifest.xml:7:5-20
@@ -239,16 +319,6 @@ MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:34:5-63:19
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:34:5-63:19
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/e874d5a2d87e0a4ce283adb6cb0f80aa/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/e874d5a2d87e0a4ce283adb6cb0f80aa/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a79323f351c29571a56f85a539c6c678/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a79323f351c29571a56f85a539c6c678/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/aba0f8acfefcd2eed2ef7a3d518cccce/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/aba0f8acfefcd2eed2ef7a3d518cccce/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/52346204dc7c9309d2dc2be6307a3b06/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/52346204dc7c9309d2dc2be6307a3b06/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/199b8360d984fbb0b4dbf73d067325f7/AndroidManifest.xml:22:5-27:19
@@ -267,14 +337,14 @@ MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/
 MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/705a43984cc81f81e737f1ffc6d2896c/AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/3a67b3d7229e2eac8649cefb9695ef0d/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/3a67b3d7229e2eac8649cefb9695ef0d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d81844eaa832e0b1bc9880d27e81121c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d81844eaa832e0b1bc9880d27e81121c/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/808e268a628af8ed1cbdb2cb596bced0/AndroidManifest.xml:11:5-17:19
 MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/808e268a628af8ed1cbdb2cb596bced0/AndroidManifest.xml:11:5-17:19
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6ed98b5bdcc8a012966fa81af1e9eedb/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6ed98b5bdcc8a012966fa81af1e9eedb/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/25c0ceb352d2925d3eabb0b834730cd4/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/25c0ceb352d2925d3eabb0b834730cd4/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d81844eaa832e0b1bc9880d27e81121c/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d81844eaa832e0b1bc9880d27e81121c/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/dc63ad0aadaa85b58f4e0e715e35474e/AndroidManifest.xml:27:5-28:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/dc63ad0aadaa85b58f4e0e715e35474e/AndroidManifest.xml:27:5-28:19
 MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/afff5dd614b0affbc00adb2558b8b056/AndroidManifest.xml:7:5-20
@@ -318,149 +388,149 @@ MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/admin/
 	android:supportsRtl
 		ADDED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7b4df9fdbb188492d20578d0349f5984/AndroidManifest.xml:28:18-44
 	android:label
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:23:9-41
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:34:9-41
 	tools:ignore
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:26:9-48
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:37:9-48
 	android:icon
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:22:9-43
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:33:9-43
 	android:allowBackup
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:21:9-35
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:32:9-35
 	android:theme
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:24:9-40
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:35:9-40
 	android:usesCleartextTraffic
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:25:9-44
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:36:9-44
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:20:9-28
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:31:9-28
 activity#com.app.lionnews.activity.NoConnectionActivity
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:27:9-76
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:38:9-76
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:27:19-64
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:38:19-64
 receiver#com.appsflyer.SingleInstallBroadcastReceiver
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:29:9-35:20
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:40:9-46:20
 	android:exported
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:31:13-36
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:42:13-36
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:30:13-72
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:41:13-72
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:32:13-34:29
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:43:13-45:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:33:17-79
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:44:17-79
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:33:25-76
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:44:25-76
 activity#com.app.lionnews.activity.BrowserActivity
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:37:9-42:67
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:48:9-53:67
 	android:label
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:41:13-45
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:52:13-45
 	android:hardwareAccelerated
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:40:13-47
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:51:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:42:13-55
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:53:13-55
 	android:configChanges
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:39:13-83
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:50:13-83
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:38:13-53
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:49:13-53
 activity#com.app.lionnews.activity.StartUpActivity
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:43:9-54:20
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:54:9-65:20
 	android:label
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:47:13-45
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:58:13-45
 	android:hardwareAccelerated
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:46:13-47
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:57:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:48:13-55
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:59:13-55
 	android:configChanges
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:45:13-83
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:56:13-83
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:44:13-53
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:55:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:49:13-53:29
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:60:13-64:29
 action#android.intent.action.MAIN
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:50:17-69
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:61:17-69
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:50:25-66
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:61:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:52:17-77
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:63:17-77
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:52:27-74
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:63:27-74
 meta-data#com.google.android.gms.version
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:56:9-58:69
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:67:9-69:69
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/fac0deb72584082ae46643c56cc1cfb8/AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/fac0deb72584082ae46643c56cc1cfb8/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:58:13-66
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:69:13-66
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:57:13-58
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:68:13-58
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:59:9-61:55
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:70:9-72:55
 	android:value
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:61:13-52
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:72:13-52
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:60:13-58
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:71:13-58
 meta-data#com.facebook.sdk.AdvertiserIDCollectionEnabled
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:62:9-64:37
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:73:9-75:37
 	android:value
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:64:13-34
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:75:13-34
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:63:13-74
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:74:13-74
 activity#com.app.lionnews.activity.MainActivity
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:69:9-92:20
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:80:9-103:20
 	android:label
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:73:13-45
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:84:13-45
 	android:hardwareAccelerated
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:72:13-47
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:83:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:74:13-55
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:85:13-55
 	android:configChanges
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:71:13-83
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:82:13-83
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:70:13-50
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:81:13-50
 activity#com.google.android.gms.ads.AdActivity
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:93:9-95:125
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:104:9-106:125
 MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/705a43984cc81f81e737f1ffc6d2896c/AndroidManifest.xml:29:9-33:64
 MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/705a43984cc81f81e737f1ffc6d2896c/AndroidManifest.xml:29:9-33:64
 	android:exported
 		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/705a43984cc81f81e737f1ffc6d2896c/AndroidManifest.xml:32:13-37
 	android:configChanges
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:95:13-122
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:106:13-122
 	android:theme
 		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/705a43984cc81f81e737f1ffc6d2896c/AndroidManifest.xml:33:13-61
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:94:13-65
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:105:13-65
 receiver#com.google.android.gms.analytics.AnalyticsReceiver
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:96:9-102:20
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:107:9-113:20
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:30:9-34:20
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:30:9-34:20
 	android:enabled
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:98:13-35
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:109:13-35
 	android:exported
 		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:97:13-78
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:108:13-78
 intent-filter#action:name:com.google.android.gms.analytics.ANALYTICS_DISPATCH
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:99:13-101:29
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:110:13-112:29
 action#com.google.android.gms.analytics.ANALYTICS_DISPATCH
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:100:17-94
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:111:17-94
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:100:25-91
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:111:25-91
 service#com.google.android.gms.analytics.AnalyticsService
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:104:9-107:40
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:115:9-118:40
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:36:9-39:40
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:36:9-39:40
 	android:enabled
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:106:13-35
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:117:13-35
 	android:exported
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:107:13-37
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:118:13-37
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:105:13-77
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:116:13-77
 receiver#com.google.android.gms.analytics.CampaignTrackingReceiver
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:109:9-115:20
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:120:9-126:20
 	android:exported
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:111:13-36
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:122:13-36
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:110:13-85
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:121:13-85
 service#com.google.android.gms.analytics.CampaignTrackingService
-ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:117:9-92
+ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:128:9-92
 	android:name
-		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:117:18-89
+		ADDED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml:128:18-89
 uses-sdk
 INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/admin/Documents/git/SportNewsCode/app/src/main/AndroidManifest.xml
@@ -471,12 +541,18 @@ MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.grad
 MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5639e857ccc8a1c768a111946cd01e12/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/49ca88b7c279adc967f3b8e22f38c85e/AndroidManifest.xml:21:5-23:62
 MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/49ca88b7c279adc967f3b8e22f38c85e/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a79323f351c29571a56f85a539c6c678/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a79323f351c29571a56f85a539c6c678/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-messaging:15.0.2] /Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:15.0.2] /Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/e874d5a2d87e0a4ce283adb6cb0f80aa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/e874d5a2d87e0a4ce283adb6cb0f80aa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/925fa21bc198a988150980b008696e21/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/925fa21bc198a988150980b008696e21/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1c475ce795e6cace1dc8c37a0a638f0d/AndroidManifest.xml:5:5-44
@@ -485,18 +561,6 @@ MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users
 MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/80df9d6bc69295986a9ec67ae90818fe/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/e874d5a2d87e0a4ce283adb6cb0f80aa/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/e874d5a2d87e0a4ce283adb6cb0f80aa/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/d694432756255588b4ce195c44c9d2fb/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a79323f351c29571a56f85a539c6c678/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a79323f351c29571a56f85a539c6c678/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/5e69d63f9e64de645e560cd87bf3069f/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/5e69d63f9e64de645e560cd87bf3069f/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/aba0f8acfefcd2eed2ef7a3d518cccce/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/aba0f8acfefcd2eed2ef7a3d518cccce/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/52346204dc7c9309d2dc2be6307a3b06/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/52346204dc7c9309d2dc2be6307a3b06/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/199b8360d984fbb0b4dbf73d067325f7/AndroidManifest.xml:20:5-44
@@ -515,14 +579,14 @@ MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/
 MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/705a43984cc81f81e737f1ffc6d2896c/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/3a67b3d7229e2eac8649cefb9695ef0d/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/3a67b3d7229e2eac8649cefb9695ef0d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d81844eaa832e0b1bc9880d27e81121c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d81844eaa832e0b1bc9880d27e81121c/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/808e268a628af8ed1cbdb2cb596bced0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/808e268a628af8ed1cbdb2cb596bced0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6ed98b5bdcc8a012966fa81af1e9eedb/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6ed98b5bdcc8a012966fa81af1e9eedb/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/25c0ceb352d2925d3eabb0b834730cd4/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/25c0ceb352d2925d3eabb0b834730cd4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d81844eaa832e0b1bc9880d27e81121c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d81844eaa832e0b1bc9880d27e81121c/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/dc63ad0aadaa85b58f4e0e715e35474e/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/dc63ad0aadaa85b58f4e0e715e35474e/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/afff5dd614b0affbc00adb2558b8b056/AndroidManifest.xml:5:5-44
@@ -661,50 +725,6 @@ MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/cache
 MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:32:5-79
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:12:22-76
-uses-permission#com.sec.android.provider.badge.permission.READ
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:32:5-86
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:32:22-83
-uses-permission#com.sec.android.provider.badge.permission.WRITE
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:33:5-87
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:33:22-84
-uses-permission#com.htc.launcher.permission.READ_SETTINGS
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:34:5-81
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:34:22-78
-uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:35:5-83
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:35:22-80
-uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:36:5-88
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:36:22-85
-uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:37:5-92
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:37:22-89
-uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:38:5-84
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:38:22-81
-uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:39:5-83
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:39:22-80
-uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:40:5-91
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:40:22-88
-uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:41:5-92
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:41:22-89
-uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:42:5-93
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:42:22-90
 uses-permission#android.permission.READ_APP_BADGE
 ADDED from [com.onesignal:OneSignal:3.10.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/213211c00939c300065eb85d7f831b8b/AndroidManifest.xml:43:5-73
 	android:name
@@ -845,52 +865,28 @@ ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/
 		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:44:13-69
 	android:name
 		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/58b7c5f5190d7a213b3afe52f208a5d0/AndroidManifest.xml:41:13-80
-activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:24:9-31:50
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:26:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:28:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:27:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:29:13-102
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:30:13-72
-	tools:replace
-		ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:31:13-47
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:25:13-85
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:35:9-39:19
-MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:35:9-39:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:35:13-37
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:34:13-84
-meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:36:13-38:85
-	android:value
-		ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:38:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:16.2.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/e781361618e607b766262717c1abbbae/AndroidManifest.xml:37:17-109
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:15.0.2] /Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/AndroidManifest.xml:28:9-34:19
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:15.0.2] /Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:15.0.2] /Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/AndroidManifest.xml:29:13-82
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/AndroidManifest.xml:29:13-82
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:15.0.2] /Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/AndroidManifest.xml:31:13-33:29
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/AndroidManifest.xml:31:13-33:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:15.0.2] /Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/AndroidManifest.xml:31:28-51
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/AndroidManifest.xml:31:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:15.0.2] /Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/AndroidManifest.xml:32:17-78
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/AndroidManifest.xml:32:17-78
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:15.0.2] /Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/AndroidManifest.xml:32:25-75
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/AndroidManifest.xml:32:25-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.2.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2192f40971586ea22f379d61881db252/AndroidManifest.xml:35:9-39:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:28:13-84
 meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
 ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a62d9f1005ee6bc69d0359b6c53c408e/AndroidManifest.xml:30:13-32:85
 	android:value

@@ -4,23 +4,6 @@
             "outputFile": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml",
             "map": [
                 {
-                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/b61b47c915604bda0181a6b2df54bcf3/res/values-th/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "103",
-                        "endOffsets": "308"
-                    },
-                    "to": {
-                        "startLines": "70",
-                        "startColumns": "4",
-                        "startOffsets": "7914",
-                        "endColumns": "107",
-                        "endOffsets": "8017"
-                    }
-                },
-                {
                     "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/5639e857ccc8a1c768a111946cd01e12/res/values-th/values.xml",
                     "from": {
                         "startLines": "4",
@@ -103,6 +86,23 @@
                         "startOffsets": "2764,2915,3044,3197,3314,3400,3486,3565,3654,3748,3865,3977,4071,4165,4273,4397,4476,4557,4746,4842,4948,5067,5177",
                         "endColumns": "150,128,152,116,85,85,78,88,93,116,111,93,93,107,123,78,80,188,95,105,118,109,123",
                         "endOffsets": "2910,3039,3192,3309,3395,3481,3560,3649,3743,3860,3972,4066,4160,4268,4392,4471,4552,4741,4837,4943,5062,5172,5296"
+                    }
+                },
+                {
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/999f0ce7986940b0e8b9a4c9bd852825/res/values-th/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "103",
+                        "endOffsets": "308"
+                    },
+                    "to": {
+                        "startLines": "70",
+                        "startColumns": "4",
+                        "startOffsets": "7914",
+                        "endColumns": "107",
+                        "endOffsets": "8017"
                     }
                 },
                 {
