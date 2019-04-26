@@ -114,9 +114,10 @@ public class BrowserActivity extends AppCompatActivity {
                         ed.commit();
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
                     }
+                    if (url.contains("pin") && progressBar.getVisibility() == ProgressBar.VISIBLE)
+                        progressBar.setVisibility(ProgressBar.INVISIBLE);
                     super.onPageStarted(view, url, favicon);
                 }
-
             }
 
             @Override
@@ -126,8 +127,6 @@ public class BrowserActivity extends AppCompatActivity {
                 CookieManager.getInstance().flush();
                 super.onPageFinished(view, url);
             }
-
-
 
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
@@ -153,6 +152,15 @@ public class BrowserActivity extends AppCompatActivity {
                     return false;
                 }
                 return true;
+            }
+
+            @Override
+            public void onProgressChanged(WebView view, int newProgress) {
+                if (newProgress == 100 && progressBar.getVisibility() == ProgressBar.VISIBLE)
+                    progressBar.setVisibility(ProgressBar.INVISIBLE);
+                if (newProgress < 100 && !view.getUrl().contains("pin") && progressBar.getVisibility() == ProgressBar.INVISIBLE)
+                    progressBar.setVisibility(ProgressBar.VISIBLE);
+                super.onProgressChanged(view, newProgress);
             }
         });
         Intent intent = getIntent();
