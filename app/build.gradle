@@ -1,6 +1,6 @@
 buildscript {
     repositories {
-        maven { url 'https://plugins.gradle.org/m2/'}
+        maven { url 'https://plugins.gradle.org/m2/' }
     }
     dependencies {
         classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.11.0, 0.99.99]'
@@ -14,6 +14,7 @@ repositories {
 
 
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 28
@@ -34,8 +35,8 @@ android {
 
         //Optionally configure your OneSignal IDs below
         manifestPlaceholders = [
-                                onesignal_app_id               : "9e9f5de3-0158-4fc1-84bd-c6dab0fb801e",
-                                onesignal_google_project_number: 'REMOTE']
+                onesignal_app_id               : "9e9f5de3-0158-4fc1-84bd-c6dab0fb801e",
+                onesignal_google_project_number: 'REMOTE']
     }
     signingConfigs {
         release {
