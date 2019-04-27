@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3f844840af58dfee2b726e4720615ebc/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
-                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10,23,36,37,38,39,40",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "259,394,529,604,691,1481,2283,2410,2515,2630,2737",
-                        "endLines": "6,7,8,9,22,35,36,37,38,39,40",
-                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
-                        "endOffsets": "389,524,599,686,1476,2278,2405,2510,2625,2732,2845"
-                    }
-                },
-                {
-                    "source": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/src/main/res/values-v23/styles.xml",
+                    "source": "/Users/admin/Documents/git/SportNewsCode/app/src/main/res/values-v23/styles.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
@@ -42,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5e43a05981647fa6cac54ca6fd492aa5/res/values-v23/values-v23.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/4ba64a1c40ec73a17745f0b5a4fbc00d/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -58,6 +39,25 @@
                         "endLines": "43",
                         "endColumns": "12",
                         "endOffsets": "2995"
+                    }
+                },
+                {
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,19,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1277,2079,2206,2311,2426,2533",
+                        "endLines": "2,3,4,5,18,31,32,33,34,35,36",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "185,320,395,482,1272,2074,2201,2306,2421,2528,2641"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,23,36,37,38,39,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "259,394,529,604,691,1481,2283,2410,2515,2630,2737",
+                        "endLines": "6,7,8,9,22,35,36,37,38,39,40",
+                        "endColumns": "134,134,74,86,12,12,126,104,114,106,112",
+                        "endOffsets": "389,524,599,686,1476,2278,2405,2510,2625,2732,2845"
                     }
                 }
             ]

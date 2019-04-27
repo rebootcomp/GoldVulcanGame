@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "660176071885",
-    "firebase_url": "https://sportnewscode-ca979.firebaseio.com",
-    "project_id": "sportnewscode-ca979",
-    "storage_bucket": "sportnewscode-ca979.appspot.com"
+    "project_number": "787508497044",
+    "firebase_url": "https://sportnewscode.firebaseio.com",
+    "project_id": "sportnewscode",
+    "storage_bucket": "sportnewscode.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:660176071885:android:10b9c29adbdc3970",
+        "mobilesdk_app_id": "1:787508497044:android:10b9c29adbdc3970",
         "android_client_info": {
           "package_name": "com.app.lionnews"
         }
       },
       "oauth_client": [
         {
-          "client_id": "660176071885-oh153qmu23gdtcomgoidk26ctn4qu4nm.apps.googleusercontent.com",
+          "client_id": "787508497044-3e9cpkm77mhe43i506jqg220e6obkn4q.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.app.lionnews",
-            "certificate_hash": "114c6f2ad00aad252d93f89c2045b8217f490ac2"
+            "certificate_hash": "8eb53435615d8624938225e90d7b0b5dc26e8221"
           }
         },
         {
-          "client_id": "660176071885-1dr49n9cs3gul7f38m6jio6tgfncavna.apps.googleusercontent.com",
+          "client_id": "787508497044-gljmghq40bf0llff1si82lhpsct3hldt.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB5D1ebMXwcaT-mV7gVXzcmGvbekcgodQ8"
+          "current_key": "AIzaSyCJJsHnuqUAPrqzUxSS9gYh0FtSACBA0LY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "660176071885-1dr49n9cs3gul7f38m6jio6tgfncavna.apps.googleusercontent.com",
+              "client_id": "787508497044-gljmghq40bf0llff1si82lhpsct3hldt.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
