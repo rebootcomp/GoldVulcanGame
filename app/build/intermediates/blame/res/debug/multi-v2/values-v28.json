@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
+            "outputFile": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/b7d84ee0391e2a71202aa1ce8d0f7def/res/values-v28/values-v28.xml",
+                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

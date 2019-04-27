@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">220283543148-vslnpsbp2k8slsp9penk7dndu1qs4tjk.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://lionnews-766b6.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">220283543148</string>
-    <string name="google_api_key" translatable="false">AIzaSyDMYbWrUfSHb7Ghs1_Us-XFNnPP80kOF2s</string>
-    <string name="google_app_id" translatable="false">1:220283543148:android:10b9c29adbdc3970</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDMYbWrUfSHb7Ghs1_Us-XFNnPP80kOF2s</string>
-    <string name="google_storage_bucket" translatable="false">lionnews-766b6.appspot.com</string>
-    <string name="project_id" translatable="false">lionnews-766b6</string>
+    <string name="default_web_client_id" translatable="false">660176071885-1dr49n9cs3gul7f38m6jio6tgfncavna.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sportnewscode-ca979.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">660176071885</string>
+    <string name="google_api_key" translatable="false">AIzaSyB5D1ebMXwcaT-mV7gVXzcmGvbekcgodQ8</string>
+    <string name="google_app_id" translatable="false">1:660176071885:android:10b9c29adbdc3970</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB5D1ebMXwcaT-mV7gVXzcmGvbekcgodQ8</string>
+    <string name="google_storage_bucket" translatable="false">sportnewscode-ca979.appspot.com</string>
+    <string name="project_id" translatable="false">sportnewscode-ca979</string>
 </resources>

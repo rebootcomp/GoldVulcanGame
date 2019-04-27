@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/b5cd0137130750f7742b799e0077c4fd/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "41",
-                        "startColumns": "4",
-                        "startOffsets": "2850",
-                        "endLines": "43",
-                        "endColumns": "12",
-                        "endOffsets": "2995"
-                    }
-                },
-                {
-                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/b7d84ee0391e2a71202aa1ce8d0f7def/res/values-v23/values-v23.xml",
+                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/admin/Documents/git/SportNewsCode/app/src/main/res/values-v23/styles.xml",
+                    "source": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/src/main/res/values-v23/styles.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
@@ -58,6 +39,25 @@
                         "endLines": "5",
                         "endColumns": "12",
                         "endOffsets": "254"
+                    }
+                },
+                {
+                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/dd5d6af293085c1d3373d93d3d4114c1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "41",
+                        "startColumns": "4",
+                        "startOffsets": "2850",
+                        "endLines": "43",
+                        "endColumns": "12",
+                        "endOffsets": "2995"
                     }
                 }
             ]

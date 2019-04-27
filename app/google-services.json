@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "220283543148",
-    "firebase_url": "https://lionnews-766b6.firebaseio.com",
-    "project_id": "lionnews-766b6",
-    "storage_bucket": "lionnews-766b6.appspot.com"
+    "project_number": "660176071885",
+    "firebase_url": "https://sportnewscode-ca979.firebaseio.com",
+    "project_id": "sportnewscode-ca979",
+    "storage_bucket": "sportnewscode-ca979.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:220283543148:android:10b9c29adbdc3970",
+        "mobilesdk_app_id": "1:660176071885:android:10b9c29adbdc3970",
         "android_client_info": {
           "package_name": "com.app.lionnews"
         }
       },
       "oauth_client": [
         {
-          "client_id": "220283543148-vslnpsbp2k8slsp9penk7dndu1qs4tjk.apps.googleusercontent.com",
+          "client_id": "660176071885-oh153qmu23gdtcomgoidk26ctn4qu4nm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.lionnews",
+            "certificate_hash": "114c6f2ad00aad252d93f89c2045b8217f490ac2"
+          }
+        },
+        {
+          "client_id": "660176071885-1dr49n9cs3gul7f38m6jio6tgfncavna.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDMYbWrUfSHb7Ghs1_Us-XFNnPP80kOF2s"
+          "current_key": "AIzaSyB5D1ebMXwcaT-mV7gVXzcmGvbekcgodQ8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "220283543148-vslnpsbp2k8slsp9penk7dndu1qs4tjk.apps.googleusercontent.com",
+              "client_id": "660176071885-1dr49n9cs3gul7f38m6jio6tgfncavna.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
