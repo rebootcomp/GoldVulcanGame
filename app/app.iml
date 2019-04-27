@@ -172,7 +172,6 @@
     <orderEntry type="library" name="Gradle: com.android.support:slidingpanelayout:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.parse.bolts:bolts-tasks:1.4.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7:28.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-gcm:16.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid-interop:16.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.parse.bolts:bolts-applinks:1.4.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:collections:28.0.0@jar" level="project" />
@@ -188,11 +187,9 @@
     <orderEntry type="library" name="Gradle: android.arch.core:common:1.1.1@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:versionedparcelable:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-iid:16.0.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:viewpager:28.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-analytics-impl:16.0.8@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common:16.1.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: com.onesignal:OneSignal:3.10.8@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.facebook.android:facebook-places:4.42.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.yandex.android:mobmetricalib:3.5.3@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.appsflyer:af-android-sdk:4.9.0@aar" level="project" />

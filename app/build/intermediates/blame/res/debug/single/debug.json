@@ -92,12 +92,12 @@
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/f6b08530fb643b20e0bc8384338e694c/res/color/mtrl_tabs_legacy_text_color_selector.xml"
     },
     {
-        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
-        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/f6b08530fb643b20e0bc8384338e694c/res/anim-v21/design_bottom_sheet_slide_in.xml"
-    },
-    {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
+        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/f6b08530fb643b20e0bc8384338e694c/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable_abc_textfield_search_material.xml.flat",
@@ -152,16 +152,16 @@
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_com_facebook_tooltip_blue_background.9.png.flat",
-        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/187091b79896b60d4e85583a6bf44e81/res/drawable-mdpi-v4/com_facebook_tooltip_blue_background.9.png"
+        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_com_facebook_close.png.flat",
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/09b3a8112981c2b18b2a6f7cc5bd65a8/res/drawable-mdpi-v4/com_facebook_close.png"
     },
     {
-        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_com_facebook_tooltip_blue_background.9.png.flat",
+        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/187091b79896b60d4e85583a6bf44e81/res/drawable-mdpi-v4/com_facebook_tooltip_blue_background.9.png"
     },
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -184,24 +184,24 @@
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
-        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/color_com_facebook_send_button_text_color.xml.flat",
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1a6961e72fe266d483e79af302e25aba/res/color/com_facebook_send_button_text_color.xml"
+    },
+    {
+        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat",
+        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable_ic_mtrl_chip_close_circle.xml.flat",
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/f6b08530fb643b20e0bc8384338e694c/res/drawable/ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
@@ -446,10 +446,6 @@
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/layout_no_connection.xml.flat",
         "source": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/src/main/res/layout/no_connection.xml"
-    },
-    {
-        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/layout_onesignal_bgimage_notif_layout.xml.flat",
-        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5332f20fc39d1b53da27cebcf696d314/res/layout/onesignal_bgimage_notif_layout.xml"
     },
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -738,10 +734,6 @@
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/color_mtrl_btn_bg_color_selector.xml.flat",
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/f6b08530fb643b20e0bc8384338e694c/res/color/mtrl_btn_bg_color_selector.xml"
-    },
-    {
-        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5332f20fc39d1b53da27cebcf696d314/res/drawable-xxhdpi-v4/ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -1104,12 +1096,12 @@
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_light.xml.flat",
-        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/color/abc_primary_text_material_light.xml"
-    },
-    {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_light.xml.flat",
+        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/color/abc_primary_text_material_light.xml"
     },
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
@@ -1376,10 +1368,6 @@
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5332f20fc39d1b53da27cebcf696d314/res/drawable-hdpi-v4/ic_os_notification_fallback_white_24dp.png"
-    },
-    {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/color-v23_abc_tint_switch_track.xml.flat",
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/color-v23/abc_tint_switch_track.xml"
     },
@@ -1590,10 +1578,6 @@
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5332f20fc39d1b53da27cebcf696d314/res/drawable-mdpi-v4/ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -2136,10 +2120,6 @@
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/raw_consumer_onesignal_keep.xml.flat",
-        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5332f20fc39d1b53da27cebcf696d314/res/raw/consumer_onesignal_keep.xml"
-    },
-    {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light.xml.flat",
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/4216a549586c4b792f7d28f61b692db6/res/drawable/common_google_signin_btn_text_light.xml"
     },
@@ -2460,10 +2440,6 @@
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5332f20fc39d1b53da27cebcf696d314/res/drawable-xxxhdpi-v4/ic_os_notification_fallback_white_24dp.png"
-    },
-    {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/layout_design_menu_item_action_area.xml.flat",
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/f6b08530fb643b20e0bc8384338e694c/res/layout/design_menu_item_action_area.xml"
     },
@@ -2538,10 +2514,6 @@
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_light.xml.flat",
         "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/drawable/tooltip_frame_light.xml"
-    },
-    {
-        "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5332f20fc39d1b53da27cebcf696d314/res/drawable-xhdpi-v4/ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/layout_design_bottom_sheet_dialog.xml.flat",
