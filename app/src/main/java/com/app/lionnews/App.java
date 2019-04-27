@@ -13,6 +13,7 @@ import com.appsflyer.AppsFlyerLib;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.Tracker;
 import com.app.lionnews.activity.MainActivity;
+import com.onesignal.OneSignal;
 import com.yandex.metrica.YandexMetrica;
 import com.yandex.metrica.YandexMetricaConfig;
 
@@ -70,6 +71,10 @@ public class App extends Application {
        // if (!TextUtils.isEmpty(getString(R.string.onesignal_app_id)))
             // OneSignal Initialization
            // OneSignal.init(this, getString(R.string.onesignal_google_project_number), getString(R.string.onesignal_app_id), new NotificationHandler());
+        OneSignal.startInit(this)
+                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+                .unsubscribeWhenNotificationsAreDisabled(true)
+                .init();
         // Создание расширенной конфигурации библиотеки.
         YandexMetricaConfig config = YandexMetricaConfig.newConfigBuilder("eaebfac8-adbb-4667-8584-61d403a1b30f").build();
         // Инициализация AppMetrica SDK.

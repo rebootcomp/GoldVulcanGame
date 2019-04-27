@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/171271b27a90140e1032f993805a082b/res/values-land/values-land.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/f6b08530fb643b20e0bc8384338e694c/res/values-land/values-land.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/7fdc0e92131b16344fb275914976232e/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
