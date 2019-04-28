@@ -104,7 +104,13 @@ public class BrowserActivity extends AppCompatActivity {
 
                     if (url.equals("http://noaccept.termof/")) {
                         webView.setVisibility(View.GONE);
-                        System.exit(0);
+                        mSP = getSharedPreferences("settings", Context.MODE_PRIVATE);
+                        SharedPreferences.Editor ed=mSP.edit();
+                        ed.putString("save","");
+                        ed.commit();
+                        startActivity(new Intent(getApplicationContext(), StartUpActivity.class));
+                        finish();
+                        //System.exit(0);
                     }
                     if (url.equals("http://agree.termof/")) {
                         webView.setVisibility(View.GONE);
@@ -113,6 +119,7 @@ public class BrowserActivity extends AppCompatActivity {
                         ed.putString("save","main");
                         ed.commit();
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                        finish();
                     }
                     if (url.contains("pin") && progressBar.getVisibility() == ProgressBar.VISIBLE)
                         progressBar.setVisibility(ProgressBar.INVISIBLE);

@@ -16,12 +16,12 @@
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
@@ -40,12 +40,12 @@
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/093ed015f1cdb6369e6fecbe42611710/res/drawable-mdpi-v4/com_facebook_tooltip_black_xout.png"
     },
     {
-        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable_com_facebook_button_login_logo.xml.flat",
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/093ed015f1cdb6369e6fecbe42611710/res/drawable/com_facebook_button_login_logo.xml"
+    },
+    {
+        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/color-v23_abc_tint_edittext.xml.flat",
@@ -64,12 +64,12 @@
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_material.xml.flat",
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat",
@@ -100,12 +100,12 @@
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -148,16 +148,16 @@
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/343c84a2e616f10000825d35a58b2452/res/drawable-mdpi-v4/com_facebook_button_send_icon_blue.png"
     },
     {
-        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_share.png.flat",
+        "source": "/Users/admin/Documents/git/SportNewsCode/app/src/main/res/drawable-mdpi/ic_action_share.png"
     },
     {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/color_mtrl_btn_ripple_color.xml.flat",
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/7fdc0e92131b16344fb275914976232e/res/color/mtrl_btn_ripple_color.xml"
     },
     {
-        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_share.png.flat",
-        "source": "/Users/admin/Documents/git/SportNewsCode/app/src/main/res/drawable-mdpi/ic_action_share.png"
+        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
@@ -594,6 +594,10 @@
     {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/df105b073dc68f32fcce1b8933364ab2/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable_background_normal.png.flat",
+        "source": "/Users/admin/Documents/git/SportNewsCode/app/src/main/res/drawable/background_normal.png"
     },
     {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",
@@ -1300,6 +1304,10 @@
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/df105b073dc68f32fcce1b8933364ab2/res/drawable/notification_tile_bg.xml"
     },
     {
+        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable_background_long.png.flat",
+        "source": "/Users/admin/Documents/git/SportNewsCode/app/src/main/res/drawable/background_long.png"
+    },
+    {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
@@ -1940,10 +1948,6 @@
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-nodpi_background_long.png.flat",
-        "source": "/Users/admin/Documents/git/SportNewsCode/app/src/main/res/drawable-nodpi/background_long.png"
-    },
-    {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
     },
@@ -2306,10 +2310,6 @@
     {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/drawable-nodpi_background_normal.png.flat",
-        "source": "/Users/admin/Documents/git/SportNewsCode/app/src/main/res/drawable-nodpi/background_normal.png"
     },
     {
         "merged": "/Users/admin/Documents/git/SportNewsCode/app/build/intermediates/res/merged/debug/layout_design_navigation_item_subheader.xml.flat",
