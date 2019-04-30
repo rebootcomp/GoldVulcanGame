@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.lionnews.test">
+    package="com.app.topizasport.test">
 
     <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.app.lionnews"
+                     android:targetPackage="com.app.topizasport"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.app.lionnews"/>
+                     android:label="Tests for com.app.topizasport"/>
 </manifest>

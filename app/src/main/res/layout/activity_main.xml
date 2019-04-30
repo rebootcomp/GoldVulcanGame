@@ -32,7 +32,7 @@
             android:layout_above="@+id/adViewH"
             tools:context=".MainActivity">
 
-            <com.app.lionnews.widget.SwipeableViewPager
+            <com.app.topizasport.widget.SwipeableViewPager
                 android:id="@+id/pager"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

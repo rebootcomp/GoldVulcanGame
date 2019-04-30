@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.lionnews"
+    package="com.app.topizasport"
     android:targetSandboxVersion="2"
-    android:versionCode="1"
+    android:versionCode="2"
     android:versionName="1.0.0" >
 
     <uses-sdk
@@ -24,10 +24,10 @@
 
     <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
     <permission
-        android:name="com.app.lionnews.permission.C2D_MESSAGE"
+        android:name="com.app.topizasport.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.app.lionnews.permission.C2D_MESSAGE" /> <!-- ZUK -->
+    <uses-permission android:name="com.app.topizasport.permission.C2D_MESSAGE" /> <!-- ZUK -->
     <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
     <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
@@ -36,7 +36,7 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <application
-        android:name="com.app.lionnews.App"
+        android:name="com.app.topizasport.App"
         android:allowBackup="true"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
@@ -46,7 +46,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.app.lionnews.activity.NoConnectionActivity" />
+        <activity android:name="com.app.topizasport.activity.NoConnectionActivity" />
 
         <receiver
             android:name="com.appsflyer.SingleInstallBroadcastReceiver"
@@ -57,13 +57,13 @@
         </receiver>
 
         <activity
-            android:name="com.app.lionnews.activity.BrowserActivity"
+            android:name="com.app.topizasport.activity.BrowserActivity"
             android:configChanges="keyboardHidden|keyboard|orientation|screenSize"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.app.lionnews.activity.StartUpActivity"
+            android:name="com.app.topizasport.activity.StartUpActivity"
             android:configChanges="keyboardHidden|keyboard|orientation|screenSize"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
@@ -89,7 +89,7 @@
             android:value="false" />
 
         <activity
-            android:name="com.app.lionnews.activity.MainActivity"
+            android:name="com.app.topizasport.activity.MainActivity"
             android:configChanges="keyboardHidden|keyboard|orientation|screenSize"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
@@ -162,7 +162,7 @@
             <intent-filter android:priority="999" >
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.app.lionnews" />
+                <category android:name="com.app.topizasport" />
             </intent-filter>
         </receiver>
         <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
@@ -307,7 +307,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.app.lionnews.firebaseinitprovider"
+            android:authorities="com.app.topizasport.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -380,7 +380,7 @@
         -->
         <provider
             android:name="com.facebook.internal.FacebookInitProvider"
-            android:authorities="com.app.lionnews.FacebookInitProvider"
+            android:authorities="com.app.topizasport.FacebookInitProvider"
             android:exported="false" />
 
         <receiver

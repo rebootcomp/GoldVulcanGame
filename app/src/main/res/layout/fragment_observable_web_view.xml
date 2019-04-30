@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.app.lionnews.fragment.WebFragment">
+    tools:context="com.app.topizasport.fragment.WebFragment">
 
     <android.support.v4.widget.SwipeRefreshLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-            <com.app.lionnews.widget.AdvancedWebView
+            <com.app.topizasport.widget.AdvancedWebView
                 android:id="@+id/scrollable"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />

@@ -1,6 +1,6 @@
 <resources>
     <!--Configure your App's name, as displayed in the launcher and optionally the Toolbar -->
-    <string name="app_name">Леон</string>
+    <string name="app_name">Топи за спорт!</string>
 
     <!--Configure your Admob ID below, or leave empty if you do not want to enable Ads in your app -->
     <string name="ad_banner_id">YOUR-ADMOB-BANNER-ID</string>
