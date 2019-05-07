@@ -1,29 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/rebootcomp/Documents/git/GoldVulcanGame/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/aleksandrmuratidi/Documents/git/SportNewsCode/app/src/main/res/values-v23/styles.xml",
+                    "source": "/Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/11f4cdc58424214c558d4530e246b9df/res/values-v23/values-v23.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "215"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endLines": "5",
+                        "endLines": "4",
                         "endColumns": "12",
-                        "endOffsets": "254"
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "41",
+                        "startColumns": "4",
+                        "startOffsets": "2850",
+                        "endLines": "43",
+                        "endColumns": "12",
+                        "endOffsets": "2995"
                     }
                 },
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/841e61636b6d169baba95a375ab6c43b/res/values-v23/values-v23.xml",
+                    "source": "/Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/8970a656ed91d0449a70f8a6b0993351/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -42,22 +42,22 @@
                     }
                 },
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/efc3d68e3701cd4aba04b91172548a30/res/values-v23/values-v23.xml",
+                    "source": "/Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/res/values-v23/styles.xml",
                     "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "215"
+                    },
+                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endLines": "4",
+                        "endLines": "5",
                         "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "41",
-                        "startColumns": "4",
-                        "startOffsets": "2850",
-                        "endLines": "43",
-                        "endColumns": "12",
-                        "endOffsets": "2995"
+                        "endOffsets": "254"
                     }
                 }
             ]

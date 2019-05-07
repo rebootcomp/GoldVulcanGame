@@ -57,7 +57,7 @@
         </receiver>
 
         <activity
-            android:name="com.app.topizasport.activity.BrowserActivity"
+            android:name="com.app.topizasport.activity.WebViewActivity"
             android:configChanges="keyboardHidden|keyboard|orientation|screenSize"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
@@ -390,6 +390,11 @@
                 <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
             </intent-filter>
         </receiver>
+
+        <provider
+            android:name="com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.app.topizasport.com.android.tools.ir.server.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

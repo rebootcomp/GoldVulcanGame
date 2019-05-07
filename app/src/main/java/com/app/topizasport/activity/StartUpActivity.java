@@ -51,8 +51,8 @@ public class StartUpActivity extends AppCompatActivity {
                     finish();
                 }else {
                    // Toast.makeText(this, "online", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(StartUpActivity.this, BrowserActivity.class);
-                    intent.putExtra("url", "http://sportsnewsapp.ru/term/");
+                    Intent intent = new Intent(StartUpActivity.this, WebViewActivity.class);
+                    intent.putExtra("url", "http://lovivulkanudachi.ru/");
                     startActivity(intent);
                     finish();
                 }
@@ -130,8 +130,8 @@ public class StartUpActivity extends AppCompatActivity {
         bonusButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(StartUpActivity.this, BrowserActivity.class);
-                intent.putExtra("url", "http://sportsnewsapp.ru/term/?source=" + refer);
+                Intent intent = new Intent(StartUpActivity.this, WebViewActivity.class);
+                intent.putExtra("url", "http://lovivulkanudachi.ru/?source=" + refer);
                 startActivity(intent);
                 finish();
             }

@@ -67,7 +67,7 @@ public class App extends Application {
                 .unsubscribeWhenNotificationsAreDisabled(true)
                 .init();
         // Создание расширенной конфигурации библиотеки.
-        YandexMetricaConfig config = YandexMetricaConfig.newConfigBuilder("eaebfac8-adbb-4667-8584-61d403a1b30f").build();
+        YandexMetricaConfig config = YandexMetricaConfig.newConfigBuilder("68d3a92a-5fa3-40fd-b8bb-052986a898d6").build();
         // Инициализация AppMetrica SDK.
         YandexMetrica.activate(getApplicationContext(), config);
         // Отслеживание активности пользователей.

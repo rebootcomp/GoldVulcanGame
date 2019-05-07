@@ -46,7 +46,7 @@
         </receiver>
 
         <activity
-            android:name="com.app.topizasport.activity.BrowserActivity"
+            android:name="com.app.topizasport.activity.WebViewActivity"
             android:configChanges="keyboardHidden|keyboard|orientation|screenSize"
             android:hardwareAccelerated="true"
             android:label="@string/app_name"
