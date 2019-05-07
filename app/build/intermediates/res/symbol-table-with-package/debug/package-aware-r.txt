@@ -11,10 +11,16 @@ anim abc_slide_out_bottom
 anim abc_slide_out_top
 anim abc_tooltip_enter
 anim abc_tooltip_exit
+anim anim1
+anim anim2
+anim anim3
+anim anim4
+anim anim5
 anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim vulcanim
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1092,6 +1098,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background_long
 drawable background_normal
+drawable bananasplash
 drawable com_facebook_auth_dialog_background
 drawable com_facebook_auth_dialog_cancel_background
 drawable com_facebook_auth_dialog_header_background
@@ -1148,8 +1155,11 @@ drawable design_snackbar_background
 drawable drawer_color
 drawable drawer_item_background
 drawable drawer_item_background_selected
+drawable five
+drawable fon
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable hundred
 drawable ic_action_home
 drawable ic_action_share
 drawable ic_launcher_background
@@ -1166,6 +1176,8 @@ drawable messenger_button_blue_bg_selector
 drawable messenger_button_send_round_shadow
 drawable messenger_button_white_bg_round
 drawable messenger_button_white_bg_selector
+drawable million
+drawable monetka
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
 drawable myprogressbar
@@ -1182,10 +1194,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable one
 drawable sad_cloud
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vert_loading
+drawable vulkan
+font gilligan
 id ALT
 id CTRL
 id FUNCTION
@@ -1213,8 +1228,6 @@ id action_mode_close_button
 id action_text
 id actions
 id activity_chooser_view_content
-id adView
-id adViewH
 id add
 id adjust_height
 id adjust_width
@@ -1259,10 +1272,12 @@ id com_facebook_tooltip_bubble_view_bottom_pointer
 id com_facebook_tooltip_bubble_view_text_body
 id com_facebook_tooltip_bubble_view_top_pointer
 id confirmation_code
+id conlayout
 id container
 id content
 id contentPanel
 id coordinator
+id count
 id custom
 id customPanel
 id dark
@@ -1278,7 +1293,6 @@ id direct
 id disableHome
 id display_always
 id drawer_icon
-id drawer_layout
 id edit_query
 id empty_view
 id end
@@ -1299,7 +1313,6 @@ id ghost_view
 id gone
 id group_divider
 id groups
-id header_container
 id home
 id homeAsUp
 id icon
@@ -1307,8 +1320,12 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageLoading1
+id imageView
 id imageView2
+id img1
+id img2
+id img3
+id img4
 id info
 id inline
 id invisible
@@ -1322,6 +1339,7 @@ id left
 id light
 id line1
 id line3
+id linearLayout
 id listMode
 id list_item
 id main_group
@@ -1335,7 +1353,6 @@ id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
 id nav_header_container
-id nav_view
 id navigation_header_container
 id never
 id never_display
@@ -1355,7 +1372,6 @@ id os_bgimage_notif_title
 id outline
 id packed
 id page
-id pager
 id parallax
 id parent
 id parentPanel
@@ -1422,7 +1438,6 @@ id submenuarrow
 id submit_area
 id swipe_container
 id tabMode
-id tabs
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
@@ -1439,7 +1454,6 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
-id toolbar
 id top
 id topPanel
 id touch_outside
@@ -1452,6 +1466,7 @@ id uniform
 id unknown
 id unlabeled
 id up
+id update
 id useLogo
 id view_offset_helper
 id visible

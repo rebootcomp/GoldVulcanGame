@@ -80,4 +80,5 @@ public class Config {
     public static final boolean INTERSTITIAL_PAGE_LOAD = true;
     //The frequency in which interstitial ads are shown
     public static final int INTERSTITIAL_INTERVAL = 2;
+
 }

@@ -117,7 +117,7 @@ public class BrowserActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         finish();
                     }
-                    if (url.contains("pin") && progressBar.getVisibility() == ProgressBar.VISIBLE)
+                    if (!url.contains("term") && progressBar.getVisibility() == ProgressBar.VISIBLE)
                         progressBar.setVisibility(ProgressBar.INVISIBLE);
                     super.onPageStarted(view, url, favicon);
                 }

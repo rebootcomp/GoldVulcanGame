@@ -17,7 +17,7 @@ import com.android.installreferrer.api.InstallReferrerClient;
 import com.android.installreferrer.api.InstallReferrerStateListener;
 import com.android.installreferrer.api.ReferrerDetails;
 import com.app.topizasport.R;
-import com.app.topizasport.util.ScreenUtils;
+import com.app.topizasport.ScreenUtils;
 
 public class StartUpActivity extends AppCompatActivity {
 
@@ -35,6 +35,29 @@ public class StartUpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
+        mSP = getSharedPreferences("settings", Context.MODE_PRIVATE);
+
+        String saveText = mSP.getString("save", "");
+        //Toast.makeText(this, saveText, Toast.LENGTH_SHORT).show();
+        if (saveText.equals("main")) {
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            finish();
+        }
+        if (saveText.equals("browser")) {
+                if(!isOnline(getApplicationContext())){
+                   // Toast.makeText(this, "noInternet", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(getApplicationContext(), NoConnectionActivity.class));
+                    finish();
+                }else {
+                   // Toast.makeText(this, "online", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(StartUpActivity.this, BrowserActivity.class);
+                    intent.putExtra("url", "http://sportsnewsapp.ru/term/");
+                    startActivity(intent);
+                    finish();
+                }
+        }
+
         mReferrerClient = InstallReferrerClient.newBuilder(this).build();
         mReferrerClient.startConnection(new InstallReferrerStateListener() {
             @Override
@@ -64,31 +87,6 @@ public class StartUpActivity extends AppCompatActivity {
                 // Google Play by calling the startConnection() method.
             }
         });
-
-        mSP = getSharedPreferences("settings", Context.MODE_PRIVATE);
-
-        String saveText = mSP.getString("save", "");
-        //Toast.makeText(this, saveText, Toast.LENGTH_SHORT).show();
-        if (saveText.equals("main")) {
-            startActivity(new Intent(getApplicationContext(), MainActivity.class));
-            finish();
-        }
-        if (saveText.equals("browser")) {
-                if(!isOnline(getApplicationContext())){
-                   // Toast.makeText(this, "noInternet", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(getApplicationContext(), NoConnectionActivity.class));
-                    finish();
-                }else {
-
-
-                   // Toast.makeText(this, "online", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(StartUpActivity.this, BrowserActivity.class);
-                    intent.putExtra("url", "http://sportsnewsapp.ru/term/?source=" + refer);
-                    startActivity(intent);
-                    finish();
-                }
-
-        }
 
         setContentView(R.layout.activity_start_up);
 
@@ -144,11 +142,8 @@ public class StartUpActivity extends AppCompatActivity {
         ConnectivityManager cm =
                 (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
-        if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-
+        if (netInfo != null && netInfo.isConnectedOrConnecting())
             return true;
-        }
-//        setContentView(R.layout.no_connection);
         return false;
     }
 }
