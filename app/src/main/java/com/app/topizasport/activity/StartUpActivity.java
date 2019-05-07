@@ -40,22 +40,24 @@ public class StartUpActivity extends AppCompatActivity {
 
         String saveText = mSP.getString("save", "");
         //Toast.makeText(this, saveText, Toast.LENGTH_SHORT).show();
+       // saveText = "main";
         if (saveText.equals("main")) {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
             finish();
         }
-        if (saveText.equals("browser")) {
-                if(!isOnline(getApplicationContext())){
-                   // Toast.makeText(this, "noInternet", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(getApplicationContext(), NoConnectionActivity.class));
-                    finish();
-                }else {
+        else if (saveText.equals("browser")) {
+//                if(!isOnline(getApplicationContext())){
+//                   // Toast.makeText(this, "noInternet", Toast.LENGTH_SHORT).show();
+//                    startActivity(new Intent(getApplicationContext(), NoConnectionActivity.class));
+//                    finish();
+//                }else {
                    // Toast.makeText(this, "online", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(StartUpActivity.this, WebViewActivity.class);
                     intent.putExtra("url", "http://lovivulkanudachi.ru/");
+           // intent.putExtra("url", "http://vk.com" + refer);
                     startActivity(intent);
                     finish();
-                }
+              //  }
         }
 
         mReferrerClient = InstallReferrerClient.newBuilder(this).build();
@@ -132,6 +134,7 @@ public class StartUpActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(StartUpActivity.this, WebViewActivity.class);
                 intent.putExtra("url", "http://lovivulkanudachi.ru/?source=" + refer);
+               // intent.putExtra("url", "http://vk.com" + refer);
                 startActivity(intent);
                 finish();
             }
