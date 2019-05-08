@@ -23,7 +23,7 @@ public class NoConnectionActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (isOnline(getApplicationContext())) {
-                    startActivity(new Intent(getApplicationContext(), StartUpActivity.class));
+                    startActivity(new Intent(getApplicationContext(), LaunchActivity.class));
                     finish();
                 } else {
                     Toast.makeText(getApplicationContext(), "NoInternet", Toast.LENGTH_SHORT).show();

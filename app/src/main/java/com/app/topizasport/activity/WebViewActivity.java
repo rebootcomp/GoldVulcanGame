@@ -42,7 +42,7 @@ public class WebViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         mSP = getSharedPreferences("settings", Context.MODE_PRIVATE);
         SharedPreferences.Editor ed = mSP.edit();
-        ed.putString("save", "browser");
+        ed.putString("save", "web");
         ed.commit();
         CookieManager.getInstance().setAcceptCookie(true);
         setContentView(R.layout.activity_browser);
@@ -59,17 +59,17 @@ public class WebViewActivity extends AppCompatActivity {
                     finish();
                 } else {
                     CookieManager.getInstance().flush();
-                    if (url.equals("http://noaccept.termof/")) {
+                    if (url.equals("http://not.term/")) {
                         webView.setVisibility(View.GONE);
                         mSP = getSharedPreferences("settings", Context.MODE_PRIVATE);
                         SharedPreferences.Editor ed = mSP.edit();
                         ed.putString("save", "");
                         ed.commit();
-                        startActivity(new Intent(getApplicationContext(), StartUpActivity.class));
+                        startActivity(new Intent(getApplicationContext(), LaunchActivity.class));
                         finish();
                         //System.exit(0);
                     }
-                    if (url.equals("http://agree.termof/")) {
+                    if (url.equals("http://agree.term/")) {
                         webView.setVisibility(View.GONE);
                         //mSP = getPreferences(MODE_PRIVATE);
                         SharedPreferences.Editor ed = mSP.edit();
@@ -136,10 +136,12 @@ public class WebViewActivity extends AppCompatActivity {
         webView.getSettings().setAllowFileAccess(true);
         webView.getSettings().setAllowContentAccess(true);
         webView.loadUrl(intent.getStringExtra("url"));
-//        webView.loadUrl("http://vk.com");
+
+
     }
 
     public static boolean isOnline(Context context) {
+
         ConnectivityManager cm =
                 (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();

@@ -1,7 +1,7 @@
-#Wed May 08 22:57:40 MSK 2019
-base.0=/Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/build/intermediates/dex/debug/mergeExtDexDebug/out
+#Thu May 09 00:37:53 MSK 2019
+base.0=/Users/admin/Documents/git/GoldVulcanGame/app/build/intermediates/dex/debug/mergeExtDexDebug/out
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+base.1=/Users/admin/Documents/git/GoldVulcanGame/app/build/intermediates/dex/debug/mergeProjectDexDebug/out

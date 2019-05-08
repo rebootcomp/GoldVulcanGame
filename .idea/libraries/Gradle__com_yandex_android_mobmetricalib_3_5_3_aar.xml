@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.yandex.android:mobmetricalib:3.5.3@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9836ed56dcced23f96761d3957b07fc3/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9836ed56dcced23f96761d3957b07fc3/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9836ed56dcced23f96761d3957b07fc3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

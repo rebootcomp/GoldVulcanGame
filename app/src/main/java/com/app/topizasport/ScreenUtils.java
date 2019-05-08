@@ -6,10 +6,10 @@ import android.util.DisplayMetrics;
 
 public class ScreenUtils {
 
-    public static final double BUTTON_MARGIN_BOTTOM_LONG = 0.0;
+    public static final double BUTTON_MARGIN_BOTTOM_LONG = 0.3;
     public static final double BUTTON_HEIGHT_LONG = 0.139;
 
-    public static final double BUTTON_MARGIN_BOTTOM_NORMAL = 0.00;
+    public static final double BUTTON_MARGIN_BOTTOM_NORMAL = 0.20;
     public static final double BUTTON_HEIGHT_NORMAL = 0.156;
 
     public static final double LONG_SCREEN_RATIO = 2.05;

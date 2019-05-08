@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/admin/Documents/git/GoldVulcanGame/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/841e61636b6d169baba95a375ab6c43b/res/values-land/values-land.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8a0d9b9fb56aba6d3261c6971f561f0a/res/values-land/values-land.xml",
+                    "source": "/Users/admin/.gradle/caches/transforms-2/files-2.1/7fdc0e92131b16344fb275914976232e/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,509 +1,509 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
-INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
-INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
-INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5b1c6d8a3b4c9632b1cfdd65a73c4bb9/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3f9f256a67e2e886daca4ed021a0e31a/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/17ce61243abb60ecacff4219f8cb89a2/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c4a7cbfe2ef95c671adfbfd773c258b7/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf54b831693c016a417c58655fdbf28e/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/9e6b627a13d3e5af26702677006c489c/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c69a6b545734072699829ef011a89541/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:design:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8a0d9b9fb56aba6d3261c6971f561f0a/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/841e61636b6d169baba95a375ab6c43b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ee13dc6c7de02fa4248d7c43dac77c33/AndroidManifest.xml:2:1-11:12
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:9:1-81:12
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/6dd18e3c47dfa965e399dd4914f920c7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5a10852eb88a2269f99f47d43b43647c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/dceafe340778f9776f13b8499190a107/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ec3c460e2968f1024621f9f7c012851e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/68293af0da207aed7c8449086f045d33/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b46d80bd8641f02ebbbc428ef1d2f274/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/041df0d09095e69ca96af8e73e1839e8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a053ce62e87e25d63a9cb017cf6982b2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:loader:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2c35efd5d55d21b0b4be2889d84cff76/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8bfe47cdf87d85a96cb374f97821586c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/922b02678aae51e53291d178f5b81792/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/abface77dc7e11fea707e16e1c8e88c9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/d3ab2697cb97463233df546e476eabe2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/03df4bfd50e49a0218ea259e417e4361/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1062dc224267e9c59030d1af463328d0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3c5f852f0f03824e77309d419bec6f51/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/29576842fe45e2f1cf1607807d78abf1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf87ba4ae70071412c14d67f3978e50a/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/f456e0623bf0dbf10206dba417ffd697/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/efc3d68e3701cd4aba04b91172548a30/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e82426860a49346e80c1ba62b7871f77/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/7630a4bcf2518707d8c691a270711c7b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ae047987c9f1b55ff40c4e89e0426f35/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/12f4aa599064cea77797278e4698f3ff/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/cece36665e34bd58b602d6d6f5894c2f/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/729c9a55cc8175b1db95ddc645ffa98f/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/98de19d4bbe4ef30ab87d8c450ab555a/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fb5332b25e392d8fb02e927dba826f68/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/955cef336c1f8784d8ad1908c464a31f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1a904464eef672b828023ca69ace1579/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
-INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
-INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2d6d05d268510babc2c0a352d4f09472/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c301eca32e42b426228a525571c2b8d2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6d7ccb11b4723c7bd9a4e1809ca91dae/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/a175970a5def10839d0c53ad71479a99/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/ade083de1d27d93a6ef1272e41defbab/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/37a70827f3a39b3793bb92823e78eebb/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/d4206911fcf8e30947553c309c0456b0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a37f56c3aff4fe7f3a98660a94c0daf8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d02e89557dc3f884be3f13668896ae28/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/49448ebf00f8e6a1ce76346eaded7523/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/f0e3d5aae9acb722730a0d7d774001bd/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/bee3e670ac8fa3aabaa723714d197da2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7fdc0e92131b16344fb275914976232e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/30569f99fca7a4b71995fa8ca96d86be/AndroidManifest.xml:2:1-11:12
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:9:1-81:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/20b5190b5d3d125533f97df2e98ffd60/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/f66fc1ade1be4d3612f988fb4074575d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/67f56b9f7b9946582645c6010ff8e81e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c5e29740ebc85e9e9c3d6975b03ae0ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/495ed4c6946bff497c47211ba6e4c85c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5d8841f04b83aee6928dcd8b70229bdb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1c29268ce33bec08166b13ee909abc0b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c2d40bcae641ab54135c0c5d5ed6db32/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/233c878c1b8cb8ae2761645fa867ab03/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:26.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/73a2ab6e4ab290ce66b37d488b38aac7/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:loader:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/6ac63793b88ae684e3f23b769508c59d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7807e9d960e6705bb564abfd77b08dc3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/830d62269b4754f1e5beb34aceacea4a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/366e46998fe1474e94f479d421c187d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a37297ab25c67df7c7e334fc69792b78/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/76cd4614b88c9d9061a09e776e585ced/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/e2eacf0400bbf8033a753311eeb40c91/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/cd5654795681cede96015990856e1472/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/df105b073dc68f32fcce1b8933364ab2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/772c4d05d2336525a121dbbc5b06cc51/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/ec45cf4753b9d8e90711955337ad44b9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/4ba64a1c40ec73a17745f0b5a4fbc00d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/df27b50fb25bc84928e8b118ac44f922/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/75d1c59fc6d7b02d1e17f95b08cf805e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/76f763745fa8075fcfa90848882eb13f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/fc9419fcc9d1678a35d1adeb3b664bfc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5c92a737a581ddb9f611dc198ba03a61/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/629ebfee5aec2a7ce61dd9c879dd8e27/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/0b0399ff7dda7b33d33041d528fb030c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/51cb82b44dedd2e715f6502a82f441a6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/3475e9fd6d652bd63b7d8266cd1c3cc3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a67f1d3a78686dd38a5d988e2646c485/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
 	package
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:4:5-34
-		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:4:5-34
+		INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
-		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+		INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
-		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+		INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:23:5-67
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:20:5-67
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:20:5-67
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2d6d05d268510babc2c0a352d4f09472/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2d6d05d268510babc2c0a352d4f09472/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6d7ccb11b4723c7bd9a4e1809ca91dae/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6d7ccb11b4723c7bd9a4e1809ca91dae/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/ade083de1d27d93a6ef1272e41defbab/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/ade083de1d27d93a6ef1272e41defbab/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:23:5-67
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:20:5-67
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:20:5-67
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:7:5-81
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:8:5-79
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:24:5-79
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:21:5-79
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:21:5-79
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/ade083de1d27d93a6ef1272e41defbab/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/ade083de1d27d93a6ef1272e41defbab/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:24:5-79
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:21:5-79
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:21:5-79
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:8:22-76
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:8:22-76
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:9:5-81
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:9:22-78
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:9:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:10:5-66
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:10:5-66
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:10:22-63
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:10:22-63
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:11:5-68
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:27:5-68
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:27:5-68
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:27:5-68
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:27:5-68
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:11:5-68
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/ade083de1d27d93a6ef1272e41defbab/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/ade083de1d27d93a6ef1272e41defbab/AndroidManifest.xml:27:5-68
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:11:22-65
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:11:22-65
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:12:5-79
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:12:22-76
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:12:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:13:5-81
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:13:22-78
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:13:22-78
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:15:5-76
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:15:5-76
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:15:22-73
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:15:22-73
 application
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:17:5-52:19
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:29:5-45:19
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:29:5-45:19
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3f9f256a67e2e886daca4ed021a0e31a/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3f9f256a67e2e886daca4ed021a0e31a/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/17ce61243abb60ecacff4219f8cb89a2/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/17ce61243abb60ecacff4219f8cb89a2/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c4a7cbfe2ef95c671adfbfd773c258b7/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c4a7cbfe2ef95c671adfbfd773c258b7/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf54b831693c016a417c58655fdbf28e/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf54b831693c016a417c58655fdbf28e/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/9e6b627a13d3e5af26702677006c489c/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/9e6b627a13d3e5af26702677006c489c/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:design:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8a0d9b9fb56aba6d3261c6971f561f0a/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8a0d9b9fb56aba6d3261c6971f561f0a/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ee13dc6c7de02fa4248d7c43dac77c33/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ee13dc6c7de02fa4248d7c43dac77c33/AndroidManifest.xml:9:5-20
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:23:5-79:19
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:23:5-79:19
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:11:5-20
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/29576842fe45e2f1cf1607807d78abf1/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/29576842fe45e2f1cf1607807d78abf1/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf87ba4ae70071412c14d67f3978e50a/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf87ba4ae70071412c14d67f3978e50a/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1a904464eef672b828023ca69ace1579/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1a904464eef672b828023ca69ace1579/AndroidManifest.xml:22:5-20
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:17:5-52:19
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2d6d05d268510babc2c0a352d4f09472/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2d6d05d268510babc2c0a352d4f09472/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6d7ccb11b4723c7bd9a4e1809ca91dae/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6d7ccb11b4723c7bd9a4e1809ca91dae/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/a175970a5def10839d0c53ad71479a99/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/a175970a5def10839d0c53ad71479a99/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/ade083de1d27d93a6ef1272e41defbab/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/ade083de1d27d93a6ef1272e41defbab/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/37a70827f3a39b3793bb92823e78eebb/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/37a70827f3a39b3793bb92823e78eebb/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/d4206911fcf8e30947553c309c0456b0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/d4206911fcf8e30947553c309c0456b0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a37f56c3aff4fe7f3a98660a94c0daf8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a37f56c3aff4fe7f3a98660a94c0daf8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d02e89557dc3f884be3f13668896ae28/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d02e89557dc3f884be3f13668896ae28/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/49448ebf00f8e6a1ce76346eaded7523/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/49448ebf00f8e6a1ce76346eaded7523/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/f0e3d5aae9acb722730a0d7d774001bd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/f0e3d5aae9acb722730a0d7d774001bd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:design:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7fdc0e92131b16344fb275914976232e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7fdc0e92131b16344fb275914976232e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/30569f99fca7a4b71995fa8ca96d86be/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/30569f99fca7a4b71995fa8ca96d86be/AndroidManifest.xml:9:5-20
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:23:5-79:19
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:23:5-79:19
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/20b5190b5d3d125533f97df2e98ffd60/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/20b5190b5d3d125533f97df2e98ffd60/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:customtabs:26.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/73a2ab6e4ab290ce66b37d488b38aac7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/73a2ab6e4ab290ce66b37d488b38aac7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/df105b073dc68f32fcce1b8933364ab2/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/df105b073dc68f32fcce1b8933364ab2/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/772c4d05d2336525a121dbbc5b06cc51/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/772c4d05d2336525a121dbbc5b06cc51/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a67f1d3a78686dd38a5d988e2646c485/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a67f1d3a78686dd38a5d988e2646c485/AndroidManifest.xml:22:5-20
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/29576842fe45e2f1cf1607807d78abf1/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/df105b073dc68f32fcce1b8933364ab2/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:21:9-41
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:21:9-41
 	tools:ignore
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:23:18-57
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:23:18-57
 	android:icon
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:20:9-43
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:20:9-43
 	android:allowBackup
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:19:9-35
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:22:9-40
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:22:9-40
 	android:usesCleartextTraffic
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:23:9-44
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:23:9-44
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:18:9-47
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:18:9-47
 activity#com.app.topizasport.activity.NoConnectionActivity
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:24:9-95
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:24:9-95
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:24:19-83
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:24:19-83
 activity#com.app.topizasport.activity.WebViewActivity
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:26:9-31:67
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:26:9-31:67
 	android:label
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:30:13-45
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:30:13-45
 	android:hardwareAccelerated
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:29:13-47
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:29:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:31:13-55
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:31:13-55
 	android:configChanges
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:28:13-83
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:28:13-83
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:27:13-72
-activity#com.app.topizasport.activity.StartUpActivity
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:32:9-42:20
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:27:13-72
+activity#com.app.topizasport.activity.LaunchActivity
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:32:9-42:20
 	android:label
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:36:13-45
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:36:13-45
 	android:hardwareAccelerated
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:35:13-47
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:35:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:37:13-55
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:37:13-55
 	android:configChanges
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:34:13-83
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:34:13-83
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:33:13-72
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:33:13-71
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:38:13-41:29
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:38:13-41:29
 action#android.intent.action.MAIN
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:39:17-69
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:39:25-66
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:40:17-77
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:40:27-74
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:40:27-74
 activity#com.app.topizasport.activity.MainActivity
-ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:44:9-51:20
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:44:9-51:20
 	android:label
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:48:13-45
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:48:13-45
 	android:hardwareAccelerated
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:47:13-47
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:47:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:49:13-55
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:49:13-55
 	android:configChanges
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:46:13-83
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:46:13-83
 	android:name
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:45:13-69
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:45:13-69
 uses-sdk
-INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5b1c6d8a3b4c9632b1cfdd65a73c4bb9/AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5b1c6d8a3b4c9632b1cfdd65a73c4bb9/AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3f9f256a67e2e886daca4ed021a0e31a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3f9f256a67e2e886daca4ed021a0e31a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/17ce61243abb60ecacff4219f8cb89a2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/17ce61243abb60ecacff4219f8cb89a2/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c4a7cbfe2ef95c671adfbfd773c258b7/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c4a7cbfe2ef95c671adfbfd773c258b7/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf54b831693c016a417c58655fdbf28e/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf54b831693c016a417c58655fdbf28e/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/9e6b627a13d3e5af26702677006c489c/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/9e6b627a13d3e5af26702677006c489c/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c69a6b545734072699829ef011a89541/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c69a6b545734072699829ef011a89541/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8a0d9b9fb56aba6d3261c6971f561f0a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8a0d9b9fb56aba6d3261c6971f561f0a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/841e61636b6d169baba95a375ab6c43b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/841e61636b6d169baba95a375ab6c43b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ee13dc6c7de02fa4248d7c43dac77c33/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ee13dc6c7de02fa4248d7c43dac77c33/AndroidManifest.xml:5:5-7:41
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:15:5-17:41
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:15:5-17:41
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/6dd18e3c47dfa965e399dd4914f920c7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/6dd18e3c47dfa965e399dd4914f920c7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5a10852eb88a2269f99f47d43b43647c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5a10852eb88a2269f99f47d43b43647c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/dceafe340778f9776f13b8499190a107/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/dceafe340778f9776f13b8499190a107/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ec3c460e2968f1024621f9f7c012851e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ec3c460e2968f1024621f9f7c012851e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/68293af0da207aed7c8449086f045d33/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/68293af0da207aed7c8449086f045d33/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b46d80bd8641f02ebbbc428ef1d2f274/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b46d80bd8641f02ebbbc428ef1d2f274/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/041df0d09095e69ca96af8e73e1839e8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/041df0d09095e69ca96af8e73e1839e8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a053ce62e87e25d63a9cb017cf6982b2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a053ce62e87e25d63a9cb017cf6982b2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2c35efd5d55d21b0b4be2889d84cff76/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2c35efd5d55d21b0b4be2889d84cff76/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8bfe47cdf87d85a96cb374f97821586c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8bfe47cdf87d85a96cb374f97821586c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/922b02678aae51e53291d178f5b81792/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/922b02678aae51e53291d178f5b81792/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/abface77dc7e11fea707e16e1c8e88c9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/abface77dc7e11fea707e16e1c8e88c9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/d3ab2697cb97463233df546e476eabe2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/d3ab2697cb97463233df546e476eabe2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/03df4bfd50e49a0218ea259e417e4361/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/03df4bfd50e49a0218ea259e417e4361/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1062dc224267e9c59030d1af463328d0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1062dc224267e9c59030d1af463328d0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3c5f852f0f03824e77309d419bec6f51/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3c5f852f0f03824e77309d419bec6f51/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/29576842fe45e2f1cf1607807d78abf1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/29576842fe45e2f1cf1607807d78abf1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf87ba4ae70071412c14d67f3978e50a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf87ba4ae70071412c14d67f3978e50a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/f456e0623bf0dbf10206dba417ffd697/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/f456e0623bf0dbf10206dba417ffd697/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/efc3d68e3701cd4aba04b91172548a30/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/efc3d68e3701cd4aba04b91172548a30/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e82426860a49346e80c1ba62b7871f77/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e82426860a49346e80c1ba62b7871f77/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/7630a4bcf2518707d8c691a270711c7b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/7630a4bcf2518707d8c691a270711c7b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ae047987c9f1b55ff40c4e89e0426f35/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ae047987c9f1b55ff40c4e89e0426f35/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/12f4aa599064cea77797278e4698f3ff/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/12f4aa599064cea77797278e4698f3ff/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/cece36665e34bd58b602d6d6f5894c2f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/cece36665e34bd58b602d6d6f5894c2f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/729c9a55cc8175b1db95ddc645ffa98f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/729c9a55cc8175b1db95ddc645ffa98f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/98de19d4bbe4ef30ab87d8c450ab555a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/98de19d4bbe4ef30ab87d8c450ab555a/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fb5332b25e392d8fb02e927dba826f68/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fb5332b25e392d8fb02e927dba826f68/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/955cef336c1f8784d8ad1908c464a31f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/955cef336c1f8784d8ad1908c464a31f/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1a904464eef672b828023ca69ace1579/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1a904464eef672b828023ca69ace1579/AndroidManifest.xml:20:5-44
-INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2d6d05d268510babc2c0a352d4f09472/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2d6d05d268510babc2c0a352d4f09472/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c301eca32e42b426228a525571c2b8d2/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c301eca32e42b426228a525571c2b8d2/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6d7ccb11b4723c7bd9a4e1809ca91dae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6d7ccb11b4723c7bd9a4e1809ca91dae/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/a175970a5def10839d0c53ad71479a99/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/a175970a5def10839d0c53ad71479a99/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/ade083de1d27d93a6ef1272e41defbab/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/ade083de1d27d93a6ef1272e41defbab/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/37a70827f3a39b3793bb92823e78eebb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/37a70827f3a39b3793bb92823e78eebb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/d4206911fcf8e30947553c309c0456b0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/d4206911fcf8e30947553c309c0456b0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a37f56c3aff4fe7f3a98660a94c0daf8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a37f56c3aff4fe7f3a98660a94c0daf8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d02e89557dc3f884be3f13668896ae28/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/d02e89557dc3f884be3f13668896ae28/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/49448ebf00f8e6a1ce76346eaded7523/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/49448ebf00f8e6a1ce76346eaded7523/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/f0e3d5aae9acb722730a0d7d774001bd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/f0e3d5aae9acb722730a0d7d774001bd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/bee3e670ac8fa3aabaa723714d197da2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/bee3e670ac8fa3aabaa723714d197da2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7fdc0e92131b16344fb275914976232e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7fdc0e92131b16344fb275914976232e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/cd8a8e25eec2e241ed573f633f55e825/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/30569f99fca7a4b71995fa8ca96d86be/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/30569f99fca7a4b71995fa8ca96d86be/AndroidManifest.xml:5:5-7:41
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:15:5-17:41
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:15:5-17:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/20b5190b5d3d125533f97df2e98ffd60/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/20b5190b5d3d125533f97df2e98ffd60/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/f66fc1ade1be4d3612f988fb4074575d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/f66fc1ade1be4d3612f988fb4074575d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/67f56b9f7b9946582645c6010ff8e81e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/67f56b9f7b9946582645c6010ff8e81e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c5e29740ebc85e9e9c3d6975b03ae0ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c5e29740ebc85e9e9c3d6975b03ae0ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/495ed4c6946bff497c47211ba6e4c85c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/495ed4c6946bff497c47211ba6e4c85c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5d8841f04b83aee6928dcd8b70229bdb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5d8841f04b83aee6928dcd8b70229bdb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1c29268ce33bec08166b13ee909abc0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/1c29268ce33bec08166b13ee909abc0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c2d40bcae641ab54135c0c5d5ed6db32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c2d40bcae641ab54135c0c5d5ed6db32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/233c878c1b8cb8ae2761645fa867ab03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/233c878c1b8cb8ae2761645fa867ab03/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/73a2ab6e4ab290ce66b37d488b38aac7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/73a2ab6e4ab290ce66b37d488b38aac7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/6ac63793b88ae684e3f23b769508c59d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/6ac63793b88ae684e3f23b769508c59d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7807e9d960e6705bb564abfd77b08dc3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7807e9d960e6705bb564abfd77b08dc3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/830d62269b4754f1e5beb34aceacea4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/830d62269b4754f1e5beb34aceacea4a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/366e46998fe1474e94f479d421c187d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/366e46998fe1474e94f479d421c187d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a37297ab25c67df7c7e334fc69792b78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a37297ab25c67df7c7e334fc69792b78/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/76cd4614b88c9d9061a09e776e585ced/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/76cd4614b88c9d9061a09e776e585ced/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/e2eacf0400bbf8033a753311eeb40c91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/e2eacf0400bbf8033a753311eeb40c91/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/cd5654795681cede96015990856e1472/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/cd5654795681cede96015990856e1472/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/df105b073dc68f32fcce1b8933364ab2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/df105b073dc68f32fcce1b8933364ab2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/772c4d05d2336525a121dbbc5b06cc51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/772c4d05d2336525a121dbbc5b06cc51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/ec45cf4753b9d8e90711955337ad44b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/ec45cf4753b9d8e90711955337ad44b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/4ba64a1c40ec73a17745f0b5a4fbc00d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/4ba64a1c40ec73a17745f0b5a4fbc00d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/df27b50fb25bc84928e8b118ac44f922/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/df27b50fb25bc84928e8b118ac44f922/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/75d1c59fc6d7b02d1e17f95b08cf805e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/75d1c59fc6d7b02d1e17f95b08cf805e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/76f763745fa8075fcfa90848882eb13f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/76f763745fa8075fcfa90848882eb13f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/fc9419fcc9d1678a35d1adeb3b664bfc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/fc9419fcc9d1678a35d1adeb3b664bfc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5c92a737a581ddb9f611dc198ba03a61/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/5c92a737a581ddb9f611dc198ba03a61/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/629ebfee5aec2a7ce61dd9c879dd8e27/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/629ebfee5aec2a7ce61dd9c879dd8e27/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/0b0399ff7dda7b33d33041d528fb030c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/0b0399ff7dda7b33d33041d528fb030c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/51cb82b44dedd2e715f6502a82f441a6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/51cb82b44dedd2e715f6502a82f441a6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/3475e9fd6d652bd63b7d8266cd1c3cc3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/3475e9fd6d652bd63b7d8266cd1c3cc3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a67f1d3a78686dd38a5d988e2646c485/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/a67f1d3a78686dd38a5d988e2646c485/AndroidManifest.xml:20:5-44
+INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.google.android.gms:play-services-ads:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5b1c6d8a3b4c9632b1cfdd65a73c4bb9/AndroidManifest.xml:23:9-59
+		ADDED from [com.google.android.gms:play-services-ads:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/c301eca32e42b426228a525571c2b8d2/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:23:5-82
+ADDED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2d6d05d268510babc2c0a352d4f09472/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6d7ccb11b4723c7bd9a4e1809ca91dae/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/6d7ccb11b4723c7bd9a4e1809ca91dae/AndroidManifest.xml:23:5-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:23:22-79
+		ADDED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2d6d05d268510babc2c0a352d4f09472/AndroidManifest.xml:23:22-79
 receiver#com.google.android.gms.analytics.AnalyticsReceiver
-ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:30:9-34:20
+ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:30:9-34:20
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:32:13-35
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:32:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:33:13-37
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:31:13-78
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:31:13-78
 service#com.google.android.gms.analytics.AnalyticsService
-ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:36:9-39:40
+ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:36:9-39:40
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:38:13-35
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:38:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:39:13-37
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:37:13-77
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:37:13-77
 service#com.google.android.gms.analytics.AnalyticsJobService
-ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:40:9-44:72
+ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:40:9-44:72
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:42:13-35
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:42:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:43:13-37
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:43:13-37
 	android:permission
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:44:13-69
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:44:13-69
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:41:13-80
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/admin/.gradle/caches/transforms-2/files-2.1/343ee9d9d9042d8672165a66f6c9b02a/AndroidManifest.xml:41:13-80
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/37a70827f3a39b3793bb92823e78eebb/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/37a70827f3a39b3793bb92823e78eebb/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/37a70827f3a39b3793bb92823e78eebb/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/37a70827f3a39b3793bb92823e78eebb/AndroidManifest.xml:24:13-79
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:29:9-33:64
+ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:29:9-33:64
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:32:13-37
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:31:13-122
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:31:13-122
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:33:13-61
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:33:13-61
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:30:13-65
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/7271e50c9740df39fc31592fe3689178/AndroidManifest.xml:30:13-65
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/f0e3d5aae9acb722730a0d7d774001bd/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/f0e3d5aae9acb722730a0d7d774001bd/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/admin/.gradle/caches/transforms-2/files-2.1/f0e3d5aae9acb722730a0d7d774001bd/AndroidManifest.xml:24:13-58
 service#com.yandex.metrica.MetricaService
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:26:9-43:19
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:26:9-43:19
 	android:process
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:30:13-39
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:30:13-39
 	android:enabled
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:28:13-35
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:28:13-35
 	android:exported
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:29:13-36
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:29:13-36
 	tools:ignore
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:31:13-43
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:31:13-43
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:27:13-61
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:27:13-61
 intent-filter#action:name:com.yandex.metrica.IMetricaService+category:name:android.intent.category.DEFAULT+data:scheme:metrica
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:32:13-38:29
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:32:13-38:29
 category#android.intent.category.DEFAULT
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:33:17-76
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:33:17-76
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:33:27-73
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:33:27-73
 action#com.yandex.metrica.IMetricaService
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:35:17-77
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:35:25-74
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:35:25-74
 data
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:37:17-50
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:37:17-50
 	android:scheme
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:37:23-47
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:37:23-47
 meta-data#metrica:api:level
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:40:13-42:38
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:40:13-42:38
 	android:value
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:42:17-35
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:42:17-35
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:41:17-49
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:41:17-49
 service#com.yandex.metrica.ConfigurationService
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:44:9-60:19
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:44:9-60:19
 	android:process
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:48:13-39
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:48:13-39
 	android:enabled
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:46:13-35
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:46:13-35
 	android:exported
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:47:13-37
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:47:13-37
 	tools:ignore
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:49:13-43
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:49:13-43
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:45:13-67
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:45:13-67
 meta-data#metrica:configuration:api:level
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:50:13-52:37
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:50:13-52:37
 	android:value
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:52:17-34
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:52:17-34
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:51:17-63
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:51:17-63
 intent-filter#action:name:com.yandex.metrica.configuration.ACTION_INIT
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:54:13-59:29
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:54:13-59:29
 action#com.yandex.metrica.configuration.ACTION_INIT
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:58:17-87
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:58:17-87
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:58:25-84
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:58:25-84
 service#com.yandex.metrica.ConfigurationJobService
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:61:9-67:19
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:61:9-67:19
 	android:process
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:66:13-39
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:66:13-39
 	android:enabled
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:63:13-35
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:63:13-35
 	android:exported
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:64:13-37
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:64:13-37
 	android:permission
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:65:13-69
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:65:13-69
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:62:13-70
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:62:13-70
 receiver#com.yandex.metrica.MetricaEventHandler
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:70:9-78:20
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:70:9-78:20
 	android:enabled
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:72:13-35
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:72:13-35
 	android:exported
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:73:13-36
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:73:13-36
 	tools:ignore
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:74:13-44
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:74:13-44
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:71:13-66
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:71:13-66
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:75:13-77:29
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:75:13-77:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:76:17-79
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:76:17-79
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:76:25-76
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/admin/.gradle/caches/transforms-2/files-2.1/ea1c7197fcc6e5b916ac176618626252/AndroidManifest.xml:76:25-76
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:9:5-110
+ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/20b5190b5d3d125533f97df2e98ffd60/AndroidManifest.xml:9:5-110
 	android:name
-		ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:9:22-107
+		ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/20b5190b5d3d125533f97df2e98ffd60/AndroidManifest.xml:9:22-107
 meta-data#android.support.VERSION
-ADDED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:23:9-25:38
+ADDED from [com.android.support:customtabs:26.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/73a2ab6e4ab290ce66b37d488b38aac7/AndroidManifest.xml:23:9-25:38
 	android:value
-		ADDED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:25:13-35
+		ADDED from [com.android.support:customtabs:26.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/73a2ab6e4ab290ce66b37d488b38aac7/AndroidManifest.xml:25:13-35
 	android:name
-		ADDED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:24:13-51
+		ADDED from [com.android.support:customtabs:26.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/73a2ab6e4ab290ce66b37d488b38aac7/AndroidManifest.xml:24:13-51
