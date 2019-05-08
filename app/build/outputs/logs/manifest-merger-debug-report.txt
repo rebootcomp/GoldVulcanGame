@@ -1,1090 +1,509 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-137:12
-INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-137:12
-INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-137:12
-INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-137:12
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:2:1-107:12
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba220a09f1a29cbc44279db882f5b7d7/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/2c3fce8250a26e23cce73f3d813ffad5/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:17:1-47:12
-MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/afde8d521b15ad9e6796072001cec060/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:17:1-38:12
-MERGED from [com.google.firebase:firebase-messaging:17.3.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e785ef514008dbd545d8011fcc5445f/AndroidManifest.xml:17:1-37:12
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/38b87a0d09e409d318bd54adafab1713/AndroidManifest.xml:17:1-28:12
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/5016303ae34fbab8e1d6cdb14581b0c3/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/666cd1c7709d274b18a83adcb7a7c63a/AndroidManifest.xml:17:1-31:12
-MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/2bc8036e4dee75e90f02f1cb837f347e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/b57ebaa0507bd9d07dfb06e3244ad9b3/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-core:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a6ae8e4a784cccfabeafc553e89cc1a4/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:17:1-34:12
-MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/325cf074a649c2cbd5f74fc0726855d4/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:17:1-59:12
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/dca3e721722ca0c0952b630128db4563/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9fe082431e0f031a386d6b583a3a8c37/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ae65f6c39089308032cd8ade2f7e78e1/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/130d322d6eae3dab01c8b5d46f7dde9a/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9126bb65da2b6d02d9a4816ccaba6f23/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/bbd57fffa1fa0a6ba18ef0fbe181e344/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/78e512124dd458a563bff9fc79bde7fd/AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/937a42de9edf34eff3c5d332f963b5ad/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e863e513df133bb4a4553c4cc699b0a9/AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ac1aa4ca9c5ac59612302f2f286ae960/AndroidManifest.xml:17:1-28:12
-MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/fa8d1f3d05147e5c008a240a899c7364/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/85a8445698f292a950e89b8522280fe7/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/d7f3b2b31aef6fed765dd3b7f8f57ba4/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0fc5bd6b493b53224c314ec502ed10ac/AndroidManifest.xml:21:1-37:12
-MERGED from [com.android.support:support-v4:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/65d42e37bac14dc0dea3ded2ccbec464/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:design:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e8e3c2456a3a23e37d917beead449a3/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/8970a656ed91d0449a70f8a6b0993351/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/2b8ab5800a74d6a661ee3c36eaec2226/AndroidManifest.xml:2:1-11:12
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:9:1-81:12
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3ea2e8abbe01aa31503569fa338e08f4/AndroidManifest.xml:2:1-13:12
-MERGED from [com.appsflyer:af-android-sdk:4.9.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/d23f1e54fef71824aa4eb791ad2ee2dc/AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/550a58248fce11543f2108d136f0f0e8/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/da5c381e3a98c8b02e8d780aef63458e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/efe30162ee12307139c5eaead59555b6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ecaefd77b4eefc96704ea3642970c755/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customtabs:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/b58565080fe7e3ca1dfd36c41841943b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ad0ec298de0a521d4bee6837a82fffde/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0ab5210cb7e04b289066b1f85c0f5acf/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba00495e7f0783796ef127b67a59748d/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3fc2be4a8453cd70dfebff6d99401777/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:21:1-53:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9b9453c614439033cd3b28e61863ded5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/307e3b3de599a11e61ef7f6b3fefaf8c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/4cc96398317bdec752dd67b3b4ae1038/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/57c14a4dc464b8a32450523c36110d46/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/c45e0cc2a7c63a6c070f3e2c6d81398a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/c384b2af9099ce90cefad935c52ffc87/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/bffd971898d2c510d25400e2aa641cbb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/4090b204c23a5f9d82dda3d6723edb11/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1f585820d991d76d23f1b12d52846b1f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a60fab74d05f36e2c74b6c817a7812e6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1fc9885b90ba5bb3320e4e9deb86bc7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/612313010162a11ad59912ca7bc9b62a/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/8c277afcd9a0ed4f689902ddd52fc932/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/78a042ae8cd8ed6d8808bdc389a080ca/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/11f4cdc58424214c558d4530e246b9df/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ce66ee4fbb43190b9d17c1b3a2185c0c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9f271cf6f4af45ce3ccd0279e79cca6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3617753f6ddcf02391ec828e79f4a35f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/c3a8aa4d2e703b9d40e335e547cf6cd1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/86cd3c6b5acde928b70809d2584c59f2/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/018139cc0c9c40c06516d62ff5e6df6e/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e742194b8396ce149aafd5a92223876c/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/af43f46a0ef578d7e0470d799f31ecd1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/116a2c68713465597edfb0d1f7fae5b2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/331a53a24d037bac8666f79482f8fd31/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/34d89e71838c5a4c52d36452f53e24e8/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-137:12
-INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-137:12
-INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-137:12
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5b1c6d8a3b4c9632b1cfdd65a73c4bb9/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3f9f256a67e2e886daca4ed021a0e31a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/17ce61243abb60ecacff4219f8cb89a2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c4a7cbfe2ef95c671adfbfd773c258b7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf54b831693c016a417c58655fdbf28e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/9e6b627a13d3e5af26702677006c489c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c69a6b545734072699829ef011a89541/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8a0d9b9fb56aba6d3261c6971f561f0a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/841e61636b6d169baba95a375ab6c43b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ee13dc6c7de02fa4248d7c43dac77c33/AndroidManifest.xml:2:1-11:12
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:9:1-81:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/6dd18e3c47dfa965e399dd4914f920c7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5a10852eb88a2269f99f47d43b43647c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/dceafe340778f9776f13b8499190a107/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ec3c460e2968f1024621f9f7c012851e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/68293af0da207aed7c8449086f045d33/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b46d80bd8641f02ebbbc428ef1d2f274/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/041df0d09095e69ca96af8e73e1839e8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a053ce62e87e25d63a9cb017cf6982b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:loader:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2c35efd5d55d21b0b4be2889d84cff76/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8bfe47cdf87d85a96cb374f97821586c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/922b02678aae51e53291d178f5b81792/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/abface77dc7e11fea707e16e1c8e88c9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/d3ab2697cb97463233df546e476eabe2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/03df4bfd50e49a0218ea259e417e4361/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1062dc224267e9c59030d1af463328d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3c5f852f0f03824e77309d419bec6f51/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/29576842fe45e2f1cf1607807d78abf1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf87ba4ae70071412c14d67f3978e50a/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/f456e0623bf0dbf10206dba417ffd697/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/efc3d68e3701cd4aba04b91172548a30/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e82426860a49346e80c1ba62b7871f77/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/7630a4bcf2518707d8c691a270711c7b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ae047987c9f1b55ff40c4e89e0426f35/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/12f4aa599064cea77797278e4698f3ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/cece36665e34bd58b602d6d6f5894c2f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/729c9a55cc8175b1db95ddc645ffa98f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/98de19d4bbe4ef30ab87d8c450ab555a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fb5332b25e392d8fb02e927dba826f68/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/955cef336c1f8784d8ad1908c464a31f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1a904464eef672b828023ca69ace1579/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
 	package
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:4:5-34
-		INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:4:5-34
+		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-137:12
-		INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-137:12
-		INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:1-54:12
+		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:6:5-67
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:17:5-67
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:17:5-67
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba220a09f1a29cbc44279db882f5b7d7/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba220a09f1a29cbc44279db882f5b7d7/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/38b87a0d09e409d318bd54adafab1713/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/38b87a0d09e409d318bd54adafab1713/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/666cd1c7709d274b18a83adcb7a7c63a/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/666cd1c7709d274b18a83adcb7a7c63a/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:23:5-67
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:20:5-67
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:20:5-67
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:23:5-67
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:20:5-67
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:20:5-67
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:6:22-64
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:7:5-81
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:8:5-79
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:25:5-79
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/666cd1c7709d274b18a83adcb7a7c63a/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/666cd1c7709d274b18a83adcb7a7c63a/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:24:5-79
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:21:5-79
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:21:5-79
-MERGED from [com.appsflyer:af-android-sdk:4.9.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/d23f1e54fef71824aa4eb791ad2ee2dc/AndroidManifest.xml:9:5-79
-MERGED from [com.appsflyer:af-android-sdk:4.9.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/d23f1e54fef71824aa4eb791ad2ee2dc/AndroidManifest.xml:9:5-79
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:24:5-79
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:21:5-79
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:21:5-79
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:8:22-76
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:8:22-76
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:9:5-81
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:30:5-81
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:30:5-81
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:9:22-78
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:9:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:10:5-66
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:24:5-66
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:24:5-66
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:10:5-66
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:10:22-63
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:10:22-63
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:11:5-68
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:19:5-68
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:19:5-68
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:27:5-68
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:27:5-68
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/666cd1c7709d274b18a83adcb7a7c63a/AndroidManifest.xml:27:5-68
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/666cd1c7709d274b18a83adcb7a7c63a/AndroidManifest.xml:27:5-68
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:24:5-68
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:11:5-68
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:27:5-68
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:11:22-65
-uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:12:5-71
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:12:22-68
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:11:22-65
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:13:5-79
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:13:22-76
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:14:5-82
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:18:5-82
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:18:5-82
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba220a09f1a29cbc44279db882f5b7d7/AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba220a09f1a29cbc44279db882f5b7d7/AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/38b87a0d09e409d318bd54adafab1713/AndroidManifest.xml:23:5-82
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/38b87a0d09e409d318bd54adafab1713/AndroidManifest.xml:23:5-82
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:26:5-82
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:26:5-82
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:14:22-79
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:12:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:15:5-81
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:15:22-78
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:13:22-78
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:17:5-76
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:15:5-76
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:17:22-73
-uses-permission#com.sec.android.provider.badge.permission.READ
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:18:5-106
-REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:32:5-86
-	tools:node
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:18:84-103
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:18:22-83
-uses-permission#com.sec.android.provider.badge.permission.WRITE
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:19:5-107
-REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:33:5-87
-	tools:node
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:19:85-104
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:19:22-84
-uses-permission#com.htc.launcher.permission.READ_SETTINGS
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:20:5-101
-REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:34:5-81
-	tools:node
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:20:79-98
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:20:22-78
-uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:21:5-103
-REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:35:5-83
-	tools:node
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:21:81-100
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:21:22-80
-uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:22:5-108
-REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:36:5-88
-	tools:node
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:22:86-105
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:22:22-85
-uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:23:5-112
-REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:37:5-92
-	tools:node
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:23:90-109
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:23:22-89
-uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:24:5-104
-REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:38:5-84
-	tools:node
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:24:82-101
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:24:22-81
-uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:25:5-103
-REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:39:5-83
-	tools:node
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:25:81-100
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:25:22-80
-uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:26:5-110
-REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:40:5-91
-	tools:node
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:26:89-108
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:26:22-88
-uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:27:5-112
-REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:41:5-92
-	tools:node
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:27:90-109
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:27:22-89
-uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:28:5-113
-REJECTED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:42:5-93
-	tools:node
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:28:91-110
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:28:22-90
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:15:22-73
 application
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:30:5-135:19
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:49:5-105:19
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:49:5-105:19
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba220a09f1a29cbc44279db882f5b7d7/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba220a09f1a29cbc44279db882f5b7d7/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:29:5-45:19
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:29:5-45:19
-MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/afde8d521b15ad9e6796072001cec060/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/afde8d521b15ad9e6796072001cec060/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:22:5-36:19
-MERGED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:22:5-36:19
-MERGED from [com.google.firebase:firebase-messaging:17.3.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e785ef514008dbd545d8011fcc5445f/AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.firebase:firebase-messaging:17.3.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e785ef514008dbd545d8011fcc5445f/AndroidManifest.xml:22:5-35:19
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/38b87a0d09e409d318bd54adafab1713/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/38b87a0d09e409d318bd54adafab1713/AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/5016303ae34fbab8e1d6cdb14581b0c3/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/5016303ae34fbab8e1d6cdb14581b0c3/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/666cd1c7709d274b18a83adcb7a7c63a/AndroidManifest.xml:29:5-20
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/666cd1c7709d274b18a83adcb7a7c63a/AndroidManifest.xml:29:5-20
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/b57ebaa0507bd9d07dfb06e3244ad9b3/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/b57ebaa0507bd9d07dfb06e3244ad9b3/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-core:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a6ae8e4a784cccfabeafc553e89cc1a4/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-core:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a6ae8e4a784cccfabeafc553e89cc1a4/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:26:5-32:19
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:26:5-32:19
-MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/325cf074a649c2cbd5f74fc0726855d4/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/325cf074a649c2cbd5f74fc0726855d4/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:28:5-38:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:28:5-57:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/dca3e721722ca0c0952b630128db4563/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/dca3e721722ca0c0952b630128db4563/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9fe082431e0f031a386d6b583a3a8c37/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9fe082431e0f031a386d6b583a3a8c37/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ae65f6c39089308032cd8ade2f7e78e1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ae65f6c39089308032cd8ade2f7e78e1/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/130d322d6eae3dab01c8b5d46f7dde9a/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/130d322d6eae3dab01c8b5d46f7dde9a/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9126bb65da2b6d02d9a4816ccaba6f23/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9126bb65da2b6d02d9a4816ccaba6f23/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/bbd57fffa1fa0a6ba18ef0fbe181e344/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/bbd57fffa1fa0a6ba18ef0fbe181e344/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/78e512124dd458a563bff9fc79bde7fd/AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/78e512124dd458a563bff9fc79bde7fd/AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/937a42de9edf34eff3c5d332f963b5ad/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/937a42de9edf34eff3c5d332f963b5ad/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e863e513df133bb4a4553c4cc699b0a9/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e863e513df133bb4a4553c4cc699b0a9/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ac1aa4ca9c5ac59612302f2f286ae960/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ac1aa4ca9c5ac59612302f2f286ae960/AndroidManifest.xml:22:5-26:19
-MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/fa8d1f3d05147e5c008a240a899c7364/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/fa8d1f3d05147e5c008a240a899c7364/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/85a8445698f292a950e89b8522280fe7/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/85a8445698f292a950e89b8522280fe7/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/d7f3b2b31aef6fed765dd3b7f8f57ba4/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/d7f3b2b31aef6fed765dd3b7f8f57ba4/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0fc5bd6b493b53224c314ec502ed10ac/AndroidManifest.xml:28:5-35:19
-MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0fc5bd6b493b53224c314ec502ed10ac/AndroidManifest.xml:28:5-35:19
-MERGED from [com.android.support:design:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e8e3c2456a3a23e37d917beead449a3/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e8e3c2456a3a23e37d917beead449a3/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/2b8ab5800a74d6a661ee3c36eaec2226/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/2b8ab5800a74d6a661ee3c36eaec2226/AndroidManifest.xml:9:5-20
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:23:5-79:19
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:23:5-79:19
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3ea2e8abbe01aa31503569fa338e08f4/AndroidManifest.xml:11:5-20
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3ea2e8abbe01aa31503569fa338e08f4/AndroidManifest.xml:11:5-20
-MERGED from [com.appsflyer:af-android-sdk:4.9.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/d23f1e54fef71824aa4eb791ad2ee2dc/AndroidManifest.xml:11:5-12:19
-MERGED from [com.appsflyer:af-android-sdk:4.9.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/d23f1e54fef71824aa4eb791ad2ee2dc/AndroidManifest.xml:11:5-12:19
-MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0ab5210cb7e04b289066b1f85c0f5acf/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0ab5210cb7e04b289066b1f85c0f5acf/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba00495e7f0783796ef127b67a59748d/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba00495e7f0783796ef127b67a59748d/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3fc2be4a8453cd70dfebff6d99401777/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3fc2be4a8453cd70dfebff6d99401777/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:28:5-51:19
-MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:28:5-51:19
-MERGED from [com.android.support:support-compat:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/612313010162a11ad59912ca7bc9b62a/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/612313010162a11ad59912ca7bc9b62a/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/8c277afcd9a0ed4f689902ddd52fc932/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/8c277afcd9a0ed4f689902ddd52fc932/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/331a53a24d037bac8666f79482f8fd31/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/331a53a24d037bac8666f79482f8fd31/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/34d89e71838c5a4c52d36452f53e24e8/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/34d89e71838c5a4c52d36452f53e24e8/AndroidManifest.xml:7:5-20
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:17:5-52:19
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3f9f256a67e2e886daca4ed021a0e31a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3f9f256a67e2e886daca4ed021a0e31a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/17ce61243abb60ecacff4219f8cb89a2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/17ce61243abb60ecacff4219f8cb89a2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c4a7cbfe2ef95c671adfbfd773c258b7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c4a7cbfe2ef95c671adfbfd773c258b7/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf54b831693c016a417c58655fdbf28e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf54b831693c016a417c58655fdbf28e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/9e6b627a13d3e5af26702677006c489c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/9e6b627a13d3e5af26702677006c489c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:design:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8a0d9b9fb56aba6d3261c6971f561f0a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8a0d9b9fb56aba6d3261c6971f561f0a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ee13dc6c7de02fa4248d7c43dac77c33/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ee13dc6c7de02fa4248d7c43dac77c33/AndroidManifest.xml:9:5-20
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:23:5-79:19
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:23:5-79:19
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/29576842fe45e2f1cf1607807d78abf1/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/29576842fe45e2f1cf1607807d78abf1/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf87ba4ae70071412c14d67f3978e50a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf87ba4ae70071412c14d67f3978e50a/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1a904464eef672b828023ca69ace1579/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1a904464eef672b828023ca69ace1579/AndroidManifest.xml:22:5-20
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/612313010162a11ad59912ca7bc9b62a/AndroidManifest.xml:22:18-91
-	android:supportsRtl
-		ADDED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/fa8d1f3d05147e5c008a240a899c7364/AndroidManifest.xml:28:18-44
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/29576842fe45e2f1cf1607807d78abf1/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:34:9-41
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:21:9-41
 	tools:ignore
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:37:9-48
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:23:18-57
 	android:icon
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:33:9-43
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:20:9-43
 	android:allowBackup
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:32:9-35
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:35:9-40
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:22:9-40
 	android:usesCleartextTraffic
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:36:9-44
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:23:9-44
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:31:9-47
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:18:9-47
 activity#com.app.topizasport.activity.NoConnectionActivity
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:38:9-95
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:24:9-95
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:38:19-83
-receiver#com.appsflyer.SingleInstallBroadcastReceiver
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:40:9-46:20
-	android:exported
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:42:13-36
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:41:13-72
-intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:43:13-45:29
-action#com.android.vending.INSTALL_REFERRER
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:44:17-79
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:44:25-76
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:24:19-83
 activity#com.app.topizasport.activity.WebViewActivity
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:48:9-53:67
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:26:9-31:67
 	android:label
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:52:13-45
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:30:13-45
 	android:hardwareAccelerated
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:51:13-47
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:29:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:53:13-55
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:31:13-55
 	android:configChanges
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:50:13-83
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:28:13-83
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:49:13-72
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:27:13-72
 activity#com.app.topizasport.activity.StartUpActivity
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:54:9-65:20
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:32:9-42:20
 	android:label
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:58:13-45
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:36:13-45
 	android:hardwareAccelerated
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:57:13-47
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:35:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:59:13-55
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:37:13-55
 	android:configChanges
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:56:13-83
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:34:13-83
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:55:13-72
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:33:13-72
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:60:13-64:29
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:38:13-41:29
 action#android.intent.action.MAIN
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:61:17-69
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:61:25-66
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:63:17-77
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:63:27-74
-meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:70:9-72:55
-	android:value
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:72:13-52
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:71:13-58
-meta-data#com.facebook.sdk.AdvertiserIDCollectionEnabled
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:73:9-75:37
-	android:value
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:75:13-34
-	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:74:13-74
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:40:27-74
 activity#com.app.topizasport.activity.MainActivity
-ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:80:9-103:20
+ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:44:9-51:20
 	android:label
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:84:13-45
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:48:13-45
 	android:hardwareAccelerated
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:83:13-47
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:47:13-47
 	android:windowSoftInputMode
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:85:13-55
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:49:13-55
 	android:configChanges
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:82:13-83
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:46:13-83
 	android:name
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:81:13-69
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:45:13-69
 uses-sdk
-INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:5:5-44
-MERGED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba220a09f1a29cbc44279db882f5b7d7/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba220a09f1a29cbc44279db882f5b7d7/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/2c3fce8250a26e23cce73f3d813ffad5/AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/2c3fce8250a26e23cce73f3d813ffad5/AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/afde8d521b15ad9e6796072001cec060/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/afde8d521b15ad9e6796072001cec060/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:17.3.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e785ef514008dbd545d8011fcc5445f/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:17.3.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e785ef514008dbd545d8011fcc5445f/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/38b87a0d09e409d318bd54adafab1713/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/38b87a0d09e409d318bd54adafab1713/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/5016303ae34fbab8e1d6cdb14581b0c3/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/5016303ae34fbab8e1d6cdb14581b0c3/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/666cd1c7709d274b18a83adcb7a7c63a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/666cd1c7709d274b18a83adcb7a7c63a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/2bc8036e4dee75e90f02f1cb837f347e/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:15.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/2bc8036e4dee75e90f02f1cb837f347e/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/b57ebaa0507bd9d07dfb06e3244ad9b3/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/b57ebaa0507bd9d07dfb06e3244ad9b3/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a6ae8e4a784cccfabeafc553e89cc1a4/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a6ae8e4a784cccfabeafc553e89cc1a4/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/325cf074a649c2cbd5f74fc0726855d4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/325cf074a649c2cbd5f74fc0726855d4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/dca3e721722ca0c0952b630128db4563/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/dca3e721722ca0c0952b630128db4563/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9fe082431e0f031a386d6b583a3a8c37/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9fe082431e0f031a386d6b583a3a8c37/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ae65f6c39089308032cd8ade2f7e78e1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ae65f6c39089308032cd8ade2f7e78e1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/130d322d6eae3dab01c8b5d46f7dde9a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/130d322d6eae3dab01c8b5d46f7dde9a/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9126bb65da2b6d02d9a4816ccaba6f23/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9126bb65da2b6d02d9a4816ccaba6f23/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/bbd57fffa1fa0a6ba18ef0fbe181e344/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/bbd57fffa1fa0a6ba18ef0fbe181e344/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/78e512124dd458a563bff9fc79bde7fd/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-common:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/78e512124dd458a563bff9fc79bde7fd/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/937a42de9edf34eff3c5d332f963b5ad/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/937a42de9edf34eff3c5d332f963b5ad/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e863e513df133bb4a4553c4cc699b0a9/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e863e513df133bb4a4553c4cc699b0a9/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ac1aa4ca9c5ac59612302f2f286ae960/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ac1aa4ca9c5ac59612302f2f286ae960/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/fa8d1f3d05147e5c008a240a899c7364/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/fa8d1f3d05147e5c008a240a899c7364/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/85a8445698f292a950e89b8522280fe7/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/85a8445698f292a950e89b8522280fe7/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/d7f3b2b31aef6fed765dd3b7f8f57ba4/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/d7f3b2b31aef6fed765dd3b7f8f57ba4/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0fc5bd6b493b53224c314ec502ed10ac/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0fc5bd6b493b53224c314ec502ed10ac/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:support-v4:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/65d42e37bac14dc0dea3ded2ccbec464/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/65d42e37bac14dc0dea3ded2ccbec464/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e8e3c2456a3a23e37d917beead449a3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e8e3c2456a3a23e37d917beead449a3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/8970a656ed91d0449a70f8a6b0993351/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/8970a656ed91d0449a70f8a6b0993351/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/2b8ab5800a74d6a661ee3c36eaec2226/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/2b8ab5800a74d6a661ee3c36eaec2226/AndroidManifest.xml:5:5-7:41
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:15:5-17:41
-MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:15:5-17:41
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3ea2e8abbe01aa31503569fa338e08f4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3ea2e8abbe01aa31503569fa338e08f4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.appsflyer:af-android-sdk:4.9.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/d23f1e54fef71824aa4eb791ad2ee2dc/AndroidManifest.xml:7:5-43
-MERGED from [com.appsflyer:af-android-sdk:4.9.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/d23f1e54fef71824aa4eb791ad2ee2dc/AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/550a58248fce11543f2108d136f0f0e8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/550a58248fce11543f2108d136f0f0e8/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/da5c381e3a98c8b02e8d780aef63458e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/da5c381e3a98c8b02e8d780aef63458e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/efe30162ee12307139c5eaead59555b6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/efe30162ee12307139c5eaead59555b6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ecaefd77b4eefc96704ea3642970c755/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ecaefd77b4eefc96704ea3642970c755/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/b58565080fe7e3ca1dfd36c41841943b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/b58565080fe7e3ca1dfd36c41841943b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ad0ec298de0a521d4bee6837a82fffde/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ad0ec298de0a521d4bee6837a82fffde/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0ab5210cb7e04b289066b1f85c0f5acf/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0ab5210cb7e04b289066b1f85c0f5acf/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba00495e7f0783796ef127b67a59748d/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ba00495e7f0783796ef127b67a59748d/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3fc2be4a8453cd70dfebff6d99401777/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3fc2be4a8453cd70dfebff6d99401777/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9b9453c614439033cd3b28e61863ded5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9b9453c614439033cd3b28e61863ded5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/307e3b3de599a11e61ef7f6b3fefaf8c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/307e3b3de599a11e61ef7f6b3fefaf8c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/4cc96398317bdec752dd67b3b4ae1038/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/4cc96398317bdec752dd67b3b4ae1038/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/57c14a4dc464b8a32450523c36110d46/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/57c14a4dc464b8a32450523c36110d46/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/c45e0cc2a7c63a6c070f3e2c6d81398a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/c45e0cc2a7c63a6c070f3e2c6d81398a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/c384b2af9099ce90cefad935c52ffc87/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/c384b2af9099ce90cefad935c52ffc87/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/bffd971898d2c510d25400e2aa641cbb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/bffd971898d2c510d25400e2aa641cbb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/4090b204c23a5f9d82dda3d6723edb11/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/4090b204c23a5f9d82dda3d6723edb11/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1f585820d991d76d23f1b12d52846b1f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1f585820d991d76d23f1b12d52846b1f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a60fab74d05f36e2c74b6c817a7812e6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a60fab74d05f36e2c74b6c817a7812e6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1fc9885b90ba5bb3320e4e9deb86bc7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1fc9885b90ba5bb3320e4e9deb86bc7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/612313010162a11ad59912ca7bc9b62a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/612313010162a11ad59912ca7bc9b62a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/8c277afcd9a0ed4f689902ddd52fc932/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/8c277afcd9a0ed4f689902ddd52fc932/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/78a042ae8cd8ed6d8808bdc389a080ca/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/78a042ae8cd8ed6d8808bdc389a080ca/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/11f4cdc58424214c558d4530e246b9df/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/11f4cdc58424214c558d4530e246b9df/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ce66ee4fbb43190b9d17c1b3a2185c0c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ce66ee4fbb43190b9d17c1b3a2185c0c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9f271cf6f4af45ce3ccd0279e79cca6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9f271cf6f4af45ce3ccd0279e79cca6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3617753f6ddcf02391ec828e79f4a35f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3617753f6ddcf02391ec828e79f4a35f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/c3a8aa4d2e703b9d40e335e547cf6cd1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/c3a8aa4d2e703b9d40e335e547cf6cd1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/86cd3c6b5acde928b70809d2584c59f2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/86cd3c6b5acde928b70809d2584c59f2/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/018139cc0c9c40c06516d62ff5e6df6e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/018139cc0c9c40c06516d62ff5e6df6e/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e742194b8396ce149aafd5a92223876c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e742194b8396ce149aafd5a92223876c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/af43f46a0ef578d7e0470d799f31ecd1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/af43f46a0ef578d7e0470d799f31ecd1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/116a2c68713465597edfb0d1f7fae5b2/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/116a2c68713465597edfb0d1f7fae5b2/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/331a53a24d037bac8666f79482f8fd31/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/331a53a24d037bac8666f79482f8fd31/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/34d89e71838c5a4c52d36452f53e24e8/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/34d89e71838c5a4c52d36452f53e24e8/AndroidManifest.xml:5:5-44
-INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5b1c6d8a3b4c9632b1cfdd65a73c4bb9/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5b1c6d8a3b4c9632b1cfdd65a73c4bb9/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3f9f256a67e2e886daca4ed021a0e31a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3f9f256a67e2e886daca4ed021a0e31a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/90ef4817f789f5d63e5b6f980eeb8969/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/17ce61243abb60ecacff4219f8cb89a2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/17ce61243abb60ecacff4219f8cb89a2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c4a7cbfe2ef95c671adfbfd773c258b7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c4a7cbfe2ef95c671adfbfd773c258b7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf54b831693c016a417c58655fdbf28e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf54b831693c016a417c58655fdbf28e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/9e6b627a13d3e5af26702677006c489c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/9e6b627a13d3e5af26702677006c489c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c69a6b545734072699829ef011a89541/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/c69a6b545734072699829ef011a89541/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8a0d9b9fb56aba6d3261c6971f561f0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8a0d9b9fb56aba6d3261c6971f561f0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/841e61636b6d169baba95a375ab6c43b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/841e61636b6d169baba95a375ab6c43b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ee13dc6c7de02fa4248d7c43dac77c33/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ee13dc6c7de02fa4248d7c43dac77c33/AndroidManifest.xml:5:5-7:41
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:15:5-17:41
+MERGED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:15:5-17:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/6dd18e3c47dfa965e399dd4914f920c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/6dd18e3c47dfa965e399dd4914f920c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5a10852eb88a2269f99f47d43b43647c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5a10852eb88a2269f99f47d43b43647c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/dceafe340778f9776f13b8499190a107/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/dceafe340778f9776f13b8499190a107/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ec3c460e2968f1024621f9f7c012851e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ec3c460e2968f1024621f9f7c012851e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/68293af0da207aed7c8449086f045d33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/68293af0da207aed7c8449086f045d33/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b46d80bd8641f02ebbbc428ef1d2f274/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b46d80bd8641f02ebbbc428ef1d2f274/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/041df0d09095e69ca96af8e73e1839e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/041df0d09095e69ca96af8e73e1839e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a053ce62e87e25d63a9cb017cf6982b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a053ce62e87e25d63a9cb017cf6982b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2c35efd5d55d21b0b4be2889d84cff76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2c35efd5d55d21b0b4be2889d84cff76/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8bfe47cdf87d85a96cb374f97821586c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8bfe47cdf87d85a96cb374f97821586c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/922b02678aae51e53291d178f5b81792/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/922b02678aae51e53291d178f5b81792/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/abface77dc7e11fea707e16e1c8e88c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/abface77dc7e11fea707e16e1c8e88c9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/d3ab2697cb97463233df546e476eabe2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/d3ab2697cb97463233df546e476eabe2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/03df4bfd50e49a0218ea259e417e4361/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/03df4bfd50e49a0218ea259e417e4361/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1062dc224267e9c59030d1af463328d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1062dc224267e9c59030d1af463328d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3c5f852f0f03824e77309d419bec6f51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/3c5f852f0f03824e77309d419bec6f51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/29576842fe45e2f1cf1607807d78abf1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/29576842fe45e2f1cf1607807d78abf1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf87ba4ae70071412c14d67f3978e50a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/bf87ba4ae70071412c14d67f3978e50a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/f456e0623bf0dbf10206dba417ffd697/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/f456e0623bf0dbf10206dba417ffd697/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/efc3d68e3701cd4aba04b91172548a30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/efc3d68e3701cd4aba04b91172548a30/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e82426860a49346e80c1ba62b7871f77/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e82426860a49346e80c1ba62b7871f77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/7630a4bcf2518707d8c691a270711c7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/7630a4bcf2518707d8c691a270711c7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ae047987c9f1b55ff40c4e89e0426f35/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/ae047987c9f1b55ff40c4e89e0426f35/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/12f4aa599064cea77797278e4698f3ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/12f4aa599064cea77797278e4698f3ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/cece36665e34bd58b602d6d6f5894c2f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/cece36665e34bd58b602d6d6f5894c2f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/729c9a55cc8175b1db95ddc645ffa98f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/729c9a55cc8175b1db95ddc645ffa98f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/98de19d4bbe4ef30ab87d8c450ab555a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/98de19d4bbe4ef30ab87d8c450ab555a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fb5332b25e392d8fb02e927dba826f68/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fb5332b25e392d8fb02e927dba826f68/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/955cef336c1f8784d8ad1908c464a31f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/955cef336c1f8784d8ad1908c464a31f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1a904464eef672b828023ca69ace1579/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1a904464eef672b828023ca69ace1579/AndroidManifest.xml:20:5-44
+INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.google.android.gms:play-services-ads:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/2c3fce8250a26e23cce73f3d813ffad5/AndroidManifest.xml:23:9-59
+		ADDED from [com.google.android.gms:play-services-ads:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/5b1c6d8a3b4c9632b1cfdd65a73c4bb9/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		ADDED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/rebootcomp/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:8:5-10:47
-	android:protectionLevel
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:10:9-44
+		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/896ccee9f0f850ab12b6e0a5765dbf29/AndroidManifest.xml:23:5-82
 	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:9:9-63
-permission#com.app.topizasport.permission.C2D_MESSAGE
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:8:5-10:47
-	android:protectionLevel
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:10:9-44
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:9:9-63
-uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:12:5-79
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:12:22-76
-uses-permission#com.app.topizasport.permission.C2D_MESSAGE
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:12:5-79
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:12:22-76
-uses-permission#android.permission.READ_APP_BADGE
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:43:5-73
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:43:22-70
-uses-permission#com.oppo.launcher.permission.READ_SETTINGS
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:44:5-82
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:44:22-79
-uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:45:5-83
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:45:22-80
-uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:46:5-88
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:46:22-85
-uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:47:5-89
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:47:22-86
-meta-data#onesignal_app_id
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:50:9-52:51
-	android:value
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:52:13-48
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:51:13-44
-meta-data#onesignal_google_project_number
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:54:9-56:70
-	android:value
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:56:13-67
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:55:13-59
-receiver#com.onesignal.GcmBroadcastReceiver
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:58:9-68:20
-	android:permission
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:60:13-73
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:59:13-62
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:63:13-67:29
-	android:priority
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:63:28-50
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.app.topizasport
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:63:13-67:29
-	android:priority
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:63:28-50
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:64:17-81
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:64:25-78
-category#${applicationId}
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:66:17-61
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:66:27-58
-category#com.app.topizasport
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:66:17-61
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:66:27-58
-receiver#com.onesignal.NotificationOpenedReceiver
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:69:9-77
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:69:19-74
-service#com.onesignal.GcmIntentService
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:71:9-66
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:71:18-63
-service#com.onesignal.GcmIntentJobService
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:72:9-74:72
-	android:permission
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:74:13-69
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:73:13-61
-service#com.onesignal.RestoreJobService
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:75:9-77:72
-	android:permission
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:77:13-69
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:76:13-59
-service#com.onesignal.RestoreKickoffJobService
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:78:9-80:72
-	android:permission
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:80:13-69
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:79:13-66
-service#com.onesignal.SyncService
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:81:9-83:43
-	android:stopWithTask
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:83:13-40
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:82:13-53
-service#com.onesignal.SyncJobService
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:84:9-86:72
-	android:permission
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:86:13-69
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:85:13-56
-activity#com.onesignal.PermissionsActivity
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:88:9-90:75
-	android:theme
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:90:13-72
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:89:13-61
-service#com.onesignal.NotificationRestoreService
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:92:9-76
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:92:18-73
-receiver#com.onesignal.BootUpReceiver
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:94:9-99:20
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:94:19-62
-intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:95:13-98:29
-action#android.intent.action.BOOT_COMPLETED
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:96:17-79
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:96:25-76
-action#android.intent.action.QUICKBOOT_POWERON
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:97:17-82
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:97:25-79
-receiver#com.onesignal.UpgradeReceiver
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:100:9-104:20
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:100:19-63
-intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:101:13-103:29
-action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:102:17-84
-	android:name
-		ADDED from [com.onesignal:OneSignal:3.10.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ed0858fbb30f97708be1bbf20ce3934e/AndroidManifest.xml:102:25-81
+		ADDED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/fbfc93b97179249eef63ecfaa5a2042f/AndroidManifest.xml:23:22-79
 receiver#com.google.android.gms.analytics.AnalyticsReceiver
-ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:30:9-34:20
+ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:30:9-34:20
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:32:13-35
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:32:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:33:13-37
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:33:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:31:13-78
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:31:13-78
 service#com.google.android.gms.analytics.AnalyticsService
-ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:36:9-39:40
+ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:36:9-39:40
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:38:13-35
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:38:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:39:13-37
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:37:13-77
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:37:13-77
 service#com.google.android.gms.analytics.AnalyticsJobService
-ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:40:9-44:72
+ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:40:9-44:72
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:42:13-35
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:42:13-35
 	android:exported
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:43:13-37
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:43:13-37
 	android:permission
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:44:13-69
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:44:13-69
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/23004e2537173e7d1f32549031824f0c/AndroidManifest.xml:41:13-80
-activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:23:9-29:75
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:25:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:27:13-48
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:26:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:28:13-102
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:29:13-72
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:24:13-85
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:31:9-35:19
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:27:9-31:19
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:27:9-31:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:29:9-35:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:31:13-37
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:31:18-89
-meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:32:13-34:85
-	android:value
-		ADDED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:34:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/e1badb7a641804b43d19425b8a50c496/AndroidManifest.xml:33:17-109
-service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e785ef514008dbd545d8011fcc5445f/AndroidManifest.xml:28:9-34:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e785ef514008dbd545d8011fcc5445f/AndroidManifest.xml:30:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e785ef514008dbd545d8011fcc5445f/AndroidManifest.xml:29:13-82
-intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e785ef514008dbd545d8011fcc5445f/AndroidManifest.xml:31:13-33:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e785ef514008dbd545d8011fcc5445f/AndroidManifest.xml:31:28-51
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e785ef514008dbd545d8011fcc5445f/AndroidManifest.xml:32:17-78
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:17.3.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/7e785ef514008dbd545d8011fcc5445f/AndroidManifest.xml:32:25-75
-meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
-ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:28:13-30:85
-	android:value
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:30:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3494fa0892f3b319d6d2c5360988ec6c/AndroidManifest.xml:29:17-139
-uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:26:5-110
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:26:5-110
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:26:5-110
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3ea2e8abbe01aa31503569fa338e08f4/AndroidManifest.xml:9:5-110
-MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/3ea2e8abbe01aa31503569fa338e08f4/AndroidManifest.xml:9:5-110
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:26:22-107
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:29:9-33:20
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:31:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:32:13-37
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:30:13-85
-receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:34:9-42:20
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:29:9-37:20
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/48702644a4e7a504e90ef93851d42eb4/AndroidManifest.xml:29:9-37:20
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:36:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:37:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:38:13-69
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:35:13-100
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:44:9-47:40
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:46:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:47:13-37
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:45:13-84
-service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:48:9-52:72
-	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:50:13-35
-	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:51:13-37
-	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:52:13-69
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/a9c4f84185f48106e68c7842e5760969/AndroidManifest.xml:49:13-87
-meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:32:13-34:85
-	android:value
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:34:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:33:17-96
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:37:9-44:20
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:39:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:40:13-73
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:38:13-78
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:41:13-43:29
-service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:50:9-56:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:52:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:51:13-77
-intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:53:13-55:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:53:28-51
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:54:17-80
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/50477ea7fb335be90ca9067ecd21a300/AndroidManifest.xml:54:25-77
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/b1998f8b4c3fb78e753d63eba938bef9/AndroidManifest.xml:41:13-80
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9fe082431e0f031a386d6b583a3a8c37/AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9fe082431e0f031a386d6b583a3a8c37/AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9fe082431e0f031a386d6b583a3a8c37/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9fe082431e0f031a386d6b583a3a8c37/AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/506bcc690afb74fbe219e44760238d3c/AndroidManifest.xml:24:13-79
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:29:9-33:64
+ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:29:9-33:64
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:32:13-37
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:31:13-122
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:31:13-122
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:33:13-61
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:33:13-61
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/1e89d31d311ee12408fcd60895e4824e/AndroidManifest.xml:30:13-65
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/78e512124dd458a563bff9fc79bde7fd/AndroidManifest.xml:10:9-14:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/78e512124dd458a563bff9fc79bde7fd/AndroidManifest.xml:12:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/78e512124dd458a563bff9fc79bde7fd/AndroidManifest.xml:13:13-37
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/78e512124dd458a563bff9fc79bde7fd/AndroidManifest.xml:14:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:16.0.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/78e512124dd458a563bff9fc79bde7fd/AndroidManifest.xml:11:13-77
+		ADDED from [com.google.android.gms:play-services-ads-lite:16.0.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/a452100736d56d5a55b2034956d2cc4e/AndroidManifest.xml:30:13-65
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ac1aa4ca9c5ac59612302f2f286ae960/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ac1aa4ca9c5ac59612302f2f286ae960/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/ac1aa4ca9c5ac59612302f2f286ae960/AndroidManifest.xml:24:13-58
-activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0fc5bd6b493b53224c314ec502ed10ac/AndroidManifest.xml:29:9-32:66
-	android:configChanges
-		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0fc5bd6b493b53224c314ec502ed10ac/AndroidManifest.xml:31:13-96
-	android:theme
-		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0fc5bd6b493b53224c314ec502ed10ac/AndroidManifest.xml:32:13-63
-	android:name
-		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0fc5bd6b493b53224c314ec502ed10ac/AndroidManifest.xml:30:13-57
-activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0fc5bd6b493b53224c314ec502ed10ac/AndroidManifest.xml:33:9-71
-	android:name
-		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0fc5bd6b493b53224c314ec502ed10ac/AndroidManifest.xml:33:19-68
-activity#com.facebook.CustomTabActivity
-ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0fc5bd6b493b53224c314ec502ed10ac/AndroidManifest.xml:34:9-67
-	android:name
-		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/0fc5bd6b493b53224c314ec502ed10ac/AndroidManifest.xml:34:19-64
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/e1e9c39f53bc673e6d1b31f93e7b48dd/AndroidManifest.xml:24:13-58
 service#com.yandex.metrica.MetricaService
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:26:9-43:19
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:26:9-43:19
 	android:process
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:30:13-39
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:30:13-39
 	android:enabled
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:28:13-35
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:28:13-35
 	android:exported
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:29:13-36
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:29:13-36
 	tools:ignore
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:31:13-43
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:31:13-43
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:27:13-61
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:27:13-61
 intent-filter#action:name:com.yandex.metrica.IMetricaService+category:name:android.intent.category.DEFAULT+data:scheme:metrica
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:32:13-38:29
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:32:13-38:29
 category#android.intent.category.DEFAULT
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:33:17-76
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:33:17-76
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:33:27-73
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:33:27-73
 action#com.yandex.metrica.IMetricaService
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:35:17-77
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:35:25-74
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:35:25-74
 data
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:37:17-50
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:37:17-50
 	android:scheme
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:37:23-47
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:37:23-47
 meta-data#metrica:api:level
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:40:13-42:38
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:40:13-42:38
 	android:value
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:42:17-35
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:42:17-35
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:41:17-49
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:41:17-49
 service#com.yandex.metrica.ConfigurationService
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:44:9-60:19
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:44:9-60:19
 	android:process
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:48:13-39
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:48:13-39
 	android:enabled
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:46:13-35
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:46:13-35
 	android:exported
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:47:13-37
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:47:13-37
 	tools:ignore
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:49:13-43
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:49:13-43
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:45:13-67
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:45:13-67
 meta-data#metrica:configuration:api:level
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:50:13-52:37
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:50:13-52:37
 	android:value
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:52:17-34
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:52:17-34
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:51:17-63
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:51:17-63
 intent-filter#action:name:com.yandex.metrica.configuration.ACTION_INIT
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:54:13-59:29
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:54:13-59:29
 action#com.yandex.metrica.configuration.ACTION_INIT
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:58:17-87
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:58:17-87
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:58:25-84
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:58:25-84
 service#com.yandex.metrica.ConfigurationJobService
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:61:9-67:19
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:61:9-67:19
 	android:process
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:66:13-39
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:66:13-39
 	android:enabled
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:63:13-35
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:63:13-35
 	android:exported
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:64:13-37
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:64:13-37
 	android:permission
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:65:13-69
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:65:13-69
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:62:13-70
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:62:13-70
 receiver#com.yandex.metrica.MetricaEventHandler
-ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:70:9-78:20
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:70:9-78:20
 	android:enabled
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:72:13-35
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:72:13-35
 	android:exported
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:73:13-36
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:73:13-36
 	tools:ignore
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:74:13-44
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:74:13-44
 	android:name
-		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/f1b2c53a21b5d446dd4d968ac635716a/AndroidManifest.xml:71:13-66
-provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:39:9-42:40
-	android:authorities
-		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:41:13-72
-	android:exported
-		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:42:13-37
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:71:13-66
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:75:13-77:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:76:17-79
 	android:name
-		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:40:13-70
-receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
-ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:44:9-50:20
-	android:exported
-		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:46:13-37
+		ADDED from [com.yandex.android:mobmetricalib:3.5.3] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/8357491ca43e376af48b4162c4efc4f5/AndroidManifest.xml:76:25-76
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:9:5-110
 	android:name
-		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:45:13-86
-intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
-ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:47:13-49:29
-action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
-ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:48:17-95
+		ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/2da59119160a443678644cca9ff72cbb/AndroidManifest.xml:9:22-107
+meta-data#android.support.VERSION
+ADDED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:25:13-35
 	android:name
-		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/9d91829b58ab65d958b3e625b7521343/AndroidManifest.xml:48:25-92
+		ADDED from [com.android.support:customtabs:26.1.0] /Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/1ad8397d183a3072d23c458c63ca5478/AndroidManifest.xml:24:13-51

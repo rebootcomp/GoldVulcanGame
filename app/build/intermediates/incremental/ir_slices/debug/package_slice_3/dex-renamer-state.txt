@@ -1,4 +1,0 @@
-#Tue May 07 23:28:43 MSK 2019
-base.0=/Users/rebootcomp/Documents/git/GoldVulcanGame/app/build/intermediates/transforms/dexMerger/debug/3
-path.0=classes.dex
-renamed.0=classes.dex

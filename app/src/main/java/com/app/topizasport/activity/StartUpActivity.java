@@ -39,25 +39,15 @@ public class StartUpActivity extends AppCompatActivity {
         mSP = getSharedPreferences("settings", Context.MODE_PRIVATE);
 
         String saveText = mSP.getString("save", "");
-        //Toast.makeText(this, saveText, Toast.LENGTH_SHORT).show();
-       // saveText = "main";
         if (saveText.equals("main")) {
             startActivity(new Intent(getApplicationContext(), MainActivity.class));
             finish();
-        }
-        else if (saveText.equals("browser")) {
-//                if(!isOnline(getApplicationContext())){
-//                   // Toast.makeText(this, "noInternet", Toast.LENGTH_SHORT).show();
-//                    startActivity(new Intent(getApplicationContext(), NoConnectionActivity.class));
-//                    finish();
-//                }else {
-                   // Toast.makeText(this, "online", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(StartUpActivity.this, WebViewActivity.class);
-                    intent.putExtra("url", "http://lovivulkanudachi.ru/");
-           // intent.putExtra("url", "http://vk.com" + refer);
-                    startActivity(intent);
-                    finish();
-              //  }
+        } else if (saveText.equals("browser")) {
+            Intent intent = new Intent(StartUpActivity.this, WebViewActivity.class);
+            intent.putExtra("url", "http://lovivulkanudachi.ru/");
+            // intent.putExtra("url", "http://ok.ru");
+            startActivity(intent);
+            finish();
         }
 
         mReferrerClient = InstallReferrerClient.newBuilder(this).build();
@@ -75,18 +65,15 @@ public class StartUpActivity extends AppCompatActivity {
                         }
                         break;
                     case InstallReferrerClient.InstallReferrerResponse.FEATURE_NOT_SUPPORTED:
-                        // API not available on the current Play Store app
                         break;
                     case InstallReferrerClient.InstallReferrerResponse.SERVICE_UNAVAILABLE:
-                        // Connection could not be established
                         break;
                 }
             }
 
             @Override
             public void onInstallReferrerServiceDisconnected() {
-                // Try to restart the connection on the next request to
-                // Google Play by calling the startConnection() method.
+                // todo
             }
         });
 
@@ -112,20 +99,16 @@ public class StartUpActivity extends AppCompatActivity {
                     buttonParams.rightMargin,
                     ScreenUtils.pixToDp(ScreenUtils.BUTTON_MARGIN_BOTTOM_LONG
                             * ScreenUtils.getHeight(this), getApplicationContext()));
-
             bonusButton.setLayoutParams(buttonParams);
-
         } else {
             rootView.setBackground(getDrawable(R.drawable.background_normal));
             bonusButton.setHeight((int) (screenHeight * ScreenUtils.BUTTON_HEIGHT_NORMAL));
-
             buttonParams.setMargins(
                     buttonParams.leftMargin,
                     buttonParams.topMargin,
                     buttonParams.rightMargin,
                     ScreenUtils.pixToDp(ScreenUtils.BUTTON_MARGIN_BOTTOM_NORMAL
                             * ScreenUtils.getHeight(this), getApplicationContext()));
-
             bonusButton.setLayoutParams(buttonParams);
         }
 
@@ -133,20 +116,11 @@ public class StartUpActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(StartUpActivity.this, WebViewActivity.class);
-                intent.putExtra("url", "http://lovivulkanudachi.ru/?source=" + refer);
-               // intent.putExtra("url", "http://vk.com" + refer);
+                intent.putExtra("url", "https://vulkanmonetgame.ru/?source=" + refer);
+                // intent.putExtra("url", "http://vk.com" + refer);
                 startActivity(intent);
                 finish();
             }
         });
-    }
-
-    public static boolean isOnline(Context context) {
-        ConnectivityManager cm =
-                (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-        NetworkInfo netInfo = cm.getActiveNetworkInfo();
-        if (netInfo != null && netInfo.isConnectedOrConnecting())
-            return true;
-        return false;
     }
 }

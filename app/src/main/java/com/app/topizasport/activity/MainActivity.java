@@ -24,11 +24,9 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity {
 
     private TextView count;
-    //private TextView countupdate;
     private Integer lvl = 0;
     private int money[] = {1, 5, 10, 20, 50, 100, 500, 1000, 10000, 1000000};
     private int cost[] = {99, 499, 1499, 4449, 12990, 32990, 99990, 199990, 699990, 0};
-    //    private int cost[] = {10, 10, 10, 10, 10, 10, 10, 10, 10, 0};
     private Random random = new Random();
     private ImageView dollar1;
     private ImageView dollar2;
@@ -42,14 +40,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-       // getSupportActionBar().hide();
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         final ImageButton button = findViewById(R.id.button);
         FloatingActionButton update = findViewById(R.id.update);
         count = findViewById(R.id.count);
-        //countupdate = findViewById(R.id.countupdate);
-        Integer cst = cost[0];
-        //countupdate.setText(cst.toString());
         dollar1 = findViewById(R.id.img1);
         dollar1.setVisibility(View.INVISIBLE);
         dollar2 = findViewById(R.id.img2);
@@ -132,8 +126,6 @@ public class MainActivity extends AppCompatActivity {
                     ed.putString("lvl", lvl.toString());
                     ed.apply();
                     count.setText(cnt.toString());
-                    Integer now = cost[lvl];
-                    //countupdate.setText(now.toString());
                 } else {
                     Integer tmp = cost[lvl];
                     Toast.makeText(getApplicationContext(), "Стоимость новой купюры: " + tmp.toString(), Toast.LENGTH_LONG).show();

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rebootcomp/Documents/git/GoldVulcanGame/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/Users/aleksandrmuratidi/Documents/git/GoldVulcanGame/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/rebootcomp/.gradle/caches/transforms-2/files-2.1/8970a656ed91d0449a70f8a6b0993351/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/aleksandrmuratidi/.gradle/caches/transforms-2/files-2.1/841e61636b6d169baba95a375ab6c43b/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

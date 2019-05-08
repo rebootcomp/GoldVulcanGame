@@ -18,7 +18,7 @@ public class NoConnectionActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_no_connection);
-        Button button = (Button) findViewById(R.id.retrybutton);
+        Button button = findViewById(R.id.retrybutton);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,14 +33,11 @@ public class NoConnectionActivity extends AppCompatActivity {
     }
 
     public static boolean isOnline(Context context) {
-        ConnectivityManager cm =
-                (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
-        if (netInfo != null && netInfo.isConnectedOrConnecting()) {
-
+        if (netInfo != null && netInfo.isConnectedOrConnecting())
             return true;
-        }
-//        setContentView(R.layout.no_connection);
-        return false;
+        else
+            return false;
     }
 }

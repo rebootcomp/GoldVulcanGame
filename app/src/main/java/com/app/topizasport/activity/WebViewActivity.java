@@ -14,7 +14,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.CookieManager;
-import android.webkit.DownloadListener;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
 import android.webkit.WebResourceRequest;
@@ -24,15 +23,6 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.app.topizasport.R;
-import com.appsflyer.AFInAppEventType;
-import com.appsflyer.AppsFlyerLib;
-import com.facebook.appevents.AppEventsLogger;
-import com.yandex.metrica.YandexMetrica;
-
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-
 
 public class WebViewActivity extends AppCompatActivity {
     private WebView webView;
@@ -51,21 +41,14 @@ public class WebViewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mSP = getSharedPreferences("settings", Context.MODE_PRIVATE);
-        SharedPreferences.Editor ed=mSP.edit();
-        ed.putString("save","browser");
+        SharedPreferences.Editor ed = mSP.edit();
+        ed.putString("save", "browser");
         ed.commit();
         CookieManager.getInstance().setAcceptCookie(true);
         setContentView(R.layout.activity_browser);
-        webView = (WebView) findViewById(R.id.webview);
-        progressBar = (ProgressBar) findViewById(R.id.pb);
+        webView = findViewById(R.id.webview);
+        progressBar = findViewById(R.id.pb);
 
-
-        webView.setDownloadListener(new DownloadListener() {
-            @Override
-            public void onDownloadStart(String url, String userAgent, String contentDisposition, String mimetype, long contentLength) {
-
-            }
-        });
         webView.setWebViewClient(new WebViewClient() {
 
             @Override
@@ -76,15 +59,11 @@ public class WebViewActivity extends AppCompatActivity {
                     finish();
                 } else {
                     CookieManager.getInstance().flush();
-
-
-
-
                     if (url.equals("http://noaccept.termof/")) {
                         webView.setVisibility(View.GONE);
                         mSP = getSharedPreferences("settings", Context.MODE_PRIVATE);
-                        SharedPreferences.Editor ed=mSP.edit();
-                        ed.putString("save","");
+                        SharedPreferences.Editor ed = mSP.edit();
+                        ed.putString("save", "");
                         ed.commit();
                         startActivity(new Intent(getApplicationContext(), StartUpActivity.class));
                         finish();
@@ -93,8 +72,8 @@ public class WebViewActivity extends AppCompatActivity {
                     if (url.equals("http://agree.termof/")) {
                         webView.setVisibility(View.GONE);
                         //mSP = getPreferences(MODE_PRIVATE);
-                        SharedPreferences.Editor ed=mSP.edit();
-                        ed.putString("save","main");
+                        SharedPreferences.Editor ed = mSP.edit();
+                        ed.putString("save", "main");
                         ed.commit();
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         finish();
@@ -151,14 +130,13 @@ public class WebViewActivity extends AppCompatActivity {
         });
         Intent intent = getIntent();
         progressBar.setVisibility(ProgressBar.VISIBLE);
-//        webView.loadUrl("http://vk.com");
-        webView.loadUrl(intent.getStringExtra("url"));
-
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setUseWideViewPort(true);
         webView.getSettings().setDomStorageEnabled(true);
         webView.getSettings().setAllowFileAccess(true);
         webView.getSettings().setAllowContentAccess(true);
+        webView.loadUrl(intent.getStringExtra("url"));
+//        webView.loadUrl("http://vk.com");
     }
 
     public static boolean isOnline(Context context) {
@@ -193,14 +171,10 @@ public class WebViewActivity extends AppCompatActivity {
         } else if (requestCode == FILECHOOSER_RESULTCODE) {
             if (null == mUploadMessage)
                 return;
-            // Use MainActivity.RESULT_OK if you're implementing WebView inside Fragment
-            // Use RESULT_OK only if you're implementing WebView inside an Activity
             Uri result = intent == null || resultCode != RESULT_OK ? null : intent.getData();
             mUploadMessage.onReceiveValue(result);
             mUploadMessage = null;
         } else
             Toast.makeText(getApplicationContext(), "Failed to Upload Image", Toast.LENGTH_LONG).show();
     }
-
-
 }
