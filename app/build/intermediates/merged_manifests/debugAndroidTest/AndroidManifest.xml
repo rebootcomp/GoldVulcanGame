@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.app.topizasport.test">
+    package="com.app.vulkanmonet.test">
 
     <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.app.topizasport"
+                     android:targetPackage="com.app.vulkanmonet"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.app.topizasport"/>
+                     android:label="Tests for com.app.vulkanmonet"/>
 </manifest>

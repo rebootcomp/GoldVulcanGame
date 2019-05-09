@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu May 09 00:37:53 MSK 2019
+#Thu May 09 00:39:55 MSK 2019
 1.base=/Users/admin/Documents/git/GoldVulcanGame/app/build/intermediates/dex/debug/mergeExtDexDebug/out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY

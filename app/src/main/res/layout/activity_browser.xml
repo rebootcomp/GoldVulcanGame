@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="com.app.topizasport.activity.WebViewActivity">
+    tools:context="com.app.vulkanmonet.activity.WebViewActivity">
 
     <WebView
         android:id="@+id/webview"

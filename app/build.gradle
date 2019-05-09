@@ -26,7 +26,7 @@ android {
 
     }
     defaultConfig {
-        applicationId 'com.app.topizasport'
+        applicationId 'com.app.vulkanmonet'
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 2

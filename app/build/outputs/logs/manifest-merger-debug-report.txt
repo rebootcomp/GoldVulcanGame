@@ -133,6 +133,10 @@ uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:15:5-76
 	android:name
 		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:16:22-72
 application
 ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:17:5-52:19
 MERGED from [com.google.android.gms:play-services-gcm:16.1.0] /Users/admin/.gradle/caches/transforms-2/files-2.1/2d6d05d268510babc2c0a352d4f09472/AndroidManifest.xml:26:5-20
@@ -191,11 +195,11 @@ MERGED from [com.google.android.gms:play-services-ads-base:16.0.0] /Users/admin/
 		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:23:9-44
 	android:name
 		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:18:9-47
-activity#com.app.topizasport.activity.NoConnectionActivity
+activity#com.app.vulkanmonet.activity.NoConnectionActivity
 ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:24:9-95
 	android:name
 		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:24:19-83
-activity#com.app.topizasport.activity.WebViewActivity
+activity#com.app.vulkanmonet.activity.WebViewActivity
 ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:26:9-31:67
 	android:label
 		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:30:13-45
@@ -207,7 +211,7 @@ ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifes
 		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:28:13-83
 	android:name
 		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:27:13-72
-activity#com.app.topizasport.activity.LaunchActivity
+activity#com.app.vulkanmonet.activity.LaunchActivity
 ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:32:9-42:20
 	android:label
 		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:36:13-45
@@ -229,7 +233,7 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:40:17-77
 	android:name
 		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:40:27-74
-activity#com.app.topizasport.activity.MainActivity
+activity#com.app.vulkanmonet.activity.MainActivity
 ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:44:9-51:20
 	android:label
 		ADDED from /Users/admin/Documents/git/GoldVulcanGame/app/src/main/AndroidManifest.xml:48:13-45
